@@ -32,8 +32,9 @@ export const ExploreExams = () => {
                                     {/* <div className='cardImg'><img width={180} height={150} src={item.IMGuRL}alt='' /></div> */}
                                 {/* This is the content */}
                                     <div className='CoursesTextIcons'>
-                                       <Link to={item.explore}><h5>{item.OnlineTestSeries} <i class="fa-solid fa-file-lines"></i></h5></Link> 
-                                        <h5>{item.OLVClasses}<i class="fa-solid fa-tv"></i></h5>
+                                       <Link to={item.explore}><h5>{item.OnlineTestSeries} <i class="fa-solid fa-file-lines"></i></h5></Link>
+                                       <Link to={item.liveclasses}><h5>{item.OLVClasses}<i class="fa-solid fa-tv"></i></h5></Link>
+                                        
                                         <h5>{item.ONLINE}</h5>
                                     </div>
                                 </div>

@@ -16,6 +16,7 @@ header {
     position: sticky;
     z-index: 10;
       color:white;
+      margin-bottom: 2rem;
   
 }
 
@@ -23,7 +24,7 @@ header .navlogo {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 13rem;
+    width: 10rem;
     /* // background:#ffffff; */
     /* // border-radius: 50%; */
     /* // border: 0.1rem solid $main; */
@@ -31,13 +32,14 @@ header .navlogo {
     background: #fff;
     /* padding: 1rem; */
     padding: 0 0.8rem;
-    border-radius: 8px;
+    /* border-radius: 8px; */
     border: 2px solid #01c3ff;
+    
 }
 
 header .navlogo img {
     width: 100%;
-    animation: navlogo 1s infinite alternate;
+    /* animation: navlogo 1s infinite alternate; */
 }
 
 header nav ul {
