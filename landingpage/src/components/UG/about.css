@@ -12,7 +12,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Libre Baskerville', serif;;
+    /* font-family: 'Libre Baskerville', serif;; */
 }
 .About-bg{
     /* background: linear-gradient(92deg, transparent, #00aff0ff); */
@@ -26,7 +26,7 @@
 .AboutSection img{
     width: 600px;
 }
-marquee {
+/* marquee {
     padding: 0.5rem;
     margin-top: 0rem;
     display: flex;
@@ -34,10 +34,10 @@ marquee {
     color: red;
     box-shadow: 0 5px 15px 0 rgba(0, 0, 0, .25);
     
-    /* margin-bottom: 2rem; */
+    margin-bottom: 2rem;
 
 
-}
+} */
 /* 1st section images */
 .About-imagesSection{
     display: grid;
@@ -56,29 +56,21 @@ ul li{
 /* end */
 
 .aboutContant h1{
-    font-family: 'Righteous', cursive;
     font-size: 3rem;
     color: #00a3ff;
-    text-shadow: 2px 9px 8px black;
     cursor: pointer;
     margin-bottom: 1rem;
     text-align: center;
 
 }
 .AboutSection {
-    /* height: 40vh; */
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 3rem;
     padding:1rem 9rem 1rem 9rem;
-    /* background: linear-gradient(180deg, transparent, #00aff0ff); */
-    /* background: linear-gradient(92deg, transparent, #00aff0ff); */
 }
 
-/* .container {
-    pading: 4rem 8rem 4rem 8rem;
-} */
 
 
 /* mission vision section styles */
@@ -101,7 +93,6 @@ ul li{
     justify-content: center;
     padding: 2rem 10rem 2rem 10rem;
     gap: 2rem;
-    /* background: linear-gradient(181deg, transparent, #ffdede); */
     background: linear-gradient(181deg, #d1f1fd, #c0c0c0c0);
 
 }
@@ -117,9 +108,7 @@ ul li{
         padding-right: 15px;
     }
     .contant h3{
-        font-family: 'Righteous', cursive;
         color: #6fb5ff;
-        text-shadow: 2px 9px 8px black;
         font-size: 2rem;
         font-weight: 700;
         padding-bottom: 1rem;
@@ -129,11 +118,6 @@ ul li{
         background: green;
     }
     .vistionMoissionClass {
-        /* background: white; */
-        /* border: 2px solid; */
-        /* padding: 2rem;
-        width: 22rem;
-        height: 22rem; */
         display: flex;
         justify-content: center;
         align-items: center;

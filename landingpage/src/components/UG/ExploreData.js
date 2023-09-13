@@ -30,6 +30,7 @@ export const ExploreData = [
         ONLINE: '',
         cardContant: 'cardsContant',
         explore: '/iitjee',
+        liveclasses: '/iitjee_olvc',
       
         
     },

@@ -4,7 +4,7 @@
 }
 
  .navlogo img {
-    animation: navlogo 1s infinite alternate;
+    /* animation: navlogo 1s infinite alternate; */
 }
 .container_navlogo{
     /* padding: 1rem 2rem 0rem 4rem; */
@@ -31,17 +31,17 @@
     gap: 1rem;
 }
 
-.eAnimation {
-    /* box-shadow: 0px 0px  7px 2px rgb(0 0 0); */
+/* .eAnimation {
+    box-shadow: 0px 0px  7px 2px rgb(0 0 0);
     animation: navlogo 1s infinite alternate;
 
-}
+} */
 .links{
     display: flex;
     gap: 0.5rem;
     text-align: center;
 }
-.otsNavLinks{
+/* .otsNavLinks{
     color: rgb(255, 255, 255);
     padding: 0.5rem;
     background: red;
@@ -49,14 +49,14 @@
     border-radius: 10px;
 
 
-}
+} */
 
 .ots-conatiner{
     padding: 1rem 8rem 1rem 8rem;
 
 }
 h3{
-    font-family: 'Righteous', cursive;
+    /* font-family: 'Righteous', cursive; */
     color:#00a3ff;
     /* text-shadow: 5px 4px 6px black; */
     font-size: 1.5rem;

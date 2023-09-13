@@ -12,6 +12,7 @@ import { MbaHome } from './components/MBA/MbaHome';
 import { TERMsCONDITIONS } from './components/UG/TERMsCONDITIONS';
 import { Privacypolicy } from './components/UG/Privacypolicy';
 import { IITJEE_EXAM } from './components/UG/IITJEE_EXAM';
+import OLVC from './components/UG/IITJEE_OLVC';
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
     <Route path='/' element={ < Landingpage/>} />
     <Route path='/home' element={ <Home/> }/>
    <Route path='/iitjee' element={<OTS/>}/>
+   <Route path='/iitjee_olvc' element={<OLVC/>}/>
 
    
    <Route path='/neet' element={<NEET/>}/>

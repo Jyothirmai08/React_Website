@@ -11,13 +11,6 @@ function Landingpage() {
 
 
 
-
-
-
-
-
-
-
     {/* This is landing page of main to open the Homepages of UG AND PG AND MBA AND CA */}
  
     <div className="navcontainer">
@@ -31,12 +24,13 @@ function Landingpage() {
 
 
       {/* This is the eGRADTutor buttons for registrations */}
+     
  <div className='login-btn'>
     <Link  className='otsNavLinks eAnimation' to={"/"}>eGRADTutor Publications</Link>
-        <div className='links'>
+        {/* <div className='links'>
         <Link className='otsNavLinks' to={"/"}>Student Login</Link>
         <Link className='otsNavLinks' to={"/"}>Contact Us</Link>
-        </div>
+        </div> */}
     </div>
     </div>
     {/* Registration button ends */}
@@ -61,7 +55,7 @@ function Landingpage() {
   <Link to={"/home"}>
 <h3>UG </h3>
 <ul>
-  <li><Link to="/iitjee">IIT-JEE(Mains & Advanced)</Link></li>
+  <li><Link to="/iitjee">IIT-JEE <span> (Mains & Advanced) </span> </Link></li>
   <li><Link to={'/neet'}>NEET</Link></li>
   <li>BITSAT</li>
   <li>VITEEE</li>

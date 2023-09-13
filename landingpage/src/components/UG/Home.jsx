@@ -15,6 +15,13 @@ const Home = () => {
   return (
 <>
 <Header/>
+<marquee direction="left" scrollamount="5" onmouseover="this.stop()" onmouseleave="this.start()">
+                    <div>All tests will be LIVE according to the detailed schedule given. Do not
+                        confuse to the Total No. of tests in the test cards while buying as they show the number of
+                        tests LIVE at the moment..</div>
+                </marquee>
+
+
 <div id='home'></div>
 <Carousel className='banner' autoPlay infiniteLoop interval={3000} >
         <div className='banner1'>
