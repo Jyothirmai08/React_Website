@@ -211,6 +211,30 @@ ul li{
         body{
             background-color: blue;
         }
+        .AboutSection img{
+            max-width: 200px;
+        }
+        .AboutSection {
+            padding: 1rem 3rem 1rem 3rem;
+        }
+        .aboutContant h1 {       
+            text-align: left;
+        }
+        .vistionMission-section {
+            display: flex;
+            flex-direction: column;
+            padding: 1rem 3rem 1rem 3rem;
+            
+        }
+        .contant p{
+            font-size: 20px;
+           
+        }
+        .ulList .Ul-list{
+            font-size: 20px;
+
+        }
+        
     }
 
 
@@ -269,7 +293,7 @@ ul li{
             padding-left: 1rem;
         }
         .contant {
-            padding: rem;
+            padding: 1rem;
         }
         .vision-contant {
             background: linear-gradient(10deg, white, #9dcbdc );

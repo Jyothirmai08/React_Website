@@ -20,7 +20,8 @@ export const OurCoursesDAta = [
         List4: 'Performance analysis reports',
        
         CorsesText: 'Courses',
-        Corses1: 'IITJEE (Mains&Advanced)',
+        Corses1: 'IITJEE ',
+        Corses1sub:'(Mains&Advanced)',
         Corses2: 'NEET',
         Corses3: 'BITSAT',
         Corses4: 'VITEE',
@@ -45,7 +46,8 @@ export const OurCoursesDAta = [
         List4: 'Best-in-class user interface',
 
         CorsesText: 'Courses',
-        Corses1: 'IITJEE (Mains&Advanced)',
+        Corses1: 'IITJEE',
+        Corses1sub:'(Mains&Advanced)',
         Corses2: 'NEET',
         // Corses3: 'BITSAT',
         // Corses4: 'VITEE',
@@ -73,7 +75,8 @@ export const OurCoursesDAta = [
 
         CorsesText: 'Courses',
 
-        Corses1: 'IITJEE (Mains&Advanced)',
+        Corses1: 'IITJEE',
+        Corses1sub:'(Mains&Advanced)',
         Corses2: 'NEET',
         oURcOURSE: 'OQB-courses-contant',
         CourseClass: 'Courses3'
