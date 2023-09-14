@@ -25,26 +25,28 @@ export const IITJEE_EXAM = () => {
                 <h1>IITJEE - MAINS & ADVANCED</h1>
           
             </div>
+             <div className='sdfsf'>
                 <div className="accordion">
-                    {sixtoten.map((item, i2) => (
-                        <div className="item2">
-                            <div className="title" onClick={() => toggle2(i2)}>
-                                <h2>{item.Qustion}</h2>
-                                <span>{selected === i2 ? '-' : '+'}</span>
-                            </div>
-                            <div className={selected === i2 ? 'content-show2' : 'content2'}>
-                                <div>
-                                    <div className='imagessg'>{item.answer}  <img src={item.ansIMG} alt="" />
+                        {sixtoten.map((item, i2) => (
+                            <div className="item2">
+                                <div className="title" onClick={() => toggle2(i2)}>
+                                    <h2>{item.Qustion}</h2>
+                                    <span>{selected === i2 ? '-' : '+'}</span>
+                                </div>
+                                <div className={selected === i2 ? 'content-show2' : 'content2'}>
+                                    <div>
+                                        <div className='imagessg'>{item.answer}  <img src={item.ansIMG} alt="" />
+                                        
+                                        </div>
+                                                                        
                                     
                                     </div>
-                                                                    
-                                   
                                 </div>
                             </div>
-                        </div>
-                    ))}
+                        ))}
 
-                </div>
+                    </div>
+             </div>
 
             </div>
         </div>

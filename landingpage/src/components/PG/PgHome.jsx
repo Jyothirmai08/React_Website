@@ -54,8 +54,7 @@ export const PgHome = () => {
 
     <About/>
 
-   
-
+  
     {/* <ExploreExams/> */}
 
  <Course/>
