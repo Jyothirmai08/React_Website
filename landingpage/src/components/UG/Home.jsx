@@ -23,7 +23,7 @@ const Home = () => {
 
 
 <div id='home'></div>
-<Carousel className='banner' autoPlay infiniteLoop interval={3000} >
+{/* <Carousel className='banner' autoPlay infiniteLoop interval={3000} >
         <div className='banner1'>
             <div className='banner1-info'>
                 <div className='banner1-info-heading'>
@@ -56,7 +56,7 @@ const Home = () => {
         <div className='banner6'></div>
         <div className='banner7'></div>
     
-    </Carousel>
+    </Carousel> */}
 
     <About/>
     
