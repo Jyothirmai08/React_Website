@@ -22,7 +22,7 @@
     line-height: 1.5;
 }
 .AboutSection img{
-    width: 600px;
+    max-width: 200px;
 }
 
 /* 1st section images */
@@ -43,7 +43,7 @@ ul li{
     color: #00a3ff;
     cursor: pointer;
     margin-bottom: 1rem;
-    text-align: center;
+    text-align: left;
 
 }
 .AboutSection {
@@ -72,7 +72,7 @@ ul li{
     justify-content: space-evenly;
     align-items: center;
     justify-content: center;
-    padding: 2rem 10rem 2rem 10rem;
+    padding: 2rem 5rem 2rem 5rem;
     gap: 2rem;
     background: linear-gradient(181deg, #d1f1fd, #c0c0c0c0);
 
@@ -181,7 +181,7 @@ ul li{
             gap: 1rem;
             flex-direction: column;
             width: 50%;
-            height: 34rem;
+            height: 30rem;
         }
         /*  */
         .contant h3 {
@@ -205,6 +205,20 @@ ul li{
         }
         
     }
+
+
+    @media only screen and (min-width: 1023px) and (max-width: 1200px) {
+        body{
+            background-color: rgb(107, 153, 21);
+        }
+        .vistionMission-section {
+            display: flex;
+            flex-direction: column;
+            padding: 1rem 3rem 1rem 3rem;
+            
+        }
+    }
+
 
     /* ==================== TABLET RESPONSIVE ================ */
     @media only screen and (min-width: 767px) and (max-width: 991px) {

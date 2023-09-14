@@ -16,7 +16,7 @@ export const Course = () => {
                     return(
                         <div key={coursesIndex} className={courses.oURcOURSE}>
                             <div className='courses-images'>
-                                <img width={300} src={courses.image} alt=''/>
+                                <img  src={courses.image} alt=''/>
                             </div>
                             <div className='courses-contant'>
                                 <h3>{courses.Text}</h3>

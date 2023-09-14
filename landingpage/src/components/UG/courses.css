@@ -1,4 +1,5 @@
 
+
 .CoursesTitle h1{
     font-family: 'Righteous', cursive;
     font-size: 3rem;
@@ -28,6 +29,7 @@
     border-radius: 10px;
     /* background: linear-gradient(25grg, red, green); */
     background: linear-gradient(45deg, #c3fffb, #ffffff);
+    padding: 1rem;
    
 }
 .OVLcourses-contant{
@@ -36,12 +38,13 @@
  
 
 
+
 .courses-images{
     width: 30%;
 }
 .courses-contant{
     width: 35%;
-    padding-left: 4rem;
+    /* padding-left: 4rem; */
 }
 .coursesList{
     width: 67%;
@@ -82,8 +85,10 @@ ul.courses-list li {
 .courses-images {
     /* background-color: rgb(255 231 231 / 50%); */
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
+    
+    
 }
 li.Courses1 {
     list-style: disc;
@@ -166,6 +171,13 @@ li.Courses2:hover {
     width: 156px;
 
 }
+.courses-images img{
+    max-width: 200px;
+}
+
+
+
+
 /* .coursesList li {
     font-size: 21px;
     list-style: disc;
@@ -287,11 +299,38 @@ ul.coursesList {
         gap: 10px;
     }
     }
+
+    @media only screen and (min-width: 1023px) and (max-width: 1200px) {
+       
+       .container {
+            padding: 0 4rem 0 4rem;
+        }
+        .OTScourses-contant  ul.coursesList:nth-child(1){
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+        }
+        
+     
+    
+        .courses-images {
+            /* background-color: rgb(255 231 231 / 50%); */
+            
+            align-items: baseline;
+            
+        }
+        .courses-contant {
+            width: 35%;
+            /* padding-left: 4rem; */
+            margin-right: 3rem;
+        }
+     
+    }
     @media (max-width: 1020px) {
         ul.coursesList {
       
             gap: 5px;
         }
+       
     }
 
     @media (max-width: 768px) {
