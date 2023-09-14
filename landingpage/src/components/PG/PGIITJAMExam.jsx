@@ -1,13 +1,13 @@
 import React from 'react'
-import Header from './Header'
+import Header from '../UG/Header'
 import { useState } from 'react'
-import './IITjee.css'
-import table1 from '../UG/Images/table1.png'
-import tabimg from './Images/tabimg1.png'
-import tabimg1 from './Images/iitjeesyllabustabimg.png'
-import tabimg2 from './Images/iitjeeimptabimg.png'
+import './GATECSS.css'
+import table1 from '../PG/Images/iitjamtableimg1.png'
+import tabimg from '../PG/Images/iitjamtableimg2.png'
+import tabimg3 from '../PG/Images/tableimg3.png'
+import tabimg4 from '../PG/Images/tableimg4.png'
 
-export const IITJEE_EXAM = () => {
+export const PGIITJAMExam = () => {
     const [selected, setSelected] = useState(null)
     const toggle2 = (i1) => {
         // return i
@@ -24,7 +24,7 @@ export const IITJEE_EXAM = () => {
             <div className="wrapper-3 container">
             
             <div className='' >
-                <h1>IITJEE - MAINS & ADVANCED</h1>
+                <h1>IITJAM</h1>
           
             </div>
              <div className='sdfsf'>
@@ -37,7 +37,12 @@ export const IITJEE_EXAM = () => {
                                 </div>
                                 <div className={selected === i2 ? 'content-show2' : 'content2'}>
                                     <div>
-                                        <div className='imagessg'>{item.answer}  <img src={item.ansIMG} alt="" />
+                                        <div className='imagessg'>
+                                            <ul>
+                                                <li></li>
+                                                <li>{item.answer}</li>
+                                            </ul>
+                                            <img src={item.ansIMG} alt="" />
                                         
                                         </div>
                                                                         
@@ -53,14 +58,16 @@ export const IITJEE_EXAM = () => {
             </div>
         </div>
         </div>
-    )
+  )
 }
+
+
 
 
 const sixtoten = [
     {
         Qustion: "CONDUCTING INSTITUTE",
-        answer: "IIT Guwahati"
+        answer: "IIT GUWAHATI"
     },
 // Exam Pattern ==========================
     {
@@ -112,14 +119,14 @@ const sixtoten = [
 // syllabus ================================
     {
         Qustion: "SYLLABUS",
-        ansIMG: [tabimg1],
+        answer: "uyihuiuj",
+        answer1: "jhcbsduggggggggggg"
+
     },
 
     {
         Qustion: "IMPORTANT DATES",
-        ansIMG: [tabimg2],
+        ansIMG: [tabimg4]
     },
 ]
-
-
 

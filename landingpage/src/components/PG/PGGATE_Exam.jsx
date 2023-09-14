@@ -1,13 +1,13 @@
 import React from 'react'
-import Header from './Header'
+import Header from '../UG/Header'
 import { useState } from 'react'
-import './IITjee.css'
-import table1 from '../UG/Images/table1.png'
-import tabimg from './Images/tabimg1.png'
-import tabimg1 from './Images/iitjeesyllabustabimg.png'
-import tabimg2 from './Images/iitjeeimptabimg.png'
+import './GATECSS.css'
+import table1 from '../PG/Images/tableimg1.png'
+import tabimg from '../PG/Images/tableimg2.png'
+import tabimg3 from '../PG/Images/tableimg3.png'
+import tabimg4 from '../PG/Images/tableimg4.png'
 
-export const IITJEE_EXAM = () => {
+export const PGGATE_Exam = () => {
     const [selected, setSelected] = useState(null)
     const toggle2 = (i1) => {
         // return i
@@ -24,7 +24,7 @@ export const IITJEE_EXAM = () => {
             <div className="wrapper-3 container">
             
             <div className='' >
-                <h1>IITJEE - MAINS & ADVANCED</h1>
+                <h1>GATE</h1>
           
             </div>
              <div className='sdfsf'>
@@ -53,14 +53,20 @@ export const IITJEE_EXAM = () => {
             </div>
         </div>
         </div>
-    )
+  )
 }
+
+
+
+
+
+
 
 
 const sixtoten = [
     {
         Qustion: "CONDUCTING INSTITUTE",
-        answer: "IIT Guwahati"
+        answer: "IIT KANPUR"
     },
 // Exam Pattern ==========================
     {
@@ -112,14 +118,11 @@ const sixtoten = [
 // syllabus ================================
     {
         Qustion: "SYLLABUS",
-        ansIMG: [tabimg1],
+        ansIMG: [tabimg3]
     },
 
     {
         Qustion: "IMPORTANT DATES",
-        ansIMG: [tabimg2],
+        ansIMG: [tabimg4]
     },
 ]
-
-
-
