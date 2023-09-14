@@ -16,7 +16,7 @@ export const Course = () => {
                     return(
                         <div key={coursesIndex} className={courses.oURcOURSE}>
                             <div className='courses-images'>
-                                <img width={300} src={courses.image} alt=''/>
+                                <img  src={courses.image} alt=''/>
                             </div>
                             <div className='courses-contant'>
                                 <h3>{courses.Text}</h3>
@@ -31,7 +31,7 @@ export const Course = () => {
                             <div className='coursesList'>
                                 {/* <h4>{courses.CorsesText}</h4> */}
                                 <ul className='coursesList'>
-                                    <li className={courses.CourseClass}>{courses.Corses1}</li>
+                                    <li  className={courses.CourseClass}>{courses.Corses1}<small>{courses.Corses1sub}</small></li>
                                     <li className={courses.CourseClass}>{courses.Corses2}</li>
                                     <li className={courses.CourseClass}>{courses.Corses3}</li>
                                     <li className={courses.CourseClass}>{courses.Corses4}</li>

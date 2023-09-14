@@ -14,6 +14,11 @@ import { Privacypolicy } from './components/UG/Privacypolicy';
 import { IITJEE_EXAM } from './components/UG/IITJEE_EXAM';
 import OLVC from './components/UG/IITJEE_OLVC';
 
+// ================ IMPORTED PG FILES =======================
+
+import {PGGATE_Exam} from './components/PG/PGGATE_Exam.jsx'
+import {PGIITJAMExam} from './components/PG/PGIITJAMExam.jsx'
+
 const App = () => {
   return (
   <Router>
@@ -34,7 +39,13 @@ const App = () => {
    <Route path='/terms' element={<TERMsCONDITIONS/>}/>
    <Route path='/policy' element={<Privacypolicy/>}/>
    <Route path='/iitjeeExam' element={<IITJEE_EXAM/>}/>
-  
+
+
+
+   {/* PG FILES */}
+
+   <Route path='/pggateexam' element={<PGGATE_Exam/>}/>
+   <Route path='/pgiitjamexam' element={<PGIITJAMExam/>}/>
 
     </Routes>
 <Footer/>
