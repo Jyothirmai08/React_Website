@@ -4,7 +4,7 @@
 /* new fonts  */
   @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cinzel:wght@500;600;700&family=Libre+Baskerville:ital@0;1&family=Righteous&display=swap');
 
-/* font-family: 'Cinzel', serif; */
+
 
 
 
@@ -12,10 +12,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: 'Libre Baskerville', serif;; */
 }
 .About-bg{
-    /* background: linear-gradient(92deg, transparent, #00aff0ff); */
     background: #d1f1fd;
 
 }
@@ -26,28 +24,13 @@
 .AboutSection img{
     width: 600px;
 }
-/* marquee {
-    padding: 0.5rem;
-    margin-top: 0rem;
-    display: flex;
-    background: rgb(255, 255, 255);
-    color: red;
-    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, .25);
-    
-    margin-bottom: 2rem;
 
-
-} */
 /* 1st section images */
 .About-imagesSection{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    /* background: rgb(255, 255, 255); */
     padding: 4rem;
 }
-/* .aboutContant p {
-    font-size: 1.3rem;
-} */
 
 ul li{
     font-size: 0.9rem;
@@ -80,8 +63,6 @@ ul li{
 .vision-contant, .mission-contant{
     display: flex;
     gap: 2rem;
-    /* width: 50%;
-    height: 400px; */
     height: 20rem;
 
 }
@@ -129,8 +110,6 @@ ul li{
         border-radius: 1rem;
     }
     .mission-contant{
-        /* background: #dcebe0; */
-        /* background: linear-gradient(90deg, white, transparent); */
         background: linear-gradient(269deg, white, #9dcbdc );
 
         border-radius: 1rem;
@@ -138,7 +117,6 @@ ul li{
 
     }
     .mission-contant:hover{
-        /* background: #e9d9e9; */
         background: linear-gradient(269deg, white, #ffffff);
         transform: translate(0.1s);
         
@@ -150,7 +128,6 @@ ul li{
         color: rgb(224, 94, 94);
     }
     .vision-contant:hover{
-        /* background: #e9d9e9; */
         background: linear-gradient(269deg, white, white) ;
         border-radius: 1rem;
 
@@ -165,43 +142,26 @@ ul li{
 
 
 
-/* animation styles */
-/* .vistionMission-section {
-    background-image: linear-gradient(180deg, rgb(255, 255, 255),rgb(173, 233, 255),#ffeded);
-    background-size: 400%;
-    animation: aboutAnimation 4s infinite;
-}
 
-@keyframes aboutAnimation{
-    0%{
-        background-position: left;
-    }
-    100%{
-        background-position: right;
-    }
-} */
 
 
 
 /* laptops */
-
-
-
     /* media */
-    @media (max-width: 1020px) {
+    @media only screen and (min-width:992px) and (max-width: 1023px) {
+        body{
+            background-color: red;
+        }
         .AboutSection img{
             width: 300px;
         }
         .AboutSection {
-            /* height: 40vh; */
             display: flex;
             justify-content: center;
             align-items: center;
             text-align: justify;
             gap: 2rem;
             padding: 1rem 3rem 1rem 3rem;
-            /* background: linear-gradient(180deg, transparent, #00aff0ff); */
-            /* background: linear-gradient(92deg, transparent, #00aff0ff); */
         }
         .aboutContant p {
             font-size: 1rem;
@@ -240,18 +200,28 @@ ul li{
             background: linear-gradient(10deg, white, #9dcbdc );
         }
         .mission-contant{
-            /* background: #dcebe0; */
-            /* background: linear-gradient(90deg, white, transparent); */
             background: linear-gradient(10deg, white, #9dcbdc );
     
         }
         
     }
+
+    /* ==================== TABLET RESPONSIVE ================ */
+    @media only screen and (min-width: 767px) and (max-width: 991px) {
+        body{
+            background-color: blue;
+        }
+    }
+
+
+    /* ============== PHONE RESPONSIVE=================== */
     /* MEDIA 990 */
-    @media (max-width: 768px) {
-   
+    @media only screen and (max-width: 768px) {
+        body{
+            background-color: pink;
+        }
         .AboutSection {
-            padding:1rem 1rem 1rem 1rem;            /* background: linear-gradient(92deg, transparent, #00aff0ff); */
+            padding:1rem 1rem 1rem 1rem;            
         }
         .carousel .slide img {
             max-width: 100%;
@@ -305,8 +275,6 @@ ul li{
             background: linear-gradient(10deg, white, #9dcbdc );
         }
         .mission-contant{
-            /* background: #dcebe0; */
-            /* background: linear-gradient(90deg, white, transparent); */
             background: linear-gradient(10deg, white, #9dcbdc );
     
         }
