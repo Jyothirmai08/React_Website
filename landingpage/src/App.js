@@ -17,11 +17,23 @@ import {NeetExam} from './components/UG/NeetExam'
 import { BitsatExam } from './components/UG/BitsatExam';
 import { ViteeeExam } from './components/UG/ViteeeExam';
 import { ApEamcetExam } from './components/UG/ApEamcetExam';
+import { TsEamcetExam } from './components/UG/TsEamcetExam';
+import { MhcetExam } from './components/UG/MhcetExam';
+import { KcetExam } from './components/UG/KcetExam';
+import { WbjeeExam } from './components/UG/WbjeeExam';
+import { KeamExam } from './components/UG/KeamExam';
+import { SrmJeeExam } from './components/UG/SrmJeeExam';
 
 // ================ IMPORTED PG FILES =======================
 
 import {PGGATE_Exam} from './components/PG/PGGATE_Exam.jsx'
 import {PGIITJAMExam} from './components/PG/PGIITJAMExam.jsx'
+
+
+
+
+
+
 
 
 
@@ -49,6 +61,12 @@ const App = () => {
    <Route path='/bitsatexam' element={<BitsatExam/>}/>
    <Route path='/viteeeexam' element={<ViteeeExam/>}/>
    <Route path='/apeamcetexam' element={<ApEamcetExam/>}/>
+   <Route path='/tseamcetexam' element={<TsEamcetExam/>}/>
+   <Route path='/mhcetexam' element={<MhcetExam/>}/>
+   <Route path='/kcetexam' element={<KcetExam/>}/>
+   <Route path='/wbjeeexam' element={<WbjeeExam/>}/>
+   <Route path='/keamexam' element={<KeamExam/>}/>
+   <Route path='/srmjeeexam' element={<SrmJeeExam/>}/>
 
 
 

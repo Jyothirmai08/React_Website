@@ -81,7 +81,7 @@ export const ExploreData = [
     {
         IMGuRL:[Img6],
         Title:'TS-EAMCET',
-        examPage: '/',
+        examPage: '/tseamcetexam',
         OnlineTestSeries: 'Online Test Series',
         OLVClasses: 'Online Live Video Classes',
         ONLINE: '',
@@ -92,7 +92,7 @@ export const ExploreData = [
     {
         IMGuRL:[Img7],
         Title:'MHCET',
-        examPage: '/',
+        examPage: '/mhcetexam',
         OnlineTestSeries: 'Online Test Series',
         OLVClasses: 'Online Live Video Classes',
         ONLINE: '',
@@ -103,7 +103,7 @@ export const ExploreData = [
     {
         IMGuRL:[Img8],
         Title:'KCET',
-        examPage: '/',
+        examPage: '/kcetexam',
         OnlineTestSeries: 'Online Test Series',
         OLVClasses: 'Online Live Video Classes',
         ONLINE: '',
@@ -114,7 +114,7 @@ export const ExploreData = [
     {
         IMGuRL:[Img9],
         Title:'WBJEE',
-        examPage: '/',
+        examPage: '/wbjeeexam',
         OnlineTestSeries: 'Online Test Series',
         OLVClasses: 'Online Live Video Classes',
         ONLINE: '',
@@ -125,7 +125,7 @@ export const ExploreData = [
     {
         IMGuRL:[Img10],
         Title:'KEAM',
-        examPage: '/',
+        examPage: '/keamexam',
         OnlineTestSeries: 'Online Test Series',
         OLVClasses: 'Online Live Video Classes',
         ONLINE: '',
@@ -136,7 +136,7 @@ export const ExploreData = [
     {
         IMGuRL:[Img11],
         Title:'SRMJEE',
-        examPage: '/',
+        examPage: '/srmjeeexam',
         OnlineTestSeries: 'Online Test Series',
         OLVClasses: 'Online Live Video Classes',
         ONLINE: '',
