@@ -23,8 +23,10 @@ const Home = () => {
 
 
 <div id='home'></div>
-{/* <Carousel className='banner' autoPlay infiniteLoop interval={3000} >
-        <div className='banner1'>
+
+    <div style={{height:'40%'}} className='corouselContent'>
+    <Carousel  className='banner' autoPlay infiniteLoop interval={3000} >
+        <div className='banner1 container'>
             <div className='banner1-info'>
                 <div className='banner1-info-heading'>
                     <h1>welcome eGRADTutor</h1>
@@ -56,7 +58,12 @@ const Home = () => {
         <div className='banner6'></div>
         <div className='banner7'></div>
     
-    </Carousel> */}
+    </Carousel>
+
+
+    
+    </div>
+
 
     <About/>
     

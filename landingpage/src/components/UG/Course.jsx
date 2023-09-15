@@ -15,9 +15,9 @@ export const Course = () => {
                 {OurCoursesDAta.map((courses,coursesIndex) =>{
                     return(
                         <div key={coursesIndex} className={courses.oURcOURSE}>
-                            <div className='courses-images'>
+                            {/* <div className='courses-images'>
                                 <img  src={courses.image} alt=''/>
-                            </div>
+                            </div> */}
                             <div className='courses-contant'>
                                 <h3>{courses.Text}</h3>
                                <ul className='courses-list'>

@@ -11,7 +11,8 @@
     /* margin-top: -100px; */
     width: 100%;
     background:#ffffff;
-    height: 100vmax;
+    /* height: 100vmax; */
+    /* background: #002944; */
 }
 
 marquee {
@@ -19,12 +20,15 @@ marquee {
     color: #01c3ff;
     font-size: 18px;
 }
-    
+    .corouselContent{
+        height: 20%;
+    }
     
     .banner1 {
     display: flex;
     /* width: 100%;
-    height: 100vh; */
+    */
+    height: 87vh;
     background: url(./Banners/bg.png) 100% 40% no-repeat rgba(0, 0, 0, 0.9);
     background-size: 40%;
     justify-content: flex-start;
