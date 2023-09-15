@@ -118,7 +118,7 @@ const IITJEE_OLVC = () => {
             </section>
 
 <div className='brocher container'> 
-   <a className="olvcbroucher" href="./posters/jeeposter/JEE.pdf">Online Live Video Classes brouchure (IIT-JEE Mains & Advanced)</a>
+   <a className="olvcbroucher" href={jeeposter}>Online Live Video Classes brouchure (IIT-JEE Mains & Advanced)</a>
 
             </div>
             <section className="contents">
