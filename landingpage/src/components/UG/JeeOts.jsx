@@ -1,6 +1,10 @@
 import React from 'react'
 import Header from './Header'
+
+import './JeeOts.css'
+
 import Faq from './Faq'
+
 
 export const JeeOts = () => {
   return (
@@ -13,14 +17,18 @@ export const JeeOts = () => {
         <h1>IIT - JEE - ONLINE TEST SERIES</h1>
         </div>
 
-        <div>
+        
+        <div className='jeesection'>
            <h2>IIT-JEE-(MAINS & ADVANCED) - ONLINE TEST SERIES - 2023</h2>
            <p>Preparing well for the exam and attempting the exam successfully is one of the greatest desires for all the students. Many students will not be able to attempt IIT-JEE on the examination day as they do not have the right resources and proper guidance for the preparation. Our online test series makes your understanding stronger and helps you to challenge yourself in an environment that resembles the final examination. Challenger test series - as the name suggest, challenges the students’ abilities to attain the best by answering the toughest questions. With our online test series, channel your skills towards the desired success.</p>
         </div>
 
 
+        <div className='jeesection'>
+
 {/* WHY ONLINE TEST SERIES? */}
         <div>
+
             <h2>WHY ONLINE TEST SERIES?</h2>
              
              <div>
@@ -126,6 +134,7 @@ export const JeeOts = () => {
 
              <Faq/>
         </div>
+    </div>
     </div>
   )
 }

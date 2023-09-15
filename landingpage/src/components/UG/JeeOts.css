@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.otsh1{
+    color: #000;
+    width: 100%;
+    height: 12vh;
+    background: #f1efef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto;
+}
+
+.otsh1 h1{
+    text-align: center;
+    color: #00a3ff;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.jeesection{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.jeesection h2{
+    color: #01c3ff;
+    font-size: 1.5rem;
+}
+
+
