@@ -6,21 +6,19 @@ import Faq from './Faq'
 const IITJEE_OLVC = () => {
   return (
   <>
-  <nav>
+     <nav>
         <div className="container nav__container">
-           
-                <div className="pic">
-                    <a href="/"><img src={logo} alt=""/></a>
-                </div>
-        
-        <ul className="nav__menu">
-            <li><a href="UG-HOME PAGE.html">Home</a></li>
-                 <li><a href="#" className="login1" onclick="LOGIN()">Login/User Registration </a></li>  </ul>
-             
-                 <button id="open-menu-btn"><i className="uil uil-bars"></i></button>
-                 <button id="close-menu-btn"><i className="uil uil-multiply"></i></button>
-             </div>
-            </nav> 
+            <div className="pic">
+              <a href="/"><img src={logo} alt=""/></a>
+            </div>
+              <ul className="nav__menu">
+                  <li><a href="UG-HOME PAGE.html">Home</a></li>
+                  <li><a href="#" className="login1" onclick="LOGIN()">Login/User Registration </a></li>
+                </ul>          
+                <button id="open-menu-btn"><i className="uil uil-bars"></i></button>
+                <button id="close-menu-btn"><i className="uil uil-multiply"></i></button>   
+          </div>
+       </nav> 
 
             <div className="otsh1">
         <h1 className='iit-heading'>IITJEE ONLINE LIVE VIDEO CLASSES</h1>
@@ -53,7 +51,7 @@ const IITJEE_OLVC = () => {
         <li className="text-li">Helps students to understand complex information through immediate answers to questions.</li>
     </ul>
 
-    <div className="jee_updatedTable ">
+    <div className="jee_updatedTable " >
             <h1 className='subheading'>BUY ONLINE LIVE VIDEO CLASSES</h1>
 
             <table>

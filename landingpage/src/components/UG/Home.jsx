@@ -31,7 +31,7 @@ const Home = () => {
 <div id='home'></div>
 
     <div  className='corouselContent'>
-    <Carousel  className='banner' autoPlay infiniteLoop showIndicators={false} showThumbs={false} showArrows={false} showStatus={false} interval={3000} >
+    <Carousel  className='banner' autoPlay infiniteLoop showIndicators={false} showThumbs={false} showArrows={false} showStatus={false} interval={2000} >
         <div className='banner1 container'>
             <div className='banner1-info'>
                 <div className='banner1-info-heading'>

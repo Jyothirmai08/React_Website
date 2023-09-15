@@ -18,7 +18,7 @@ export const IITJEE_EXAM = () => {
         setSelected(i1)
     }
   return (
-    <div className='' style={{margin: '2rem'}}>
+    <div className='' >
         <Header/>
         <div className='FAQCONTENT' id='faq'>
             <div className="wrapper-3 container">
@@ -37,7 +37,7 @@ export const IITJEE_EXAM = () => {
                                 </div>
                                 <div className={selected === i2 ? 'content-show2' : 'content2'}>
                                     <div>
-                                        <div className='imagessg'>{item.answer}  <img src={item.ansIMG} alt="" />
+                                        <div className='imagessg'><p style={{color:'black'}}>{item.answer} </p> <img src={item.ansIMG} alt="" />
                                         
                                         </div>
                                                                         

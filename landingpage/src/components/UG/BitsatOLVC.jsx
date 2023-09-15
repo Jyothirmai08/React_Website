@@ -51,7 +51,7 @@ export const BitsatOLVC = () => {
 
             {/* table */}
 
-            <div>
+            <div style={{overflowY:'scroll'}}>
             <table  >
         <tr>
           <th>COURSE</th>
