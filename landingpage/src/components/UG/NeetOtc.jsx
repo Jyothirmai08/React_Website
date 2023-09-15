@@ -34,7 +34,7 @@ export const NeetOtc = () => {
             <h2>BUY ONLINE TEST SERIES</h2>
 
             <div>
-            <table id="customers">
+            <table>
              <tr>   
              <th >S.NO</th>
              <th> TEST SERIES TYPE</th>
@@ -49,10 +49,32 @@ export const NeetOtc = () => {
              <td>&#8377;2000 +<small>GST</small></td>
              <td>22-03-2023</td>
              <td>07-05-2023</td>
-            <td><center><button class="btn btn-primary" onclick="onlineugegradtutorinexams()">BUY NOW</button></center></td>
+            <td><center><a href='https://online-ug.egradtutor.in/'>BUY NOW</a></center></td>
              </tr>
            </table>
             </div>
+        </div>
+
+        {/* NEET - ONLINE TEST SERIES SCHEDULE */}
+
+        <div>
+            <h2>NEET - ONLINE TEST SERIES SCHEDULE</h2>
+            <a href="#">Challenger Test Series</a>
+        </div>
+
+
+        {/* FEATURES OF ONLINE TEST SERIES */}
+        <div>
+            <h2>FEATURES OF ONLINE TEST SERIES</h2>
+            <ul>
+                <li>15 tests in the challenger test series</li>
+                <li>All India rank will be given for each test.</li>
+                <li>Developed as per the latest syllabus of NEET exam.</li>
+                <li>Well explained and detailed solution for each question.</li>
+                <li>Test series prepared by experts who are top faculty across India.</li>
+                <li>We have designed NEET online test series that will provide you with in-depth coverage of the latest syllabus</li>
+                <li>Same pattern and time limit as the actual NEET exam which acquaints students with the intricacies of the exam.</li>
+            </ul>
         </div>
 
 
