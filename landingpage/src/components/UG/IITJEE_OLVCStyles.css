@@ -215,11 +215,14 @@ nav button {
   }
 
   .olvcbroucher{
+    display: flex;
     color: #000;
     background-color: #a3e2ee;
     padding: 0.5rem;
     border-radius: 1rem;
     font-weight: bold;
+    width: 650px;
+    justify-content: center;
   }
 
   .olvcbroucher:hover{
@@ -232,4 +235,13 @@ nav button {
 
   .container ul {
     padding: 0 1rem;
+  }
+
+  .olvcheading{
+    color: #01c3ff;
+    font-size: 1.5rem;
+    margin: 0;
+    display: contents;
+    display: inline-block;
+    font-weight: bold;
   }

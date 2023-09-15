@@ -2,6 +2,7 @@ import React from 'react'
 import Faq from './Faq'
 import logo from './logo2.jpg'
 import { Link } from 'react-router-dom'
+import './IITJEE_OLVCStyles.css'
 
 export const BitsatOTC = () => {
   return (
@@ -21,20 +22,19 @@ export const BitsatOTC = () => {
              </div>   
            </nav>
 {/* BITSAT - ONLINE TEST SERIES */}
-        <div className=''>
+        <div className='otsh1'>
           <h1>BITSAT - ONLINE TEST SERIES</h1>
-            <div>
+          </div>
+            <div className='jeesection'>
                 <h2>BITSAT - ONLINE TEST SERIES - 2023 COURSE BROCHURE </h2>
-                <a href="#">COURSE BROCHURE</a>
-            </div>
-            <div>
+                <a style={{color:'red'}} href={logo}>COURSE BROCHURE</a>
                 <p>BITSAT stands for Birla Institute of Technology and Science Admission Test. It is an online exam which is conducted for the students to take admission into B.E., B. Pharm and M.Sc. programmes offered at its three campuses located at Pilani, Goa and Hyderabad.
                 Preparing well and attempting the exam successfully is one of the greatest desires aspirants. BITSAT Online Test Series provides an opportunity to the students to assess their level of learning and understanding of the subject before showcasing their prowess in the main entrance examination. Our online test series makes your understanding stronger and helps you to challenge yourself in an environment that resembles the final examination. We at eGRADTutor academy are offering previous year question papers and online tests series. The online test series interface is similar to the actual exam interface and it helps the student to strategize and approach the examination.</p>
             </div>
-        </div>
+        
 
 {/* WHY ONLINE TEST SERIES? */}
-        <div>
+        <div className='jeesection'>
             <h2>WHY ONLINE TEST SERIES?</h2>
             <ul>
                 <li>By taking BITSAT online tests series, candidates get familiar with the test-taking environment.</li>
@@ -46,11 +46,10 @@ export const BitsatOTC = () => {
         </div>
 
         {/* BUY ONLINE TEST SERIES */}
-        <div>
+        <div className='jeesection jeetable'>
             <h2>BUY ONLINE TEST SERIES</h2>
-
             <div>
-            <table>
+            <table className='jeeinsidetable'>
              <tr>   
              <th >S.NO</th>
              <th> TEST SERIES TYPE</th>
@@ -73,14 +72,14 @@ export const BitsatOTC = () => {
 
         {/* NEET - ONLINE TEST SERIES SCHEDULE */}
 
-        <div>
+        <div className='jeesection'>
             <h2>BITSAT - ONLINE TEST SERIES SCHEDULE</h2>
-            <a href="#">BITSAT - ONLINE TEST SERIES SCHEDULE</a>
+            <a className='otsbroucher' href="#">BITSAT - ONLINE TEST SERIES SCHEDULE</a>
         </div>
 
 
         {/* FEATURES OF ONLINE TEST SERIES */}
-        <div>
+        <div className='jeesection'>
             <h2>FEATURES OF ONLINE TEST SERIES</h2>
             <ul>
                 <li>All India rank will be given for each test.</li>
