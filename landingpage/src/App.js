@@ -30,6 +30,9 @@ import {PGGATE_Exam} from './components/PG/PGGATE_Exam.jsx'
 import {PGIITJAMExam} from './components/PG/PGIITJAMExam.jsx'
 import { JeeOts } from './components/UG/JeeOts';
 import { NeetOtc } from './components/UG/NeetOtc';
+import { NeetOLVC } from './components/UG/NeetOLVC';
+import { BitsatOTC } from './components/UG/BitsatOTC';
+import { BitsatOLVC } from './components/UG/BitsatOLVC';
 
 
 
@@ -77,8 +80,13 @@ const App = () => {
 <Route path='/iitjee_otc' element={<JeeOts/>}/>
 
 
-{/* neet ots */}
+{/* neet ots  olvc*/}
 <Route path='/neetotc' element={<NeetOtc/>}/>
+<Route path='/neet_olvc' element={<NeetOLVC/>}/>
+
+{/* bitsat ots  olvc*/}
+<Route path='/bitsatots' element={<BitsatOTC/>}/>
+<Route path='/bitsat_olvc' element={<BitsatOLVC/>}/>
 
    {/* PG FILES */}
 

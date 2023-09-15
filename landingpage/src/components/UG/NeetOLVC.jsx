@@ -1,12 +1,12 @@
 import React from 'react'
-import './IITJEE_OLVCStyles.css'
-import logo from './Images/logo2.jpeg'
+
+import logo from './logo2.jpg'
 import Faq from './Faq'
 
-const IITJEE_OLVC = () => {
+export const NeetOLVC = () => {
   return (
-  <>
-     <nav>
+   <>
+    <nav>
         <div className="container nav__container">
            
                 <div className="pic">
@@ -23,25 +23,21 @@ const IITJEE_OLVC = () => {
             </nav> 
 
             <div className="otsh1">
-        <h1 className='iit-heading'>IITJEE ONLINE LIVE VIDEO CLASSES</h1>
+        <h1 className='iit-heading'>NEET - ONLINE LIVE VIDEO CLASSES</h1>
     </div>
     
     <section className="contents">
         <div className="container content-container">
-       <h1 className='subheading'>IIT-JEE Mains & Advanced ONLINE LIVE VIDEO CLASSES FOR YEAR 2024</h1>
+       <h1 className='subheading'>NEET - ONLINE LIVE VIDEO CLASSES FOR YEAR 2024</h1>
     <br />
     <ul className="jee-olvc-kchanges text points">
-    <li className="text-li">Top faculty from IIT/IISc at eGRADTutor, through this course will cover the complete syllabus of XI and XII MPC in 4 to 5 months.</li>
+    <li className="text-li">Top faculty from IIT/IISc and IISER at eGRADTutor, through this course will cover the complete syllabus of XI and XII (P+C) in 5 to 6 months.</li>
     <li className="text-li">This course comes with practice tests and challenger questions, which will be discussed in detail by the faculty in guidance sessions.</li>
-    <li className="text-li">4 to 5 months of continuous classes and practice through Sunday test sessions, will improve students  confidence and lead them to success.</li>
-    
-
-
-
-    <li className="text-li">These classes are designed perfectly to cater each and every student to learn, practice and perform. </li>
-    <li className="text-li">Students can also use this course for preparation of other engineering exams.</li>
-    
+    <li className="text-li">This course comes with practice tests and challenger questions, which will be discussed in detail by the faculty in guidance sessions.</li>
+    <li className="text-li">Through evaluation sessions, on 4th Saturday every month, student can know about key areas of improvement.</li>
+    <li >These classes are designed perfectly to cater each and every student to learn, practice and perform.</li>  
   </ul>
+
   <br />
   <h1 className='subheading'>WHY ONLINE LIVE VIDEO CLASSES?</h1>
   <ul className="text points ">
@@ -56,7 +52,7 @@ const IITJEE_OLVC = () => {
     <div className="jee_updatedTable ">
             <h1 className='subheading'>BUY ONLINE LIVE VIDEO CLASSES</h1>
 
-            <table className='olvctable'>
+            <table>
                 <tr>
                  <th>S.NO</th>
                  <th>BATCHES</th>
@@ -69,40 +65,31 @@ const IITJEE_OLVC = () => {
                 <tr>
                  <td>1</td>
                  <td>MORNING</td>
-                 <td>5:00AM to 7:00AM</td>
+                 <td>7:00AM to 8:00AM</td>
                  <td>
-                     5:00AM to 6:00AM <br />
-                     <b>MATHEMATICS</b><br />
-                     (THESDAY-SATURDAY)
-                     {/* <div style="width: 100%;height: 1px; background: #a19494;"></div> */}
-                     6:00AM to 7:00AM <br />
+                    
                      <b>PHYSICS</b><br />
-                     (MONDAY-WEDNESDAY) <br />
+                     (MONDAY-WEDNESDAY-FRIDAY) <br />
                      <b>CHEMISTRY</b><br />
-                     (THURSDAY-SATURDAY)            
+                     (TUESDAY-THURSDAY-SATURDAY)            
                  </td>
                  <td>SESSION-1 <br />SEP 4<sup>th</sup> 2023 <br /> <br />SESSION-2 <br /> SEP 11<sup>th</sup> 2023</td>
-                 <td className="MODE-OF-INSTRUCTIONS"><span ><b> 50000/-</b></span> <br /> ( M + P + C ) <br /> * Students can also register for individual subjects <br /> with course fee 25000/- per subject.</td>
+                 <td className="MODE-OF-INSTRUCTIONS"><span ><b> 35000/-</b></span> <br /> ( M + P + C ) <br /> * Students can also register for individual subjects <br /> with course fee 20000/- per subject.</td>
                 </tr>
                
      
                 <tr>
                  <td>2</td>
                  <td>EVENING</td>
-                 <td>6:00PM to 7:00PM <br /> 8:00PM to 9:00PM</td>
+                 <td>7:00PM to 8:00PM</td>
                  <td>
-                     6:00PM to 7:00PM <br />
-                     <b>MATHEMATICS</b><br />
-                     (MONDAY-FRIDAY)
-                     {/* <div style="width: 100%;height: 1px; background: #a19494;"></div> */}
-                     8:00PM to 9:00PM <br />
                      <b>PHYSICS</b><br />
-                     (MONDAY-WEDNESDAY) <br />
+                     7:00PM to 8:00PM <br />
                      <b>CHEMISTRY</b><br />
-                     (THURSDAY-SATURDAY)            
+                     (MONDAY-WEDNESDAY-FRIDAY)           
                  </td>
                  <td>SESSION-1 <br /> SEP 4<sup>th</sup> 2023 <br /> <br />SESSION-2 <br />SEP 11<sup>th</sup> 2023</td>
-                 <td className="MODE-OF-INSTRUCTIONS"> <span > <b> 50000/-</b> </span> <br />( M + P + C ) <br /> * Students can also register for individual subjects <br /> with course fee 25000/- per subject.</td>
+                 <td className="MODE-OF-INSTRUCTIONS"> <span > <b> 35000/-</b> </span> <br />( M + P + C ) <br /> * Students can also register for individual subjects <br /> with course fee 20000/- per subject.</td>
                 </tr>
                 <tr>
                     <td className="MODE-OF-INSTRUCTIONS">MODE OF INSTRUCTIONS</td>
@@ -116,7 +103,7 @@ const IITJEE_OLVC = () => {
     </section>
 
 <div className='brocher container'> 
-   <a className="olvcbroucher" href="./posters/jeeposter/JEE.pdf">Online Live Video Classes brouchure (IIT-JEE Mains & Advanced)</a>
+   <a style={{color:'black',background:'green'}} className="" href="./posters/jeeposter/JEE.pdf">Online Live Video Classes flyer - NEET</a>
 
 </div>
     <section className="contents">
@@ -140,24 +127,20 @@ const IITJEE_OLVC = () => {
     <div className="container content-container">
   <h1 className='subheading'>FEATURES OF ONLINE LIVE VIDEO CLASSES</h1>
    <ul className="text">
- <li className="text-li">Study and Practice daily to crack JEE Mains & other exams.</li>
- <li className="text-li">Entire course XI and XII MPC will be taught in 4 to 5 months.</li>
+ <li className="text-li">Study and Practice daily 1 hour to crack NEET - 2024</li>
+ <li className="text-li">Study and Practice daily 1 hour to crack NEET - 2024</li>
 
  <li className="text-li">Learn shortcuts and multiple approaches to problem solving.</li>
 
- <li className="text-li">For Xll appearing/passed students along with NCERT learning.</li>
- <li className="text-li">Instant doubt clarification and practice sessions for JEE Mains.</li>
+ <li className="text-li">Develop time management and planning skills while preparing.</li>
+ <li className="text-li">Develop time management and planning skills while preparing.</li>
 
- <li className="text-li">Develop time management and planning skills during preparation.</li>
- <li className="text-li">Crack all engineering entrance exams besides your JEE preparation.</li>
+ <li className="text-li">Entire course of XI and XII (P+C) will be taught in 5 to 6 months.</li>
 
  </ul>
    </div>
         </section>
     <Faq/>
-  </>
+   </>
   )
 }
-
-
-export default IITJEE_OLVC

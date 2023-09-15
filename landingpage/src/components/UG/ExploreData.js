@@ -42,7 +42,8 @@ export const ExploreData = [
         OLVClasses: 'Online Live Video Classes',
         ONLINE: '',
         cardContant: 'cardsContant',
-        explore: '/neetotc'
+        explore: '/neetotc',
+        liveclasses: '/neet_olvc',
 
     },
     {
@@ -53,7 +54,8 @@ export const ExploreData = [
         OLVClasses: 'Online Live Video Classes',
         ONLINE: '',
         cardContant: 'cardsContant',
-        explore: '/bitsat'
+        explore: '/bitsatots',
+        liveclasses: '/bitsat_olvc',
 
     },
     {
