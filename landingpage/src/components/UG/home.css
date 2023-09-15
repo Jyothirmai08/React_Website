@@ -102,11 +102,11 @@ marquee {
         background-color: #f06767;
     }
     
-    /* a {
+    a {
     color: #fff;
     font: 500 1vmax #fff;
     font-size: 1vmax;
-    } */
+    }
     a:hover {
     color: #fff;
     
