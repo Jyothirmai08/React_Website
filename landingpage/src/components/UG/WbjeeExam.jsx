@@ -6,6 +6,8 @@ import table1 from '../UG/Images/wbjeeimg1.png'
 import tabimg from './Images/wbjeeimg2.png'
 import tabimg1 from './Images/wbjeeimg3.png'
 import tabimg5 from './Images/wbjeeimg4.png'
+import { Link } from 'react-router-dom'
+import logo from './logo2.jpg'
 
 export const WbjeeExam = () => {
     const [selected, setSelected] = useState(null)
@@ -19,7 +21,20 @@ export const WbjeeExam = () => {
     }
   return (
     <div className='' style={{margin: '2rem'}}>
-        <Header/>
+         {/* import logo from './logo2.jpg' */}
+    <nav>
+             <div className="container nav__container">          
+                <div className="pic">
+                    <a href="/"><img src={logo} alt=""/></a>
+                </div>    
+                <ul className="nav__menu">
+                    <li><Link to='/home'>Home</Link>   </li>
+                    <li><a href="https://online-ug.egradtutor.in/" className="login1" >Login/User Registration </a></li>
+                </ul>           
+                 <button id="open-menu-btn"><i className="uil uil-bars"></i></button>
+                 <button id="close-menu-btn"><i className="uil uil-multiply"></i></button>
+             </div>   
+           </nav>
         <div className='FAQCONTENT' id='faq'>
             <div className="wrapper-3 container">
             

@@ -9,7 +9,8 @@ import tabimg2 from './Images/neettableimg4.png'
 import tabimg3 from './Images/neettableimg5.png'
 import tabimg4 from './Images/neettableimg6.png'
 import tabimg5 from './Images/neettableimg7.png'
-
+import logo from './logo2.jpg'
+import { Link } from 'react-router-dom'
 
 
 export const NeetExam = () => {
@@ -24,7 +25,21 @@ export const NeetExam = () => {
     }
   return (
     <div className='' style={{margin: '2rem'}}>
-        <Header/>
+
+         {/* import logo from './logo2.jpg' */}
+          <nav>
+             <div className="container nav__container">          
+                <div className="pic">
+                    <a href="/"><img src={logo} alt=""/></a>
+                </div>    
+                <ul className="nav__menu">
+                    <li><Link to='/home'>Home</Link>   </li>
+                    <li><a href="https://online-ug.egradtutor.in/" className="login1" >Login/User Registration </a></li>
+                </ul>           
+                 <button id="open-menu-btn"><i className="uil uil-bars"></i></button>
+                 <button id="close-menu-btn"><i className="uil uil-multiply"></i></button>
+             </div>   
+           </nav> 
         <div className='FAQCONTENT' id='faq'>
             <div className="wrapper-3 container">
             

@@ -30,7 +30,7 @@ export const IITJEE_EXAM = () => {
               <ul className="nav__menu">
                   <li><Link to='/home'>Home</Link>                   
                   </li>
-                  <li><a href="#" className="login1" onclick="LOGIN()">Login/User Registration </a></li>
+                  <li><a href="https://online-ug.egradtutor.in/" className="login1" >Login/User Registration </a></li>
                 </ul>          
                 <button id="open-menu-btn"><i className="uil uil-bars"></i></button>
                 <button id="close-menu-btn"><i className="uil uil-multiply"></i></button>   

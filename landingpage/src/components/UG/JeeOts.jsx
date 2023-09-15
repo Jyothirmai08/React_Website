@@ -5,6 +5,7 @@ import logo from './logo2.jpg'
 import './JeeOts.css'
 
 import Faq from './Faq'
+import { Link } from 'react-router-dom'
 
 
 export const JeeOts = () => {
@@ -22,8 +23,8 @@ export const JeeOts = () => {
               <a href="/"><img src={logo} alt=""/></a>
             </div>
               <ul className="nav__menu">
-                  <li><a href="UG-HOME PAGE.html">Home</a></li>
-                  <li><a href="#" className="login1" onclick="LOGIN()">Login/User Registration </a></li>
+                  <li><Link to='/home'>Home</Link>   </li>
+                  <li><a href="https://online-ug.egradtutor.in/" className="login1" >Login/User Registration </a></li>
                 </ul>          
                 <button id="open-menu-btn"><i className="uil uil-bars"></i></button>
                 <button id="close-menu-btn"><i className="uil uil-multiply"></i></button>   
@@ -39,7 +40,7 @@ export const JeeOts = () => {
 
 
          <div className='jeesection'>
-            <h2>IIT-JEE-(MAINS & ADVANCED) - ONLINE TEST SERIES - 2023</h2>
+            <h2>IIT-JEE-(MAINS & ADVANCED) - ONLINE TEST SERIES - 2023</h2><a style={{color:'red'}} href={logo}>COURSE BROCHURE</a>
             <p>Preparing well for the exam and attempting the exam successfully is one of the greatest desires for all the students. Many students will not be able to attempt IIT-JEE on the examination day as they do not have the right resources and proper guidance for the preparation. Our online test series makes your understanding stronger and helps you to challenge yourself in an environment that resembles the final examination. Challenger test series - as the name suggest, challenges the students’ abilities to attain the best by answering the toughest questions. With our online test series, channel your skills towards the desired success.</p>
          </div>
 
@@ -82,7 +83,7 @@ export const JeeOts = () => {
                      <td>&#8377;5000 + <small>GST</small></td>
                      <td>22-03-2023</td>
                      <td>31-07-2023</td>
-                     <td><center><button onclick="onlineugegradtutorinexams()">BUY NOW</button></center></td>
+                     <td><center><a href='https://online-ug.egradtutor.in/' target='_blank'>BUY NOW</a></center></td>
                   </tr>
 
                   <tr>
@@ -91,7 +92,7 @@ export const JeeOts = () => {
                      <td>&#8377;2000 + <small>GST</small></td>
                      <td>20-04-2023</td>
                      <td>31-07-2023</td>
-                     <td><center><button onclick="onlineugegradtutorinexams()">BUY NOW</button></center></td>
+                     <td><center><a href='https://online-ug.egradtutor.in/' target='_blank'>BUY NOW</a></center></td>
                   </tr>
 
                   <tr>
@@ -100,7 +101,7 @@ export const JeeOts = () => {
                      <td>&#8377;2000 + <small>GST</small></td>
                      <td>22-03-2023</td>
                      <td>31-07-2023</td>
-                     <td><center><button onclick="onlineugegradtutorinexams()">BUY NOW</button></center></td>
+                     <td><center><a href='https://online-ug.egradtutor.in/' target='_blank'>BUY NOW</a></center></td>
                   </tr>
 
                   <tr>
@@ -109,7 +110,7 @@ export const JeeOts = () => {
                      <td>&#8377;2000 + <small>GST</small></td>
                      <td>22-03-2023</td>
                      <td>31-07-2023</td>
-                     <td><center><button onclick="onlineugegradtutorinexams()">BUY NOW</button></center></td>
+                     <td><center><a href='https://online-ug.egradtutor.in/' target='_blank'>BUY NOW</a></center></td>
                   </tr>
 
                   <tr>
@@ -118,7 +119,7 @@ export const JeeOts = () => {
                      <td>&#8377;2000 + <small>GST</small></td>
                      <td>22-03-2023</td>
                      <td>31-07-2023</td>
-                     <td><center><button onclick="onlineugegradtutorinexams()">BUY NOW</button></center></td>
+                     <td><center><a href='https://online-ug.egradtutor.in/' target='_blank'>BUY NOW</a></center></td>
                   </tr>
                </table>
             </div>

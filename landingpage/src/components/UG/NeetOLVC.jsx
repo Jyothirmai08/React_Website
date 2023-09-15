@@ -2,26 +2,25 @@ import React from 'react'
 
 import logo from './logo2.jpg'
 import Faq from './Faq'
-import './IITJEE_OLVCStyles.css'
 
 export const NeetOLVC = () => {
-    return (
-        <>
-            <nav>
-                <div className="container nav__container">
-
-                    <div className="pic">
-                        <a href="/"><img src={logo} alt="" /></a>
-                    </div>
-
-                    <ul className="nav__menu">
-                        <li><a href="UG-HOME PAGE.html">Home</a></li>
-                        <li><a href="#" className="login1" onclick="LOGIN()">Login/User Registration </a></li>  </ul>
-
-                    <button id="open-menu-btn"><i className="uil uil-bars"></i></button>
-                    <button id="close-menu-btn"><i className="uil uil-multiply"></i></button>
+  return (
+   <>
+    <nav>
+        <div className="container nav__container">
+           
+                <div className="pic">
+                    <a href="/"><img src={logo} alt=""/></a>
                 </div>
-            </nav>
+        
+        <ul className="nav__menu">
+            <li><a href="UG-HOME PAGE.html">Home</a></li>
+                 <li><a href="#" className="login1" onclick="LOGIN()">Login/User Registration </a></li>  </ul>
+             
+                 <button id="open-menu-btn"><i className="uil uil-bars"></i></button>
+                 <button id="close-menu-btn"><i className="uil uil-multiply"></i></button>
+             </div>
+            </nav> 
 
             <div className="otsh1">
                 <h1 className='iit-heading'>NEET - ONLINE LIVE VIDEO CLASSES</h1>
@@ -103,8 +102,8 @@ export const NeetOLVC = () => {
                 <br />
             </section>
 
-            <div className='brocher container'>
-                <a className="olvcbroucher" href="./posters/jeeposter/JEE.pdf">Online Live Video Classes flyer - NEET</a>
+<div className='brocher container'> 
+   <a style={{color:'black',background:'green'}} className="" href="./posters/jeeposter/JEE.pdf">Online Live Video Classes flyer - NEET</a>
 
             </div>
             <section className="contents">
