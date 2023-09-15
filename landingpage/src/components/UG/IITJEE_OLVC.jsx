@@ -8,22 +8,21 @@ import jeeposter from './posters/jee_poster_2023-9-1.pdf'
 const IITJEE_OLVC = () => {
   return (
   <>
-     <nav>
+    {/* import logo from './logo2.jpg' */}
+    <nav>
         <div className="container nav__container">
-           
-                <div className="pic">
-                    <a href="/"><img src={logo} alt=""/></a>
-                </div>
-        
-        <ul className="nav__menu">
-            <li><a href="UG-HOME PAGE.html">Home</a></li>
-                 <li><a href="#" className="login1" onclick="LOGIN()">Login/User Registration </a></li>  </ul>
-             
-                 <button id="open-menu-btn"><i className="uil uil-bars"></i></button>
-                 <button id="close-menu-btn"><i className="uil uil-multiply"></i></button>
-             </div>
-            </nav> 
-
+            <div className="pic">
+              <a href="/"><img src={logo} alt=""/></a>
+            </div>
+              <ul className="nav__menu">
+                  <li><Link to='/home'>Home</Link>                   
+                  </li>
+                  <li><a href="https://online-ug.egradtutor.in/" target='_blank' className="login1" >Login/User Registration </a></li>
+                </ul>          
+                <button id="open-menu-btn"><i className="uil uil-bars"></i></button>
+                <button id="close-menu-btn"><i className="uil uil-multiply"></i></button>   
+          </div>
+       </nav> 
             <div className="otsh1">
                 <h1 className='iit-heading'>IITJEE ONLINE LIVE VIDEO CLASSES</h1>
             </div>
