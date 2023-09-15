@@ -29,7 +29,7 @@ export const ExploreData = [
         OLVClasses: 'Online Live Video Classes',
         ONLINE: '',
         cardContant: 'cardsContant',
-        explore: '/iitjee',
+        explore: '/iitjee_otc',
         liveclasses: '/iitjee_olvc',
       
         

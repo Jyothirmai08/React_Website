@@ -28,6 +28,9 @@ import { SrmJeeExam } from './components/UG/SrmJeeExam';
 
 import {PGGATE_Exam} from './components/PG/PGGATE_Exam.jsx'
 import {PGIITJAMExam} from './components/PG/PGIITJAMExam.jsx'
+import { JeeOts } from './components/UG/JeeOts';
+
+
 
 
 
@@ -69,6 +72,8 @@ const App = () => {
    <Route path='/srmjeeexam' element={<SrmJeeExam/>}/>
 
 
+{/* jee ots */}
+<Route path='/iitjee_otc' element={<JeeOts/>}/>
 
    {/* PG FILES */}
 
