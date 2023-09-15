@@ -18,6 +18,7 @@ import OLVC from './components/UG/IITJEE_OLVC';
 
 import {PGGATE_Exam} from './components/PG/PGGATE_Exam.jsx'
 import {PGIITJAMExam} from './components/PG/PGIITJAMExam.jsx'
+import NeetExam from './components/UG/NeetExam';
 
 const App = () => {
   return (
@@ -30,7 +31,7 @@ const App = () => {
    <Route path='/iitjee_olvc' element={<OLVC/>}/>
 
    
-   <Route path='/neet' element={<NEET/>}/>
+   <Route path='/neetexam' element={<NeetExam/>}/>
    <Route path='/' element={<GATE_OTS/>}/>
    <Route path='/' element={<GateOts/>}/>
 

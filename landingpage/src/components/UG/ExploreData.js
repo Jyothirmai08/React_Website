@@ -37,7 +37,7 @@ export const ExploreData = [
     {
         IMGuRL:[Img2],
         Title:'NEET',
-        examPage: '/',
+        examPage: '/NeetExam',
         OnlineTestSeries: 'Online Test Series',
         OLVClasses: 'Online Live Video Classes',
         ONLINE: '',
