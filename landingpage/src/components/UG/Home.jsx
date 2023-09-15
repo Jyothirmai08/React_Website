@@ -21,16 +21,19 @@ const Home = () => {
   return (
 <>
 <Header/>
-<marquee direction="left" scrollamount="5" onmouseover="this.stop()" onmouseleave="this.start()">
+   
+   <div style={{backgroundColor:'red'}}>
+   <marquee  direction="left" scrollamount="5" onmouseover="this.stop()" onmouseleave="this.start()">
                     <div>All tests will be LIVE according to the detailed schedule given. Do not
                         confuse to the Total No. of tests in the test cards while buying as they show the number of
                         tests LIVE at the moment..</div>
 </marquee>
+   </div>
 
 
 <div id='home'></div>
 
-    <div  className='corouselContent'>
+    <div  className='corouselContent' style={{padding:'1rem'}}>
     <Carousel  className='banner' autoPlay infiniteLoop showIndicators={false} showThumbs={false} showArrows={false} showStatus={false} interval={2000} >
         <div className='banner1 container'>
             <div className='banner1-info'>
