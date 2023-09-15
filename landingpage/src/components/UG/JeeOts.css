@@ -33,18 +33,16 @@
     font-size: 1.5rem;
 }
 
-/* .jeetable table, .jeetable tr{
-    border: 1px solid;
-} */
 
 
 .jeelist ul{
     padding-left: 1rem;
 }
 
-.jeebtns ul{
-    list-style: none;
+.jeelist ul li{
+    list-style: disc;
 }
+
 
 .jeebtns ul li {
     margin: 2rem 0;
