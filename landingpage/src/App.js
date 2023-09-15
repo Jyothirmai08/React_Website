@@ -29,6 +29,7 @@ import { SrmJeeExam } from './components/UG/SrmJeeExam';
 import {PGGATE_Exam} from './components/PG/PGGATE_Exam.jsx'
 import {PGIITJAMExam} from './components/PG/PGIITJAMExam.jsx'
 import { JeeOts } from './components/UG/JeeOts';
+import { NeetOtc } from './components/UG/NeetOtc';
 
 
 
@@ -74,6 +75,10 @@ const App = () => {
 
 {/* jee ots */}
 <Route path='/iitjee_otc' element={<JeeOts/>}/>
+
+
+{/* neet ots */}
+<Route path='/neetotc' element={<NeetOtc/>}/>
 
    {/* PG FILES */}
 
