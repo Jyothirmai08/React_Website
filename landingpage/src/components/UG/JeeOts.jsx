@@ -64,7 +64,7 @@ export const JeeOts = () => {
 
 
             {/* BUY ONLINE TEST SERIES */}
-            <div className='jeesection .jeetable'>
+            <div className='jeesection jeetable'>
                <h2>BUY ONLINE TEST SERIES</h2>
 
                <table className='jeeinsidetable'>

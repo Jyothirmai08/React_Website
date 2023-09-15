@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from './logo2.jpg'
 import Faq from './Faq'
+import './IITJEE_OLVCStyles.css'
 
 export const BitsatOLVC = () => {
   return (
@@ -22,13 +23,13 @@ export const BitsatOLVC = () => {
             </nav> 
 
 
-            <div>
-                <h1>BITSAT CRASH COURSE - ONLINE LIVE VIDEO CLASSES SERIES</h1>
+            <div className='otsh1'>
+                <h1 className='iit-heading'>BITSAT CRASH COURSE - ONLINE LIVE VIDEO CLASSES SERIES</h1>
             </div>
 
 {/* BITSAT CRASH COURSE - ONLINE LIVE VIDEO CLASSES FOR YEAR 2024 */}
-            <div>
-                <h2>BITSAT CRASH COURSE - ONLINE LIVE VIDEO CLASSES FOR YEAR 2024</h2>
+            <div className='container content-container'>
+                <h2 className='olvcheading'>BITSAT CRASH COURSE - ONLINE LIVE VIDEO CLASSES FOR YEAR 2024</h2>
 
                 <p>Birla Institute of Technology and Science Admission Test (BITSAT) is an entrance exam conducted by the Birla Institute of Technology and Science (BITS), Pilani, for admissions to undergraduate engineering courses (BE) at its three campuses located at Pilani, Goa and Hyderabad. BITSAT success is mostly attributed to the foundation created for the student in XI and XII standards. During the last few days before examination, the foundation has to be strengthened by the experts. To resolve this, we at eGRADTutor with one of the top faculty from IIT/IISc, will give the best mode to each student to cover and prepare for the complete syllabus of Mathematics, Physics and Chemistry for the examination within 30- 40 days, through our daily BITSAT Crash Course Online Live Video Classes. These classes are designed perfectly to cater to teach the most important topics, which is more or less expected in the examination. This course comes with practice tests and daily assignment questions, which will be resolved in detail by the faculty in guidance sessions.
                 English and General Aptitude classes will be conducted on Sundays, to cover the overall requirement for the examination.
@@ -36,7 +37,7 @@ export const BitsatOLVC = () => {
             </div>
 
 {/* WHY ONLINE LIVE VIDEO CLASSES ? */}
-            <div>
+            <div className='container content-container'>
             <h1 className='subheading'>WHY ONLINE LIVE VIDEO CLASSES?</h1>
                 <ul className="text points ">
                         
@@ -51,8 +52,8 @@ export const BitsatOLVC = () => {
 
             {/* table */}
 
-            <div style={{overflowY:'scroll'}}>
-            <table  >
+            <div style={{overflowY:'scroll'}} className='container content-container'>
+            <table className='olvctable'>
         <tr>
           <th>COURSE</th>
           <td>ONLINE LIVE VIDEO CLASSES</td>
