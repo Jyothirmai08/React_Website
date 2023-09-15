@@ -25,12 +25,48 @@
 .jeesection{
     width: 90%;
     margin: 0 auto;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 .jeesection h2{
     color: #01c3ff;
     font-size: 1.5rem;
 }
+
+/* .jeetable table, .jeetable tr{
+    border: 1px solid;
+} */
+
+
+.jeelist ul{
+    padding-left: 1rem;
+}
+
+.jeebtns ul{
+    list-style: none;
+}
+
+.jeebtns ul li {
+    margin: 2rem 0;
+    width: 700px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border: none;
+    background-color: #a3e2ee;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+
+.jeebtns ul li a{
+    color: #000;
+    
+    
+}
+
+
 
 

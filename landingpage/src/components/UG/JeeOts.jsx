@@ -24,14 +24,14 @@ export const JeeOts = () => {
         </div>
 
 
-        <div className='jeesection'>
+        <div >
 
 {/* WHY ONLINE TEST SERIES? */}
-        <div>
+            <div className='jeesection'>
 
             <h2>WHY ONLINE TEST SERIES?</h2>
              
-             <div>
+             <div className='jeelist'>
                 <ul>
                     <li>It will help in improving paper solving speed.</li>
                     <li>Our performance analysis helps you understand the areas of improvement.</li>
@@ -40,10 +40,11 @@ export const JeeOts = () => {
                     <li>Our online test series helps you know your understanding of the subject so that you can put efforts in the right direction.</li>
                 </ul>
              </div>
+             </div>
 
 
 {/* BUY ONLINE TEST SERIES */}
-             <div>
+             <div className='jeesection jeetable'>
                 <h2>BUY ONLINE TEST SERIES</h2>
 
                 <table >
@@ -103,7 +104,8 @@ export const JeeOts = () => {
              </div>
 
 {/* IIT-JEE(MAINS & ADVANCED)-TEST SERIES SCHEDULE */}
-             <div>
+            <div className='jeesection'>
+             <div  className='jeebtns'>
                 <h2>IIT-JEE(MAINS & ADVANCED)-TEST SERIES SCHEDULE</h2>
 
                     <ul>
@@ -115,7 +117,7 @@ export const JeeOts = () => {
                     </ul>
              </div>
 
-             <div>
+             <div className='jeelist'>
                 <ul>
                     <li>Gives you other possible solutions to a problem.</li>
                     <li>Each test gives you the realistic & authentic all India ranking.</li>
@@ -129,12 +131,12 @@ export const JeeOts = () => {
                     <li>Gives you several chances to appear in simulated JEE like environment to help you develop better time management skills.</li>
                 </ul>
              </div>
+             </div>
 
              {/* fax */}
 
              <Faq/>
         </div>
-    </div>
     </div>
   )
 }
