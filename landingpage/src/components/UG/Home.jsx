@@ -11,20 +11,31 @@ import Faq from  './Faq'
 import { Footer } from './Footer'
 import Course from './Course'
 import { ExploreExams } from './ExploreExams'
+import imh1 from './Banners/banner1.png'
+import imh2 from './Banners/banner2.png'
+import imh3 from './Banners/banner3.png'
+import imh4 from './Banners/banner4.png'
+import imh5 from './Banners/banner5.png'
+
 const Home = () => {
   return (
 <>
 <Header/>
-<marquee direction="left" scrollamount="5" onmouseover="this.stop()" onmouseleave="this.start()">
+   
+   <div>
+   <marquee  direction="left" scrollamount="5" onmouseover="this.stop()" onmouseleave="this.start()">
                     <div>All tests will be LIVE according to the detailed schedule given. Do not
                         confuse to the Total No. of tests in the test cards while buying as they show the number of
                         tests LIVE at the moment..</div>
-                </marquee>
+</marquee>
+   </div>
 
 
 <div id='home'></div>
-{/* <Carousel className='banner' autoPlay infiniteLoop interval={3000} >
-        <div className='banner1'>
+
+    <div  className='corouselContent' style={{padding:'1rem'}}>
+    <Carousel  className='banner' autoPlay infiniteLoop showIndicators={false} showThumbs={false} showArrows={false} showStatus={false} interval={2000} >
+        <div className='banner1 container'>
             <div className='banner1-info'>
                 <div className='banner1-info-heading'>
                     <h1>welcome eGRADTutor</h1>
@@ -49,14 +60,19 @@ const Home = () => {
         </div>
     
     
-        <div className='banner2'></div>
-        <div className='banner3'></div>
-        <div className='banner4'></div>
-        <div className='banner5'></div>
-        <div className='banner6'></div>
-        <div className='banner7'></div>
+       <div> <img src={imh1} alt="" /></div>
+       <div> <img src={imh2} alt="" /></div>
+       <div> <img src={imh3} alt="" /></div>
+       <div> <img src={imh4} alt="" /></div>
+
+       <div> <img src={imh5} alt="" /></div>
     
-    </Carousel> */}
+    </Carousel>
+
+
+    
+    </div>
+
 
     <About/>
     
@@ -67,7 +83,10 @@ const Home = () => {
 <Contactus/>
 
 <Faq/>
+<Carousel>
 
+
+</Carousel>
 
     </>
   )
