@@ -13,12 +13,18 @@ import { TERMsCONDITIONS } from './components/UG/TERMsCONDITIONS';
 import { Privacypolicy } from './components/UG/Privacypolicy';
 import { IITJEE_EXAM } from './components/UG/IITJEE_EXAM';
 import OLVC from './components/UG/IITJEE_OLVC';
+import {NeetExam} from './components/UG/NeetExam'
+import { BitsatExam } from './components/UG/BitsatExam';
+import { ViteeeExam } from './components/UG/ViteeeExam';
+import { ApEamcetExam } from './components/UG/ApEamcetExam';
 
 // ================ IMPORTED PG FILES =======================
 
 import {PGGATE_Exam} from './components/PG/PGGATE_Exam.jsx'
 import {PGIITJAMExam} from './components/PG/PGIITJAMExam.jsx'
-import NeetExam from './components/UG/NeetExam';
+
+
+
 
 const App = () => {
   return (
@@ -31,7 +37,6 @@ const App = () => {
    <Route path='/iitjee_olvc' element={<OLVC/>}/>
 
    
-   <Route path='/neetexam' element={<NeetExam/>}/>
    <Route path='/' element={<GATE_OTS/>}/>
    <Route path='/' element={<GateOts/>}/>
 
@@ -40,6 +45,10 @@ const App = () => {
    <Route path='/terms' element={<TERMsCONDITIONS/>}/>
    <Route path='/policy' element={<Privacypolicy/>}/>
    <Route path='/iitjeeExam' element={<IITJEE_EXAM/>}/>
+   <Route path='/neetexam' element={<NeetExam/>}/>
+   <Route path='/bitsatexam' element={<BitsatExam/>}/>
+   <Route path='/viteeeexam' element={<ViteeeExam/>}/>
+   <Route path='/apeamcetexam' element={<ApEamcetExam/>}/>
 
 
 

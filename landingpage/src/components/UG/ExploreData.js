@@ -48,7 +48,7 @@ export const ExploreData = [
     {
         IMGuRL:[Img3],
         Title:'BITSAT',
-        examPage: '/',
+        examPage: '/bitsatexam',
         OnlineTestSeries: 'Online Test Series',
         OLVClasses: 'Online Live Video Classes',
         ONLINE: '',
@@ -59,7 +59,7 @@ export const ExploreData = [
     {
         IMGuRL:[Img4],
         Title:'VITEEE',
-        examPage: '/',
+        examPage: '/viteeeexam',
         OnlineTestSeries: 'Online Test Series',
         OLVClasses: 'Online Live Video Classes',
         ONLINE: '',
@@ -70,7 +70,7 @@ export const ExploreData = [
     {
         IMGuRL:[Img5],
         Title:'AP-EAPCET',
-        examPage: '/',
+        examPage: '/apeamcetexam',
         OnlineTestSeries: 'Online Test Series',
         OLVClasses: 'Online Live Video Classes',
         ONLINE: '',
