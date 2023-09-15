@@ -14,7 +14,12 @@
     /* height: 100vmax; */
     /* background: #002944; */
 }
-
+/* li.slide {
+    height: 600px;
+}
+.carousel-root.banner {
+    height: 654px;
+} */
 marquee {
     background: #fff;
     color: #01c3ff;
@@ -28,7 +33,7 @@ marquee {
     display: flex;
     /* width: 100%;
     */
-    height: 87vh;
+    /* height: 87vh; */
     background: url(./Banners/bg.png) 100% 40% no-repeat rgba(0, 0, 0, 0.9);
     background-size: 40%;
     justify-content: flex-start;
@@ -122,11 +127,10 @@ marquee {
     }
     
     
-    
+/*     
     .banner2 {
     background: url(./Banners/banner1.png ) no-repeat center;
-    /* width: 99%;
-    margin: 0 auto; */
+ 
     height: 100vh;
     background-size: 100%;
     }
@@ -134,8 +138,7 @@ marquee {
     .banner3 {
     background: url(Banners/banner2.png) no-repeat center;
     
-    /* width: 99%;
-    margin: 0 auto; */
+   
     height: 100vh;
     background-size: 100%;
     }
@@ -143,17 +146,14 @@ marquee {
     .banner4 {
     background: url(Banners/banner3.png ) no-repeat center;
     
-    /* width: 99%;
-    margin: 0 auto; */
+ 
     height: 100vh;
     background-size: 100%;
     }
     
     .banner5 {
     background: url(Banners/banner4.png ) no-repeat center;
-    
-    /* width: 99%;
-    margin: 0 auto; */
+
     height: 100vh;
     background-size: 100%;
     }
@@ -161,17 +161,15 @@ marquee {
     .banner6 {
     background: url(Banners/banner5.png) no-repeat center;
     
-    /* width: 99%;
-    margin: 0 auto; */
+  
     height: 100vh;
     background-size: 100%;
     }
     
     .banner7 {
     background: url(Banners/banner6.png ) center no-repeat;
-    /* width: 99%;
-    margin: 0 auto; */
+  
     height: 100vh;
     background-size: 100%;
-    }
+    } */
     

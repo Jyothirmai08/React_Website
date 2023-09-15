@@ -11,6 +11,12 @@ import Faq from  './Faq'
 import { Footer } from './Footer'
 import Course from './Course'
 import { ExploreExams } from './ExploreExams'
+import imh1 from './Banners/banner1.png'
+import imh2 from './Banners/banner2.png'
+import imh3 from './Banners/banner3.png'
+import imh4 from './Banners/banner4.png'
+import imh5 from './Banners/banner5.png'
+
 const Home = () => {
   return (
 <>
@@ -19,13 +25,13 @@ const Home = () => {
                     <div>All tests will be LIVE according to the detailed schedule given. Do not
                         confuse to the Total No. of tests in the test cards while buying as they show the number of
                         tests LIVE at the moment..</div>
-                </marquee>
+</marquee>
 
 
 <div id='home'></div>
 
-    <div style={{height:'40%'}} className='corouselContent'>
-    <Carousel  className='banner' autoPlay infiniteLoop interval={3000} >
+    <div  className='corouselContent'>
+    <Carousel  className='banner' autoPlay infiniteLoop showIndicators={false} showThumbs={false} showArrows={false} showStatus={false} interval={3000} >
         <div className='banner1 container'>
             <div className='banner1-info'>
                 <div className='banner1-info-heading'>
@@ -51,12 +57,12 @@ const Home = () => {
         </div>
     
     
-        <div className='banner2'></div>
-        <div className='banner3'></div>
-        <div className='banner4'></div>
-        <div className='banner5'></div>
-        <div className='banner6'></div>
-        <div className='banner7'></div>
+       <div> <img src={imh1} alt="" /></div>
+       <div> <img src={imh2} alt="" /></div>
+       <div> <img src={imh3} alt="" /></div>
+       <div> <img src={imh4} alt="" /></div>
+
+       <div> <img src={imh5} alt="" /></div>
     
     </Carousel>
 
@@ -74,7 +80,10 @@ const Home = () => {
 <Contactus/>
 
 <Faq/>
+<Carousel>
 
+
+</Carousel>
 
     </>
   )
