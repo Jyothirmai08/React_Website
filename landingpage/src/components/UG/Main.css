@@ -55,7 +55,15 @@ h1{
     padding-bottom: 1rem;
 }
 
-
+table{
+    border-collapse: collapse;
+}
+tr td{
+    border: 1px solid;
+}
+tr th{
+    border: 1px solid;
+}
 @media (max-width: 1020px) {
  .container{
     padding: 1rem 3rem 1rem 3rem;
