@@ -29,7 +29,7 @@ export const NeetExam = () => {
             <div className="wrapper-3 container">
             
             <div className='' >
-                <h1>NEET</h1>
+                <h1>NEET EXAM</h1>
           
             </div>
              <div className='sdfsf'>

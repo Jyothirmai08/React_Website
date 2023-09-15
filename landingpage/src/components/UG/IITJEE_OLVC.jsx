@@ -114,16 +114,19 @@ const IITJEE_OLVC = () => {
     <br />
     </section>
 
+<div className='brocher container'> 
+   <a style={{color:'black',background:'green'}} className="" href="./posters/jeeposter/JEE.pdf">Online Live Video Classes brouchure (IIT-JEE Mains & Advanced)</a>
+
+</div>
     <section className="contents">
-    <div className="container content-container">
+    <div className=" content-container">
 
  <div className="menu_buttons2">
   <div className="buttons-with-video">
 
-  <div className="button-contant-ug">
+  <div className="button-conta">
      
 
-    <a className="button2" href="./posters/jeeposter/JEE.pdf">Online Live Video Classes brouchure<br />(IIT-JEE Mains & Advanced)</a>
 
   </div>
 </div>

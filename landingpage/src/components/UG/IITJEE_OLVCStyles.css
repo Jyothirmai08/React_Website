@@ -5,6 +5,11 @@
     padding: 0;
     border: 0;
     outline: 0;
+<<<<<<< HEAD
+=======
+    text-decoration: none;
+   
+>>>>>>> 22a8684fbdc2d3d8f6f7026947beee67e99f8992
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
@@ -48,7 +53,7 @@ nav {
 
 .container {
     /* width: var(--container-width-1g); */
-    margin:0  auto;
+    /* margin:0  auto; */
 }
 
 

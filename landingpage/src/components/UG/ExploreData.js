@@ -42,7 +42,7 @@ export const ExploreData = [
         OLVClasses: 'Online Live Video Classes',
         ONLINE: '',
         cardContant: 'cardsContant',
-        explore: '/neet'
+        explore: '/neetotc'
 
     },
     {
