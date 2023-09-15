@@ -1,13 +1,20 @@
 import React from 'react'
 import Header from './Header'
 import Faq from './Faq'
+import './JeeOts.css'
 
 export const NeetOtc = () => {
   return (
   <>
     <Header/>
+
+    <div class="otsh1">
+            <h1>NEET - ONLINE TEST SERIES</h1>
+         </div>
+
+
 {/* NEET - ONLINE TEST SERIES */}
-        <div className=''>
+        <div className='jeesection'>
             <div>
                 <h2>NEET - ONLINE TEST SERIES - 2023 COURSE BROCHURE </h2>
                 <a href="#">COURSE BROCHURE</a>
@@ -19,22 +26,24 @@ export const NeetOtc = () => {
         </div>
 
 {/* WHY ONLINE TEST SERIES? */}
-        <div>
+        <div className='jeesection'>
             <h2>WHY ONLINE TEST SERIES?</h2>
+            <div className='jeelist'>
             <ul>
                 <li>Helps in enhancing the student's speed and accuracy of answering questions in the examination.</li>
                 <li>Our online test series is crafted by academic experts with years of domain knowledge and experience.</li>
                 <li>Practice with our NEET online test series to be aware of the hurdles that you might face while attempting the final examination.</li>
                 <li>Practice with our NEET online test series to be aware of the hurdles that you might face while attempting the final examination.</li>
             </ul>
+            </div>
         </div>
 
         {/* BUY ONLINE TEST SERIES */}
-        <div>
+        <div className='jeesection'>
             <h2>BUY ONLINE TEST SERIES</h2>
 
             <div>
-            <table>
+            <table className='jeeinsidetable'>
              <tr>   
              <th >S.NO</th>
              <th> TEST SERIES TYPE</th>
@@ -57,15 +66,16 @@ export const NeetOtc = () => {
 
         {/* NEET - ONLINE TEST SERIES SCHEDULE */}
 
-        <div>
-            <h2>NEET - ONLINE TEST SERIES SCHEDULE</h2>
-            <a href="#">Challenger Test Series</a>
+        <div className='jeesection'>
+            <h2 className='head'>NEET - ONLINE TEST SERIES SCHEDULE</h2>
+            <a href="#" className='otsbroucher'>Challenger Test Series</a>
         </div>
 
 
         {/* FEATURES OF ONLINE TEST SERIES */}
-        <div>
+        <div className='jeesection'>
             <h2>FEATURES OF ONLINE TEST SERIES</h2>
+            <div className='jeelist'>
             <ul>
                 <li>15 tests in the challenger test series</li>
                 <li>All India rank will be given for each test.</li>
@@ -75,6 +85,7 @@ export const NeetOtc = () => {
                 <li>We have designed NEET online test series that will provide you with in-depth coverage of the latest syllabus</li>
                 <li>Same pattern and time limit as the actual NEET exam which acquaints students with the intricacies of the exam.</li>
             </ul>
+            </div>
         </div>
 
 

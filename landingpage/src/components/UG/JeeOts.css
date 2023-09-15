@@ -14,6 +14,18 @@
     align-items: center;
     margin: 1rem auto;
 }
+.jeeinsidetable tr td{
+    padding: 1rem;
+}
+
+.jeeinsidetable tr th{
+    padding: 1rem;
+    background-color: #a3e2ee;
+}
+
+.jeeinsidetable tr td a{
+    color: #000;
+}
 
 .otsh1 h1{
     text-align: center;
@@ -23,7 +35,7 @@
 }
 
 .jeesection{
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     margin-top: 10px;
 }
@@ -32,6 +44,22 @@
     color: #01c3ff;
     font-size: 1.5rem;
 }
+
+.jeesection .otsbroucher{
+    display: flex;
+    color: #000;
+    background-color: #a3e2ee;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    font-weight: bold;
+    width: 650px;
+    justify-content: center;
+}
+
+.jeesection .head{
+    margin-bottom: 1rem;
+}
+
 
 
 
@@ -42,6 +70,7 @@
 .jeelist ul li{
     list-style: disc;
 }
+
 
 
 .jeebtns ul li {
@@ -61,8 +90,6 @@
 
 .jeebtns ul li a{
     color: #000;
-    
-    
 }
 
 

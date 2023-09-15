@@ -6,9 +6,6 @@
     border: 0;
     outline: 0;
     text-decoration: none;
-
-
-
     text-decoration: none;
     box-sizing: border-box;
     scroll-behavior: smooth;
@@ -51,10 +48,6 @@ nav {
     margin-bottom: 4rem;
 }
 
-.container {
-    /* width: var(--container-width-1g); */
-    /* margin:0  auto; */
-}
 
 
 .pic{
@@ -199,9 +192,44 @@ nav button {
     display: inline-block;
   }
 
+  .buyolvc{
+    margin-top: 2rem;
+  }
+
+  .olvctable th{
+    padding: 1rem;
+    background-color: #a3e2ee;
+  }
+
+  .olvctable td{
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .olvctable .MODE-OF-INSTRUCTIONS span{
+    background-color: red;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    color: #fff;
+  }
+
+  .olvcbroucher{
+    color: #000;
+    background-color: #a3e2ee;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    font-weight: bold;
+  }
+
+  .olvcbroucher:hover{
+    color: #000;
+  }
+
   .container ul li{
-    /* list-style: disc; */
-    /* font-size: 16px;
-    color: black;
-    text-align: justify; */
+    list-style: disc;
+  }
+
+  .container ul {
+    padding: 0 1rem;
   }

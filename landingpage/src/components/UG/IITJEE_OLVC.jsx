@@ -15,12 +15,10 @@ const IITJEE_OLVC = () => {
         <ul className="nav__menu">
             <li><a href="UG-HOME PAGE.html">Home</a></li>
                  <li><a href="#" className="login1" onclick="LOGIN()">Login/User Registration </a></li>  </ul>
-             
                  <button id="open-menu-btn"><i className="uil uil-bars"></i></button>
                  <button id="close-menu-btn"><i className="uil uil-multiply"></i></button>
              </div>
             </nav> 
-
             <div className="otsh1">
         <h1 className='iit-heading'>IITJEE ONLINE LIVE VIDEO CLASSES</h1>
     </div>
@@ -53,9 +51,9 @@ const IITJEE_OLVC = () => {
     </ul>
 
     <div className="jee_updatedTable ">
-            <h1 className='subheading'>BUY ONLINE LIVE VIDEO CLASSES</h1>
+            <h1 className='subheading buyolvc'>BUY ONLINE LIVE VIDEO CLASSES</h1>
 
-            <table>
+            <table className='olvctable'>
                 <tr>
                  <th>S.NO</th>
                  <th>BATCHES</th>
@@ -115,7 +113,7 @@ const IITJEE_OLVC = () => {
     </section>
 
 <div className='brocher container'> 
-   <a style={{color:'black',background:'green'}} className="" href="./posters/jeeposter/JEE.pdf">Online Live Video Classes brouchure (IIT-JEE Mains & Advanced)</a>
+   <a className="olvcbroucher" href="./posters/jeeposter/JEE.pdf">Online Live Video Classes brouchure (IIT-JEE Mains & Advanced)</a>
 
 </div>
     <section className="contents">
