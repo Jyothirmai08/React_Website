@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from './logo2.jpg'
 import Faq from './Faq'
+import { Link } from 'react-router-dom'
 
 export const BitsatOLVC = () => {
   return (

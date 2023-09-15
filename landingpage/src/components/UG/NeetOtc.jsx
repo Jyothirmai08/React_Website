@@ -32,7 +32,7 @@ export const NeetOtc = () => {
         <div className='jeesection'>
             <div>
                 <h2>NEET - ONLINE TEST SERIES - 2023 COURSE BROCHURE </h2>
-                <a href="#">COURSE BROCHURE</a>
+                <a style={{color:'red'}} href={logo}>COURSE BROCHURE</a>
             </div>
             <div>
                 <p>The National eligibility and entrance test is conducted every year by the national testing agency for admission to MBBS colleges in India.

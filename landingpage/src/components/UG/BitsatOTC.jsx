@@ -27,7 +27,7 @@ export const BitsatOTC = () => {
           </div>
             <div className='jeesection'>
                 <h2>BITSAT - ONLINE TEST SERIES - 2023 COURSE BROCHURE </h2>
-                <a href="#">COURSE BROCHURE</a>
+                <a style={{color:'red'}} href={logo}>COURSE BROCHURE</a>
                 <p>BITSAT stands for Birla Institute of Technology and Science Admission Test. It is an online exam which is conducted for the students to take admission into B.E., B. Pharm and M.Sc. programmes offered at its three campuses located at Pilani, Goa and Hyderabad.
                 Preparing well and attempting the exam successfully is one of the greatest desires aspirants. BITSAT Online Test Series provides an opportunity to the students to assess their level of learning and understanding of the subject before showcasing their prowess in the main entrance examination. Our online test series makes your understanding stronger and helps you to challenge yourself in an environment that resembles the final examination. We at eGRADTutor academy are offering previous year question papers and online tests series. The online test series interface is similar to the actual exam interface and it helps the student to strategize and approach the examination.</p>
             </div>

@@ -103,7 +103,7 @@ export const NeetOLVC = () => {
             </section>
 
 <div className='brocher container'> 
-   <a style={{color:'black',background:'green'}} className="" href="./posters/jeeposter/JEE.pdf">Online Live Video Classes flyer - NEET</a>
+   <a className="olvcbroucher" href="./posters/jeeposter/JEE.pdf">Online Live Video Classes flyer - NEET</a>
 
             </div>
             <section className="contents">
