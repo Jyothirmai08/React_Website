@@ -70,7 +70,9 @@ ul.courses-list li {
     padding: 5px 9px 5px 0px;
 
 }
-
+.coursesList li a{
+    font-size: 14px;
+}
 .courses-images {
     /* position: relative;
     top: -91px; */

@@ -62,7 +62,8 @@ export const OurCoursesDAta = [
         // Corses10: 'KERALA CEE',
         // Corses11: 'SRMJEE'
         oURcOURSE: 'OVLcourses-contant',
-        CourseClass: 'Courses2'
+        CourseClass: 'Courses2',
+        // jeee:'/iitjee_otc',
 
 
     },
