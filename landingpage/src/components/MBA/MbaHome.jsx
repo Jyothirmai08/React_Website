@@ -10,16 +10,17 @@ import { About } from '../UG/About'
 import Header from '../UG/Header'
 // import { MbaAbout } from './About/MbaAbout'
 // import { Acordion } from './Acourdion/Acordion'
+
+import { MbaAbout } from './About/MbaAbout'
+
 import { MBAExploreExams } from './MBAExploreExams'
 import { MBACourses } from './MBACourses'
 
 
-import { MbaAbout } from './About/MbaAbout'
 
 
 // import { MBAExploreExams } from './MBAExploreExams'
 // import { MBACourses } from './MBACourses'
-
 
 
 export const MbaHome = () => {
