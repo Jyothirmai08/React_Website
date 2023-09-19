@@ -8,6 +8,9 @@ import Contactus from '../UG/Contactus'
 import Course from '../UG/Course'
 import { About } from '../UG/About'
 import Header from '../UG/Header'
+import { MBAExploreExams } from './MBAExploreExams'
+import { MBACourses } from './MBACourses'
+
 
 export const MbaHome = () => {
   return (
@@ -51,9 +54,11 @@ export const MbaHome = () => {
     </Carousel>
 
     <About/>
+    <MBAExploreExams />
 
-    <Course/>
+    <MBACourses/>
     {/* <ExploreExams/> */}
+    
 
 <Contactus/>
 
