@@ -8,6 +8,8 @@ import Contactus from '../UG/Contactus'
 import Course from '../UG/Course'
 import { About } from '../UG/About'
 import Header from '../UG/Header'
+import { MbaAbout } from './About/MbaAbout'
+import { Acordion } from './Acourdion/Acordion'
 
 export const MbaHome = () => {
   return (
@@ -50,14 +52,18 @@ export const MbaHome = () => {
     
     </Carousel>
 
+    {/* <MbaAbout/> 
+
+    <Acordion/> */}
+
+
     <About/>
 
     <Course/>
-    {/* <ExploreExams/> */}
 
-<Contactus/>
+    <Contactus/>
 
-<Faq/>
+   <Faq/>
 
 
     </>

@@ -33,6 +33,7 @@ import { NeetOtc } from './components/UG/NeetOtc';
 import { NeetOLVC } from './components/UG/NeetOLVC';
 import { BitsatOTC } from './components/UG/BitsatOTC';
 import { BitsatOLVC } from './components/UG/BitsatOLVC';
+import { PgEseExam } from './components/PG/PgEseExam';
 
 
 
@@ -60,7 +61,12 @@ const App = () => {
    <Route path='/' element={<GateOts/>}/>
 
    <Route path='/PgHome' element={<PgHome/>}/>
+   {/* <Route path='/MbaHome' element={<MbaHome/>}/> */}
+
    <Route path='/MbaHome' element={<MbaHome/>}/>
+
+
+
    <Route path='/terms' element={<TERMsCONDITIONS/>}/>
    <Route path='/policy' element={<Privacypolicy/>}/>
    <Route path='/iitjeeExam' element={<IITJEE_EXAM/>}/>
@@ -92,6 +98,8 @@ const App = () => {
 
    <Route path='/pggateexam' element={<PGGATE_Exam/>}/>
    <Route path='/pgiitjamexam' element={<PGIITJAMExam/>}/>
+   <Route path='/pgEse' element={<PgEseExam/>}/>
+
 
     </Routes>
 <Footer/>
