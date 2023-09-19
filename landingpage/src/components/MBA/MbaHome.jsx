@@ -8,14 +8,14 @@ import Contactus from '../UG/Contactus'
 import Course from '../UG/Course'
 import { About } from '../UG/About'
 import Header from '../UG/Header'
-<<<<<<< HEAD
+
 import { MbaAbout } from './About/MbaAbout'
-import { Acordion } from './Acourdion/Acordion'
-=======
+
+
 import { MBAExploreExams } from './MBAExploreExams'
 import { MBACourses } from './MBACourses'
 
->>>>>>> be257610533a223126d5026ba5196a843c150749
+
 
 export const MbaHome = () => {
   return (
@@ -66,13 +66,13 @@ export const MbaHome = () => {
     <About/>
     <MBAExploreExams />
 
-<<<<<<< HEAD
-    <Course/>
-=======
+
+
+
     <MBACourses/>
     {/* <ExploreExams/> */}
     
->>>>>>> be257610533a223126d5026ba5196a843c150749
+
 
     <Contactus/>
 

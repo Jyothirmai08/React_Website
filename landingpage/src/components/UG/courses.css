@@ -37,17 +37,6 @@
 
 
 
-/* .courses-images{
-    width: 30%;
-} */
-.courses-contant{
-    /* width: 35%; */
-    /* padding-left: 4rem; */
-}
-.coursesList{
-    /* width: 67%; */
-}
-
 .courses-images, .coursesList{
     /* width: 33.33%; */
     display: flex;
