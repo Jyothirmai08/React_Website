@@ -18,8 +18,8 @@ export const PGExploreData = [
         OLVClasses: 'Online Live Video Classes',
         ONLINE: '',
         cardContant: 'cardsContant',
-        explore: '/iitjee',
-        liveclasses: '/iitjee_olvc',
+        explore: '/',
+        liveclasses: '/',
       
         
     },
@@ -31,7 +31,7 @@ export const PGExploreData = [
         OLVClasses: 'Online Live Video Classes',
         ONLINE: '',
         cardContant: 'cardsContant',
-        explore: '/neet'
+        explore: '/'
 
     },
     {
@@ -42,7 +42,7 @@ export const PGExploreData = [
         OLVClasses: 'Online Live Video Classes',
         ONLINE: '',
         cardContant: 'cardsContant',
-        explore: '/bitsat'
+        explore: '/'
 
     },
     {
@@ -53,7 +53,7 @@ export const PGExploreData = [
         OLVClasses: 'Online Live Video Classes',
         ONLINE: '',
         cardContant: 'cardsContant',
-        explore: 'viteee'
+        explore: '/'
 
     },
     {
@@ -64,7 +64,7 @@ export const PGExploreData = [
         OLVClasses: 'Online Live Video Classes',
         ONLINE: '',
         cardContant: 'cardsContant',
-        explore: 'apeapcet'
+        explore: '/'
 
     },
     {
@@ -75,7 +75,7 @@ export const PGExploreData = [
         OLVClasses: 'Online Live Video Classes',
         ONLINE: '',
         cardContant: 'cardsContant',
-        explore: 'tseamcet'
+        explore: '/'
 
     },
 ]

@@ -20,7 +20,7 @@
 }
 .OTScourses-contant, .OVLcourses-contant, .OQB-courses-contant{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     /* gap: 4rem; */
     /* background: rgb(255, 233, 233); */
@@ -41,15 +41,15 @@
     width: 30%;
 }
 .courses-contant{
-    width: 35%;
+    /* width: 35%; */
     /* padding-left: 4rem; */
 }
 .coursesList{
-    width: 67%;
+    /* width: 67%; */
 }
 
 .courses-images, .coursesList{
-    width: 33.33%;
+    /* width: 33.33%; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -67,7 +67,7 @@ ul.coursesList {
 ul.courses-list li {
     list-style: disc;
     list-style-image: rebeccapurple;
-    padding: 5px 0px 5px 0px;
+    padding: 5px 9px 5px 0px;
 
 }
 

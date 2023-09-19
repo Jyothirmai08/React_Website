@@ -100,10 +100,10 @@
 
 
 .cardFlex h4{
-    background: #00a3ff;
-    color: rgb(255, 255, 255);
+    color: #00a3ff;
     padding: 0px 10px 0px 10px;
     margin-bottom: 15px;
+    font-weight: bold;
 }
 .cardFlex h4:hover{
     background: #e26363;
@@ -112,8 +112,8 @@
     margin-bottom: 15px;
 }
 .CoursesTextIcons h5:hover{
-    color: rgb(255, 255, 255);
-    background: #00a3ff;
+    color: #000;
+    text-decoration: underline;
 }
 
 .CoursesTextIcons h5:nth-child(3){

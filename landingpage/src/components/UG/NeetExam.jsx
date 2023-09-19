@@ -58,9 +58,9 @@ export const NeetExam = () => {
                                 <div className={selected === i2 ? 'content-show2' : 'content2'}>
                                     <div>
                                         <div className='imagessg'>{item.answer}  <img src={item.ansIMG} alt="" /></div><br />
-                                        <div className='imagessg'>{item.answer}  <img src={item.ansIMG1} alt="" /></div><br />
-                                        <div className='imagessg'>{item.answer}  <img src={item.ansIMG2} alt="" /></div><br />
-                                        <div className='imagessg'>{item.answer}  <img src={item.ansIMG3} alt="" /></div><br />
+                                        <div className='imagessg'><img src={item.ansIMG1} alt="" /></div><br />
+                                        <div className='imagessg'><img src={item.ansIMG2} alt="" /></div><br />
+                                        <div className='imagessg'><img src={item.ansIMG3} alt="" /></div><br />
                                                    
                                     
                                     </div>
