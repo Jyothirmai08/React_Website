@@ -17,7 +17,7 @@ const Faq = () => {
         <div className='FAQCONTENT' id='faq'>
             <div className="wrapper-3 container">
             
-            <div className='' >
+            <div className='faqheading' >
                 <h1>FREQUENTLY ASKED QUESTIONS</h1>
           
             </div>
@@ -28,7 +28,7 @@ const Faq = () => {
                                 <h2>{item.Qustion}</h2>
                                 <span>{selected === i2 ? '-' : '+'}</span>
                             </div>
-                            <div className={selected === i2 ? 'content-show2' : 'content2'}>{item.answer}</div>
+                            <div style={{background:'#000'}} className={selected === i2 ? 'content-show2' : 'content2'}>{item.answer}</div>
                         </div>
                     ))}
 

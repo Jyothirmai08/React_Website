@@ -10,6 +10,7 @@
     color: #00a3ff;
     cursor: pointer;
     margin-bottom: 1.7rem;
+    text-align: left;
 }
 
 .hand-div{
@@ -34,7 +35,7 @@
 }
 
 .cardsContant {
-    background: rgb(188 222 219);
+    /* background: rgb(188 222 219); */
     width: 15rem;
     height: 10rem;
     border-radius: 1rem;
@@ -63,7 +64,7 @@
 
 /* hover */
 .cardsContant {
-    background: linear-gradient(179deg, #c0c0c0c0, #d1f1fd);
+    /* background: linear-gradient(179deg, #c0c0c0c0, #d1f1fd); */
     display: flex;
 }
 
@@ -99,10 +100,10 @@
 
 
 .cardFlex h4{
-    background: #00a3ff;
-    color: rgb(255, 255, 255);
+    color: #00a3ff;
     padding: 0px 10px 0px 10px;
     margin-bottom: 15px;
+    font-weight: bold;
 }
 .cardFlex h4:hover{
     background: #e26363;
@@ -111,8 +112,8 @@
     margin-bottom: 15px;
 }
 .CoursesTextIcons h5:hover{
-    color: rgb(255, 255, 255);
-    background: #00a3ff;
+    color: #000;
+    text-decoration: underline;
 }
 
 .CoursesTextIcons h5:nth-child(3){

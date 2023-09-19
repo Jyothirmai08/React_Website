@@ -15,10 +15,8 @@
 }
 .addresList-contant h1 {
     align-self: flex-start;
-    font-family: 'Righteous', cursive;
     font-size: 3rem;
     color: #00a3ff;
-    text-shadow: 2px 9px 8px black;
     cursor: pointer;
     margin-bottom: 1rem;
     text-align: center;

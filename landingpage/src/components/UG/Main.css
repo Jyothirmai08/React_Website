@@ -72,13 +72,13 @@ tr th{
 
 @media (max-width: 1020px) {
     .container {
-        padding: 0 4rem 0 4rem;
+        padding: 2rem 4rem 2rem 4rem;
     }
    }
 @media only screen and (min-width: 1023px) and (max-width: 1200px) {
        
     .container {
-         padding: 0 4rem 0 4rem;
+         padding: 2rem 4rem 2rem 4rem;
      }
  }
 @media (max-width: 768px) {

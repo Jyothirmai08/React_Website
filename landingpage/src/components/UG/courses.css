@@ -1,13 +1,11 @@
 
 
 .CoursesTitle h1{
-    font-family: 'Righteous', cursive;
     font-size: 3rem;
     color: #00a3ff;
-    text-shadow: 2px 9px 8px black;
     cursor: pointer;
     margin-bottom: 0.5rem;
-    text-align: center;
+    text-align: left;
 }
 .Courses-list {
     display: flex;
@@ -22,7 +20,7 @@
 }
 .OTScourses-contant, .OVLcourses-contant, .OQB-courses-contant{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     /* gap: 4rem; */
     /* background: rgb(255, 233, 233); */
@@ -43,15 +41,15 @@
     width: 30%;
 }
 .courses-contant{
-    width: 35%;
+    /* width: 35%; */
     /* padding-left: 4rem; */
 }
 .coursesList{
-    width: 67%;
+    /* width: 67%; */
 }
 
 .courses-images, .coursesList{
-    width: 33.33%;
+    /* width: 33.33%; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -69,10 +67,12 @@ ul.coursesList {
 ul.courses-list li {
     list-style: disc;
     list-style-image: rebeccapurple;
-    padding: 5px 0px 5px 0px;
+    padding: 5px 9px 5px 0px;
 
 }
-
+.coursesList li a{
+    font-size: 14px;
+}
 .courses-images {
     /* position: relative;
     top: -91px; */

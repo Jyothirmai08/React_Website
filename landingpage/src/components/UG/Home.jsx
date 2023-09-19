@@ -38,7 +38,7 @@ const Home = () => {
         <div className='banner1 container'>
             <div className='banner1-info'>
                 <div className='banner1-info-heading'>
-                    <h1>welcome eGRADTutor</h1>
+                    <h1>Welcome eGRADTutor</h1>
                     <p>eGRADTutor is an Edtech firm started with a vision to blend the boundaries in education and take
                         best-in-class courses and teachers virtually to every corner of the country. Our courses are
                         developed by the alumni of IIT/IISc with an intent to enhance the student's abilities to face some
