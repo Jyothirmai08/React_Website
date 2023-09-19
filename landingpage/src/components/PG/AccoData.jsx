@@ -5,7 +5,7 @@ const AccoData = [
       column1: 'Row 1 Data 1 nani',
     //   column2: 'Row 1 Data 2',
       additionalInfo: 'Additional info for Row 1 nani',
-      com:[<Faq />]
+
 
     },
     {
