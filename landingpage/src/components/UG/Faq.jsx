@@ -17,7 +17,7 @@ const Faq = () => {
         <div className='FAQCONTENT' id='faq'>
             <div className="wrapper-3 container">
             
-            <div className='' >
+            <div className='faqheading' >
                 <h1>FREQUENTLY ASKED QUESTIONS</h1>
           
             </div>
