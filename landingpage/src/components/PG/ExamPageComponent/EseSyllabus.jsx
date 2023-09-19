@@ -4,32 +4,79 @@ const EseSyllabus = () => {
   return (
     <div>
         <ul>
-            <li> Engineering Services Examination 2023 for Civil Engineering (CE), Electrical Engineering (EE), Mechanical Engineering (ME) & Electronics and Telecommunication (ET) Engineering shall comprise of three parts.</li>
-            <li><h2> Preliminary/Stage-I Examination (Objective Type Papers) :</h2></li>
+            <li> Engineering Services Examination 2023 for Civil Engineering (CE), Electrical Engineering (EE), Mechanical Engineering (ME) & Electronics and Telecommunication (ET) Engineering shall comprise of three parts.</li><br />         <li><h2> Preliminary/Stage-I Examination (Objective Type Papers) :</h2></li><br />
             <table>
                 <tr>
-                    <td>SAGE-I</td>
-                    <td>PAPER TYPE</td>
-                    <td>DURATION</td>
-                    <td>MARKS</td>
+                    <th>SAGE-I</th>
+                    <th>PAPER TYPE</th>
+                    <th>DURATION</th>
+                    <th>MARKS</th>
                 </tr>
                 <tr>
-                    <th>PAPER-I</th>
-                    <th>GENERAL STUDIES AND ENGINEERING APTITUDE</th>
-                    <th>02 HOURS</th>
-                    <th>200</th>
+                    <td>PAPER-I</td>
+                    <td>GENERAL STUDIES AND ENGINEERING APTITUDE</td>
+                    <td>02 HOURS</td>
+                    <td>200</td>
                 </tr>
                 <tr>
-                    <th>PAPER-II</th>
-                    <th>ENGINEERING DISCIPLINE (CE/ ME/ EE/ E&T)</th>
-                    <th>03 HOURS</th>
-                    <th>300</th>
+                    <td>PAPER-II</td>
+                    <td>ENGINEERING DISCIPLINE (CE/ ME/ EE/ E&T)</td>
+                    <td>03 HOURS</td>
+                    <td>300</td>
                 </tr>
                 <tr>
-                    <th>TOTAL MARKS</th>
-                    <th></th>
-                    <th></th>
-                    <th>500</th>
+                    <td>TOTAL MARKS</td>
+                    <td></td>
+                    <td></td>
+                    <td>500</td>
+                </tr>
+            </table><br />
+            <li><h2> Mains/Stage-II Examination (Subjective Type Papers) :</h2></li><br />
+            <table>
+                <tr>
+                    <th>STAGE-II</th>
+                    <th>PAPER TYPE</th>
+                    <th>DURATION</th>
+                    <th>MARKS</th>
+                </tr>
+                <tr>
+                    <td>PAPER-I</td>
+                    <td>ENGINEERING DISCIPLINE (CE/ ME/ EE/ E&T)</td>
+                    <td>03 HOURS</td>
+                    <td>300</td>
+                </tr>
+                <tr>
+                    <td>PAPER-II</td>
+                    <td>ENGINEERING DISCIPLINE (CE/ ME/ EE/ E&T)</td>
+                    <td>03 HOURS</td>
+                    <td>300</td>
+                </tr>
+                <tr>
+                    <td>TOTAL MARKS(MAIN)</td>
+                    <td></td>
+                    <td></td>
+                    <td>600</td>
+                </tr>
+                <tr>
+                    <td>TOTAL MARKS(MAIN + PRELIM)</td>
+                    <td></td>
+                    <td></td>
+                    <td>1100</td>
+                </tr>
+            </table><br />
+            <li><h2>Stage-III Examination: Personality Test</h2></li><br />
+            <table>
+                <tr>
+                    <th>STAGE-III</th>
+                    <th>MARKS</th>
+                </tr>
+                <tr>
+                    <td>Personality Test</td>
+                    <td>200</td>
+                </tr>
+                <tr>
+                    <td>STAGE-I+ STAGE-II+STAGE III</td>
+                    <td>1300</td>
                 </tr>
             </table>
         </ul>

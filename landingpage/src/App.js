@@ -34,6 +34,7 @@ import { NeetOLVC } from './components/UG/NeetOLVC';
 import { BitsatOTC } from './components/UG/BitsatOTC';
 import { BitsatOLVC } from './components/UG/BitsatOLVC';
 import { PgEseExam } from './components/PG/PgEseExam';
+import EseSyllabus from './components/PG/ExamPageComponent/EseSyllabus';
 
 
 
@@ -103,6 +104,7 @@ const App = () => {
 
     </Routes>
 <Footer/>
+<EseSyllabus/>
   </Router>
   );
 }
