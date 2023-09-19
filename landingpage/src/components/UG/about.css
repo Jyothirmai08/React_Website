@@ -65,7 +65,7 @@ ul li{
 .vision-contant, .mission-contant{
     display: flex;
     gap: 2rem;
-    height: 20rem;
+    height: 25rem;
 
 }
 .vistionMission-section {
@@ -153,9 +153,6 @@ ul li{
 /* laptops */
     /* media */
     @media only screen and (min-width:992px) and (max-width: 1023px) {
-        body{
-            background-color: red;
-        }
         .AboutSection img{
             width: 300px;
         }
@@ -212,9 +209,6 @@ ul li{
 
 
     @media only screen and (min-width: 1023px) and (max-width: 1200px) {
-        body{
-            background-color: rgb(107, 153, 21);
-        }
         .vistionMission-section {
             display: flex;
             flex-direction: column;
@@ -226,9 +220,6 @@ ul li{
 
     /* ==================== TABLET RESPONSIVE ================ */
     @media only screen and (min-width: 767px) and (max-width: 991px) {
-        body{
-            background-color: blue;
-        }
         .AboutSection img{
             max-width: 200px;
         }
@@ -259,9 +250,6 @@ ul li{
     /* ============== PHONE RESPONSIVE=================== */
     /* MEDIA 990 */
     @media only screen and (max-width: 768px) {
-        body{
-            background-color: pink;
-        }
         .AboutSection {
             padding:1rem 1rem 1rem 1rem;            
         }
