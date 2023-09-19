@@ -1,22 +1,32 @@
 import React from 'react'
+// import EseSyllabus from './EseSyllabus'
 import EseSyllabus from './EseSyllabus'
 
 
 export const EseExam = [
     {
-        Title: "Question"
+        Title: "CONDUCTING INSTITUTE",
+        Component:'sdasda'
     },
     {
-        Title: [<EseSyllabus />]
+        Title: 'EXAM PATTERN',
+        Component:'sdasda'
+
     },
     {
-        Title: "Question"
+        Title: "ELIGIBILITY",
+        Component:'sdasda'
+
     },
     {
-        Title: "Question"
+        Title: "SYLLABUS",
+        Component:[<EseSyllabus/>]
+
     },
     {
-        Title: "Question"
+        Title: "IMPORTANT DATES",
+        Component:'sdasda'
+
     }
 
 ]
