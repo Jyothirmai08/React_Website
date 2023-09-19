@@ -28,12 +28,18 @@ footer.footer {
 }
 
 .footerTitleColor{
-    font-family: 'Righteous', cursive;
     color:#00a3ff;
     text-shadow: 2px 9px 8px black;
     font-size: 1.5rem;
     padding-bottom: 1rem;
+    font-weight: bold;
 }
+
+.fa-brands{
+    font-size: 2rem;
+}
+
+
 .footerContant1 p {
     line-height: 2;
     color: rgb(253, 251, 249);

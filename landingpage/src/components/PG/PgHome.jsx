@@ -10,6 +10,7 @@ import Header from '../UG/Header'
 import { Carousel } from "react-responsive-carousel"
 import "react-responsive-carousel/lib/styles/carousel.min.css"
 import {PGexploreExam} from './PGexploreExam'
+import {PgCourse} from './PgCourse'
 
 export const PgHome = () => {
   return (
@@ -59,7 +60,7 @@ export const PgHome = () => {
   
     {/* <ExploreExams/> */}
 
- <Course/>
+ <PgCourse/>
 <Contactus/>
 
 <Faq/>

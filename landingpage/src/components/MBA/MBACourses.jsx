@@ -1,9 +1,9 @@
 import React from 'react'
 import '../UG/courses.css'
-import {PgCoursesData} from './PgCoursesData'
+import { MBACoursesData } from './MBACoursesData'
 
 
-export const PgCourse = () => {
+export const MBACourses = () => {
   return (
     <div>
         
@@ -12,7 +12,7 @@ export const PgCourse = () => {
                 <h1>OUR COURSES</h1>
             </div>
             <div className='Courses-list'>
-                {PgCoursesData.map((courses,coursesIndex) =>{
+                {MBACoursesData.map((courses,coursesIndex) =>{
                     return(
                         <div key={coursesIndex} className={courses.oURcOURSE}>
                             <div className='courses-images'>
@@ -53,3 +53,4 @@ export const PgCourse = () => {
     </div>
   )
 }
+
