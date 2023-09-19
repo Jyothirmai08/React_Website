@@ -21,6 +21,10 @@
     height: 654px;
 } */
 marquee {
+    box-shadow: 33px 2px 12px 1px;
+    padding: 5px;
+}
+marquee {
     background: #fff;
     color: #01c3ff;
     font-size: 18px;

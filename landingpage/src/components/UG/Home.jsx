@@ -22,7 +22,7 @@ const Home = () => {
 <>
 <Header/>
    
-   <div style={{backgroundColor:'red'}}>
+   <div>
    <marquee  direction="left" scrollamount="5" onmouseover="this.stop()" onmouseleave="this.start()">
                     <div>All tests will be LIVE according to the detailed schedule given. Do not
                         confuse to the Total No. of tests in the test cards while buying as they show the number of
