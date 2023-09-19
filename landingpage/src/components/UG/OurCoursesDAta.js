@@ -33,7 +33,10 @@ export const OurCoursesDAta = [
         Corses10: 'KEAM',
         Corses11: 'SRMJEE',
         oURcOURSE: 'OTScourses-contant',
-        CourseClass: 'Courses1'
+        CourseClass: 'Courses1',
+        jeee:'/iitjee_otc',
+        neet:'/neetotc',
+        bitsat:'/bitsatots'
     },
       // This section has only online live video classes data
     {

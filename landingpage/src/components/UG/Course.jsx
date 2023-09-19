@@ -1,6 +1,7 @@
 import React from 'react'
 import { OurCoursesDAta } from './OurCoursesDAta'
 import './courses.css'
+import { Link } from 'react-router-dom'
 
 // In thiscourse section having two compoenents one is OurCourseDAta.js and courses.css
 // we created this component by getting the data from  the map function.
@@ -31,9 +32,9 @@ export const Course = () => {
                             <div className='coursesList'>
                                 {/* <h4>{courses.CorsesText}</h4> */}
                                 <ul className='coursesList'>
-                                    <li  className={courses.CourseClass}>{courses.Corses1}<small>{courses.Corses1sub}</small></li>
-                                    <li className={courses.CourseClass}>{courses.Corses2}</li>
-                                    <li className={courses.CourseClass}>{courses.Corses3}</li>
+                                    <li className={courses.CourseClass}><Link to={courses.jeee} >{courses.Corses1}<small>{courses.Corses1sub}</small></Link></li>
+                                    <li className={courses.CourseClass}><Link to={courses.neet}>{courses.Corses2}</Link></li>
+                                    <li className={courses.CourseClass}><Link to={courses.bitsat}>{courses.Corses3}</Link></li>
                                     <li className={courses.CourseClass}>{courses.Corses4}</li>
                                     <li className={courses.CourseClass}>{courses.Corses5}</li>
                                     <li className={courses.CourseClass}>{courses.Corses6}</li>
@@ -54,3 +55,12 @@ export const Course = () => {
   )
 }
 export default Course;
+
+
+
+export const Course2 = () => {
+  return (
+    <>
+    </>
+  )
+}

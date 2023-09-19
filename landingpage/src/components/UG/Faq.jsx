@@ -28,7 +28,7 @@ const Faq = () => {
                                 <h2>{item.Qustion}</h2>
                                 <span>{selected === i2 ? '-' : '+'}</span>
                             </div>
-                            <div className={selected === i2 ? 'content-show2' : 'content2'}>{item.answer}</div>
+                            <div style={{background:'#000'}} className={selected === i2 ? 'content-show2' : 'content2'}>{item.answer}</div>
                         </div>
                     ))}
 
