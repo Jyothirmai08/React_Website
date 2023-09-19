@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { EseExam } from './EseExam';
 
 export const Ese_examPg = () => {
     const [openRow, setOpenRow] = useState(null);
@@ -15,15 +16,15 @@ export const Ese_examPg = () => {
     <div>
 
 <div style={{cursor:'pointer'}}>
-                {/* {AccoData.map((ii,ind) => (           
+                {EseExam.map((ii,ind) => (           
                     <React.Fragment key={ind}>
                       <div onClick={() => toggleRow(ind)}className={`accordion-header ${openRow === ind ? 'open' : ''}`}>
-                     <p>{ii.column1}</p>
+                     <p>{ii.Title}</p>
                     </div>
 
                     {openRow === ind && (
                         <div>
-                        {ii.additionalInfo}
+                        {ii.Component}
 
                         <div>
                             {ii.com}
@@ -34,7 +35,7 @@ export const Ese_examPg = () => {
 
                     </React.Fragment>   
             
-                 ))} */}
+                 ))}
 
             </div>
     </div>
