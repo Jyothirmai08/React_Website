@@ -8,6 +8,13 @@ import Contactus from '../UG/Contactus'
 import Course from '../UG/Course'
 import { About } from '../UG/About'
 import Header from '../UG/Header'
+<<<<<<< HEAD
+import { MbaAbout } from './About/MbaAbout'
+import { Acordion } from './Acourdion/Acordion'
+import { MBAExploreExams } from './MBAExploreExams'
+import { MBACourses } from './MBACourses'
+
+=======
 
 import { MbaAbout } from './About/MbaAbout'
 
@@ -16,6 +23,7 @@ import { MBAExploreExams } from './MBAExploreExams'
 import { MBACourses } from './MBACourses'
 
 
+>>>>>>> b1fe49020835d70fde07d901887bc5b669e0d8cd
 
 export const MbaHome = () => {
   return (
@@ -66,6 +74,10 @@ export const MbaHome = () => {
     <About/>
     <MBAExploreExams />
 
+    {/* <Course/> */}
+    <MBACourses/>
+    {/* <ExploreExams/> */}
+    
 
 
 
