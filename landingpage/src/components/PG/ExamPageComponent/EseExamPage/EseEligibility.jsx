@@ -6,7 +6,7 @@ const EseEligibility = () => {
         <ul className='ExamsUl_list'>
             <li><b>Nationality:</b></li>
             <li>In order to satisfy the IES eligibility, the candidate must fall into any one of the following categories.</li>
-            <ul className='ExamsUl_list'>
+            <ul className='SExamsUl_list'>
                 <li>An Indian citizen</li>
                 <li>Bhutan or Nepal Subject</li>
                 <li>A refugee of Tibetan origin who migrated to India before 01 January 1962 with the intention of permanently settling in India</li>

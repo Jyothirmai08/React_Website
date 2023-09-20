@@ -68,6 +68,12 @@ tr th{
 .ExamsUl_list li{
     list-style: disc;
     list-style-position: inside;
+    padding-left: 10px;
+}
+.SExamsUl_list li{
+    list-style:lower-alpha;
+    list-style-position: inside;
+    padding-left: 30px;
 }
 @media (max-width: 1020px) {
  .container{
