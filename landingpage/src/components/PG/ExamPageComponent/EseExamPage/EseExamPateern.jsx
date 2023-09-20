@@ -3,7 +3,7 @@ import React from 'react'
 export const EseExamPateern = () => {
   return (
     <div>
-        <ul>
+        <ul className='ExamsUl_list'>
             <li>Engineering Services Examination 2023 for Civil Engineering (CE), Electrical Engineering (EE), Mechanical Engineering (ME) & Electronics and Telecommunication (ET) Engineering shall comprise of three parts.</li><br />
             <li><b>Preliminary/Stage-I Examination (Objective Type Papers) :</b></li><br />
             <table>
@@ -20,16 +20,16 @@ export const EseExamPateern = () => {
                     <td>200</td>
                 </tr>
                 <tr>
-                    <th>PAPER-II</th>
-                    <th>ENGINEERING DISCIPLINE (CE/ ME/ EE/ E&T)</th>
-                    <th>03 HOURS</th>
-                    <th>300</th>
+                    <td>PAPER-II</td>
+                    <td>ENGINEERING DISCIPLINE (CE/ ME/ EE/ E&T)</td>
+                    <td>03 HOURS</td>
+                    <td>300</td>
                 </tr>
                 <tr>
-                    <th>TOTAL MARKS</th>
-                    <th></th>
-                    <th></th>
-                    <th>500</th>
+                    <td>TOTAL MARKS</td>
+                    <td></td>
+                    <td></td>
+                    <td>500</td>
                 </tr>
             </table><br />
             <li><b>Mains/Stage-II Examination (Subjective Type Papers) :</b></li><br />

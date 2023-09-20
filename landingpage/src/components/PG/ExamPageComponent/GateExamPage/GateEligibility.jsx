@@ -3,7 +3,7 @@ import React from 'react'
 const GateEligibility = () => {
   return (
     <div>
-        <ul>
+        <ul className='ExamsUl_list'>
             <li>Candidates must know the GATE eligibility criteria before applying for the exam. The eligibility criteria for the GATE 2023 exam carry educational qualification, age limit and passing percentage. The candidates who possess the following criteria are eligible to appear in GATE.</li>
             <p><b>Educational Qualification:</b></p>
             <li>To apply for the GATE entrance exam, a candidate must possess either of the mentioned qualification(s). However, the educational qualification has been relaxed for the exam. The students studying in the 3rd or final years of any undergraduate degree are now eligible for the examination. Also, students who have already completed any degree program approved by the Government in Engineering, Technology, Architecture, Science, Commerce or Arts are eligible to appear for the GATE 2023 examination.</li>

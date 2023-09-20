@@ -3,11 +3,11 @@ import React from 'react'
 export const EseSyllabus = () => {
   return (
     <div>
-        <ul>
+        <ul className='ExamsUl_list'>
             {/* APTITUDE PAPER */}
             {/* GENERAL STUDIED AND ENGINEERING APTITUDE */}
-            <p><b>APTITUDE PAPER (Stage-I, Paper-I).</b></p>
-            <p><b>GENERAL STUDIES AND ENGINEERING APTITUDE</b></p>
+            <p><b>APTITUDE PAPER (Stage-I, Paper-I).</b></p><br />
+            <p><b>GENERAL STUDIES AND ENGINEERING APTITUDE</b></p><br />
             <li>(Stage I – Paper I, Objective type, Common to all Candidates, 2 hours duration, 200 Marks maximum)</li>
             <li>The questions from the following Topics will be set in Paper-I of Stage-I</li>
             <li>Current issues of national and international importance relating to social, economic and industrial development</li>
@@ -19,12 +19,12 @@ export const EseSyllabus = () => {
             <li>Basics of Project Management</li>
             <li>Basics of Material Science and Engineering</li>
             <li>Information and Communication Technologies (ICT) based tools and their applications in Engineering such as networking, e-governance, and technology-based education.</li>
-            <li>Ethics and values in the Engineering profession</li>
+            <li>Ethics and values in the Engineering profession</li><br />
 
             {/* CIVIL ENGINEERING */}
 
-            <p><b>A. CIVIL ENGINEERING</b></p>
-            <p><b>PAPER – I</b></p>
+            <p><b>A. CIVIL ENGINEERING</b></p><br />
+            <p><b>PAPER – I</b></p><br />
             <p><b>BUILDING MATERIALS:</b></p>
 
             <li>Stone, Lime, Glass, Plastics, Steel, FRP, Ceramics, Aluminum, Fly Ash, Basic Admixtures, Timber, Bricks, and</li>
@@ -53,24 +53,24 @@ export const EseSyllabus = () => {
             <li>Contract Management, Quality Control, Productivity, Operation Cost; Land acquisition; Labour safety and welfare.</li>
 
             {/* PAPER - II */}
-
-            <p><b>PAPER-II</b></p>
+<br />
+            <p><b>PAPER-II</b></p><br />
             <p><b>THE FLOW OF FLUIDS, HYDRAULIC MACHINES, AND HYDRO POWER:</b></p>
             
             <li><b>Fluid Mechanics, Open Channel Flow, Pipe Flow:</b> Fluid properties; Dimensional Analysis and Modeling; Fluid dynamics including flow kinematics and measurements; Flow net; Viscosity, Boundary layer and control, Drag, Lift, Principles in open channel flow, Flow controls. Hydraulic jump; Surges; Pipe networks.</li>
             <li><b>Hydraulic Machines and Hydropower – Various pumps, Air vessels, Hydraulic turbines –</b> types, classifications & performance parameters; Powerhouse – classification and layout, storage, pondage, control of supply.</li>
-            
+            <br />
             <p><b>HYDROLOGY AND WATER RESOURCE ENGINEERING:</b></p>
 
             <li>Hydrological cycle, Ground water hydrology, Well hydrology and related data analysis; Streams and their gauging; River morphology; Flood, drought, and their management; Capacity of Reservoirs. Water Resources Engineering: Multipurpose uses of Water, River basins and their potential; Irrigation systems, water demand assessment; Resources – storages and their yields; Waterlogging, canal and drainage design, Gravity dams, falls, weirs, Energy dissipaters, barrage Distribution works, Cross drainage works and head-works and their design; Concepts in canal design, construction & maintenance; River training, measurement, and analysis of rainfall.</li>
-            
+            <br />
             <p><b>HYDROLOGY AND WATER RESOURCE ENGINEERING:</b></p>
 
             <li>Hydrological cycle, Ground water hydrology, Well hydrology and related data analysis; Streams and their gauging; River morphology; Flood, drought, and their management; Capacity of Reservoirs. Water Resources Engineering: Multipurpose uses of Water, River basins and their potential; Irrigation systems, water demand assessment; Resources – storages and their yields; Waterlogging, canal and drainage design, Gravity dams, falls, weirs, Energy dissipaters, barrage Distribution works, Cross drainage works and head-works and their design; Concepts in canal design, construction & maintenance; River training, measurement, and analysis of rainfall.</li>
 
               {/* ENVIRONMENTAL ENGINEERING */}
-
-            <p><b>ENIVIRONMENTAL ENGINEERING:</b></p>
+<br />
+            <p><b>ENIVIRONMENTAL ENGINEERING:</b></p><br />
             <p><b>Water Supply Engineering:</b></p>
 
             <li>Sources, Estimation, quality standards and testing of water and their treatment; Rural, Institutional and industrial water supply; Physical, chemical and biological characteristics and sources of water, Pollutants in water and its effects, Estimation of water demand; Drinking water Standards, Water Treatment Plants, Water distribution networks.</li>

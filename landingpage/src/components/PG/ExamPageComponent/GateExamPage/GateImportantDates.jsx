@@ -41,7 +41,7 @@ const GateImportantDates = () => {
                 <td>May 2023</td>
             </tr>
         </table>
-        <ul>
+        <ul className='ExamsUl_list'>
             <p><b>IMPORTANT GATE CHANGES</b></p>
             <p><b>Important GATE exam changes:</b></p>
             <li><b>One or two subject papers allowed: </b>Two Paper combinations have to be chosen from the given list of combinations of papers. The final allotment of TWO papers will still be subject to the availability of infrastructure and dates.</li>
