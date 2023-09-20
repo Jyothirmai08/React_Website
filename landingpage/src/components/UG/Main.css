@@ -69,11 +69,14 @@ tr th{
     list-style: disc;
     list-style-position: inside;
     padding-left: 10px;
+    text-align: justify;
 }
 .SExamsUl_list li{
     list-style:lower-alpha;
     list-style-position: inside;
     padding-left: 30px;
+    text-align: justify;
+
 }
 @media (max-width: 1020px) {
  .container{
