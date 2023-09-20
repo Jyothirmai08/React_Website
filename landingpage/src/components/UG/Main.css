@@ -67,6 +67,7 @@ tr th{
 
 .ExamsUl_list li{
     list-style: disc;
+    list-style-position: inside;
 }
 @media (max-width: 1020px) {
  .container{
