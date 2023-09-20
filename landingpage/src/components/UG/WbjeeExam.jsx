@@ -8,6 +8,10 @@ import tabimg1 from './Images/wbjeeimg3.png'
 import tabimg5 from './Images/wbjeeimg4.png'
 import { Link } from 'react-router-dom'
 import logo from './logo2.jpg'
+import WBJEEExamPattern from './UGExamPages/WBJEEExamPage/WBJEEExamPattern'
+import WBJEEEligibility from './UGExamPages/WBJEEExamPage/WBJEEEligibility'
+import WBJEESyllabus from './UGExamPages/WBJEEExamPage/WBJEESyllabus'
+import WBJEEImportantDates from './UGExamPages/WBJEEExamPage/WBJEEImportantDates'
 
 export const WbjeeExam = () => {
     const [selected, setSelected] = useState(null)
@@ -53,7 +57,7 @@ export const WbjeeExam = () => {
                                 <div className={selected === i2 ? 'content-show2' : 'content2'}>
                                     <div>
                                         <div className='imagessg'>{item.answer}  
-                                        <img src={item.ansIMG} alt="" />
+                                        {/* <img src={item.ansIMG} alt="" /> */}
                                         </div>
                                                    
                                     
@@ -82,27 +86,26 @@ const sixtoten = [
 // Exam Pattern ==========================
     {
         Qustion: "EXAM PATTERN",
-        answerB: "MAINS ",
-        ansIMG: [table1],
+        answer: [<WBJEEExamPattern/>],
      
        
     },
     // ELIGIBILITY ==========================================
     {
         Qustion: "ELIGIBILITY",
-        ansIMG: [tabimg],
+        answer: [<WBJEEEligibility/>],
        
     },
 // syllabus ================================
     {
         Qustion: "SYLLABUS",
-        ansIMG: [tabimg1],
+        answer: [<WBJEESyllabus/>],
         
     },
 
     {
         Qustion: "IMPORTANT DATES",
-        ansIMG: [tabimg5],
+        answer: [<WBJEEImportantDates/>],
     },
 ]
 

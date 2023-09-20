@@ -64,6 +64,20 @@ tr td{
 tr th{
     border: 1px solid;
 }
+
+.ExamsUl_list li{
+    list-style: disc;
+    list-style-position: inside;
+    padding-left: 10px;
+    text-align: justify;
+}
+.SExamsUl_list li{
+    list-style:lower-alpha;
+    list-style-position: inside;
+    padding-left: 30px;
+    text-align: justify;
+
+}
 @media (max-width: 1020px) {
  .container{
     padding: 1rem 3rem 1rem 3rem;

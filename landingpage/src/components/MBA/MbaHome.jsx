@@ -5,11 +5,22 @@ import {Link} from "react-router-dom"
 
 import Faq from '../UG/Faq'
 import Contactus from '../UG/Contactus'
-import Course from '../UG/Course'
+// import Course from '../UG/Course'
 import { About } from '../UG/About'
 import Header from '../UG/Header'
+// import { MbaAbout } from './About/MbaAbout'
+// import { Acordion } from './Acourdion/Acordion'
+
+import { MbaAbout } from './About/MbaAbout'
+
 import { MBAExploreExams } from './MBAExploreExams'
 import { MBACourses } from './MBACourses'
+
+
+
+
+// import { MBAExploreExams } from './MBAExploreExams'
+// import { MBACourses } from './MBACourses'
 
 
 export const MbaHome = () => {
@@ -53,16 +64,29 @@ export const MbaHome = () => {
     
     </Carousel>
 
+    {/* <MbaAbout/> 
+
+    <Acordion/> */}
+
+
     <About/>
     <MBAExploreExams />
 
+    {/* <Course/> */}
     <MBACourses/>
     {/* <ExploreExams/> */}
     
 
-<Contactus/>
 
-<Faq/>
+
+    {/* <MBACourses/> */}
+    {/* <ExploreExams/> */}
+    
+
+
+    <Contactus/>
+
+   <Faq/>
 
 
     </>

@@ -9,6 +9,12 @@ import tabimg5 from './Images/tseamcetimg4.png'
 import { Link } from 'react-router-dom'
 import logo from './logo2.jpg'
 
+// Ts exam pages
+import { Ts_ExamPattern } from './UGExamPages/TS_eamcet/Ts_ExamPattern'
+import { Ts_Eligibility } from './UGExamPages/TS_eamcet/Ts_Eligibility'
+import { Ts_Syllabus } from './UGExamPages/TS_eamcet/Ts_Syllabus'
+import { Ts_impDates } from './UGExamPages/TS_eamcet/Ts_impDates'
+
 export const TsEamcetExam = () => {
     const [selected, setSelected] = useState(null)
     const toggle2 = (i1) => {
@@ -53,7 +59,7 @@ export const TsEamcetExam = () => {
                                 <div className={selected === i2 ? 'content-show2' : 'content2'}>
                                     <div>
                                         <div className='imagessg'>{item.answer}  
-                                        <img src={item.ansIMG} alt="" />
+                                        {/* <img src={item.ansIMG} alt="" /> */}
                                         </div>
                                                    
                                     
@@ -80,27 +86,26 @@ const sixtoten = [
 // Exam Pattern ==========================
     {
         Qustion: "EXAM PATTERN",
-        answerB: "MAINS ",
-        ansIMG: [table1],
+        answer: [<Ts_ExamPattern/>],
      
        
     },
     // ELIGIBILITY ==========================================
     {
         Qustion: "ELIGIBILITY",
-        ansIMG: [tabimg],
+        answer: [<Ts_Eligibility/>],
        
     },
 // syllabus ================================
     {
         Qustion: "SYLLABUS",
-        ansIMG: [tabimg1],
+        answer: [<Ts_Syllabus/>],
         
     },
 
     {
         Qustion: "IMPORTANT DATES",
-        ansIMG: [tabimg5],
+        answer: [<Ts_impDates/>],
     },
 ]
 

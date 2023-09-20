@@ -9,6 +9,14 @@ import tabimg5 from './Images/bitsattableimg4.png'
 import { Link } from 'react-router-dom'
 import logo from './logo2.jpg'
 
+
+// bitsat exam pages
+import { Bitsat_ExamPattern } from './UGExamPages/bitsat/Bitsat_ExamPattern'
+import { Bitsat_eligibility } from './UGExamPages/bitsat/Bitsat_eligibility'
+import { Bistat_Syllabus } from './UGExamPages/bitsat/Bistat_Syllabus'
+import { Bitsat_ImpDates } from './UGExamPages/bitsat/Bitsat_ImpDates'
+
+
 export const BitsatExam = () => {
     const [selected, setSelected] = useState(null)
     const toggle2 = (i1) => {
@@ -53,7 +61,7 @@ export const BitsatExam = () => {
                                 <div className={selected === i2 ? 'content-show2' : 'content2'}>
                                     <div>
                                         <div className='imagessg'>{item.answer}  
-                                        <img src={item.ansIMG} alt="" />
+                                        {/* <img src={item.ansIMG} alt="" /> */}
                                         </div>
                                                    
                                     
@@ -81,27 +89,27 @@ const sixtoten = [
 // Exam Pattern ==========================
     {
         Qustion: "EXAM PATTERN",
-        answerB: "MAINS ",
-        ansIMG: [table1],
+        answer: [<Bitsat_ExamPattern/>],
+        
      
        
     },
     // ELIGIBILITY ==========================================
     {
         Qustion: "ELIGIBILITY",
-        ansIMG: [tabimg],
+        answer: [<Bitsat_eligibility/>],
        
     },
 // syllabus ================================
     {
         Qustion: "SYLLABUS",
-        ansIMG: [tabimg1],
+        answer: [<Bistat_Syllabus/>],
         
     },
 
     {
         Qustion: "IMPORTANT DATES",
-        ansIMG: [tabimg5],
+        answer: [<Bitsat_ImpDates/>],
     },
 ]
 

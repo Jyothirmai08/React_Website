@@ -13,6 +13,12 @@ import logo from './logo2.jpg'
 import { Link } from 'react-router-dom'
 
 
+// neet exam pages ---
+import { Neet_examPattern } from './UGExamPages/neet/Neet_examPattern'
+import { Neet_Eligibility } from './UGExamPages/neet/Neet_Eligibility'
+import { Neet_Syllabus } from './UGExamPages/neet/Neet_Syllabus'
+import { Neet_ImportantDates } from './UGExamPages/neet/Neet_ImportantDates'
+
 export const NeetExam = () => {
     const [selected, setSelected] = useState(null)
     const toggle2 = (i1) => {
@@ -57,10 +63,12 @@ export const NeetExam = () => {
                                 </div>
                                 <div className={selected === i2 ? 'content-show2' : 'content2'}>
                                     <div>
-                                        <div className='imagessg'>{item.answer}  <img src={item.ansIMG} alt="" /></div><br />
-                                        <div className='imagessg'><img src={item.ansIMG1} alt="" /></div><br />
+                                        <div className='imagessg'>{item.answer}  
+                                        {/* <img src={item.ansIMG} alt="" /> */}
+                                        </div><br />
+                                        {/* <div className='imagessg'><img src={item.ansIMG1} alt="" /></div><br />
                                         <div className='imagessg'><img src={item.ansIMG2} alt="" /></div><br />
-                                        <div className='imagessg'><img src={item.ansIMG3} alt="" /></div><br />
+                                        <div className='imagessg'><img src={item.ansIMG3} alt="" /></div><br /> */}
                                                    
                                     
                                     </div>
@@ -89,30 +97,28 @@ const sixtoten = [
 // Exam Pattern ==========================
     {
         Qustion: "EXAM PATTERN",
-        answerB: "MAINS ",
-        ansIMG: [table1],
+        answer: [<Neet_examPattern/>],
+        // ansIMG: [table1],
      
        
     },
     // ELIGIBILITY ==========================================
     {
         Qustion: "ELIGIBILITY",
-        ansIMG: [tabimg],
+        answer: [<Neet_Eligibility/>],
        
     },
 // syllabus ================================
     {
         Qustion: "SYLLABUS",
-        ansIMG: [tabimg1],
-        ansIMG1: [tabimg2],
-        ansIMG2: [tabimg3],
-        ansIMG3: [tabimg4],
+        answer: [<Neet_Syllabus/>],
+        
         
     },
 
     {
         Qustion: "IMPORTANT DATES",
-        ansIMG: [tabimg5],
+        answer: [<Neet_ImportantDates/>],
     },
 ]
 

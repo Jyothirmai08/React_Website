@@ -18,8 +18,8 @@ export const PGExploreData = [
         OLVClasses: 'Online Live Video Classes',
         ONLINE: '',
         cardContant: 'cardsContant',
-        explore: '/',
-        liveclasses: '/',
+        // explore: '/',
+        // liveclasses: '/',
       
         
     },
@@ -31,51 +31,51 @@ export const PGExploreData = [
         OLVClasses: 'Online Live Video Classes',
         ONLINE: '',
         cardContant: 'cardsContant',
-        explore: '/'
+        // explore: '/'
 
     },
     {
         IMGuRL:[Img3],
         Title:'ESE',
-        examPage: '/',
+        examPage: '/pgEse_exam',
         OnlineTestSeries: 'Online Test Series',
         OLVClasses: 'Online Live Video Classes',
         ONLINE: '',
         cardContant: 'cardsContant',
-        explore: '/'
+        // explore: '/'
 
     },
     {
         IMGuRL:[Img4],
         Title:'TIFR',
-        examPage: '/',
+        examPage: '/Ug_Tifr_ExamPage',
         OnlineTestSeries: 'Online Test Series',
         OLVClasses: 'Online Live Video Classes',
         ONLINE: '',
         cardContant: 'cardsContant',
-        explore: '/'
+        // explore: '/'
 
     },
     {
         IMGuRL:[Img5],
         Title:'ISRO',
-        examPage: '/',
+        examPage: '/isro_examPage',
         OnlineTestSeries: 'Online Test Series',
         OLVClasses: 'Online Live Video Classes',
         ONLINE: '',
         cardContant: 'cardsContant',
-        explore: '/'
+        // explore: '/'
 
     },
     {
         IMGuRL:[Img6],
         Title:'BARC',
-        examPage: '/',
+        examPage: '/barc_examPage',
         OnlineTestSeries: 'Online Test Series',
         OLVClasses: 'Online Live Video Classes',
         ONLINE: '',
         cardContant: 'cardsContant',
-        explore: '/'
+        // explore: '/'
 
     },
 ]

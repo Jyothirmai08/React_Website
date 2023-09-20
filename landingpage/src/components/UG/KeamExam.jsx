@@ -8,6 +8,10 @@ import tabimg1 from './Images/keamimg3.png'
 import tabimg5 from './Images/keamimg4.png'
 import { Link } from 'react-router-dom'
 import logo from './logo2.jpg'
+import KEAMExamPattern from './UGExamPages/KEAMExamPage/KEAMExamPattern'
+import KEAMEligibility from './UGExamPages/KEAMExamPage/KEAMEligibility'
+import KEAMSyllabus from './UGExamPages/KEAMExamPage/KEAMSyllabus'
+import KEAMImportantDates from './UGExamPages/KEAMExamPage/KEAMImportantDates'
 
 export const KeamExam = () => {
     const [selected, setSelected] = useState(null)
@@ -82,27 +86,26 @@ const sixtoten = [
 // Exam Pattern ==========================
     {
         Qustion: "EXAM PATTERN",
-        answerB: "MAINS ",
-        ansIMG: [table1],
+        answer: [<KEAMExamPattern/>],
      
        
     },
     // ELIGIBILITY ==========================================
     {
         Qustion: "ELIGIBILITY",
-        ansIMG: [tabimg],
+        answer: [<KEAMEligibility/>],
        
     },
 // syllabus ================================
     {
         Qustion: "SYLLABUS",
-        ansIMG: [tabimg1],
+        answer: [<KEAMSyllabus/>],
         
     },
 
     {
         Qustion: "IMPORTANT DATES",
-        ansIMG: [tabimg5],
+        answer: [<KEAMImportantDates/>],
     },
 ]
 

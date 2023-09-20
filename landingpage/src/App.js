@@ -33,6 +33,12 @@ import { NeetOtc } from './components/UG/NeetOtc';
 import { NeetOLVC } from './components/UG/NeetOLVC';
 import { BitsatOTC } from './components/UG/BitsatOTC';
 import { BitsatOLVC } from './components/UG/BitsatOLVC';
+// import { PgEseExam } from './components/PG/PgEseExam';
+// import { EseExamPateern } from './components/PG/ExamPageComponent/EseExamPage/EseExamPateern';
+import { Ese_ExamPage } from './components/PG/Ese_ExamPage';
+import { Pg_Tifr_ExamPage } from './components/PG/Pg_Tifr_ExamPage';
+import { Pg_Isro_ExamPage } from './components/PG/Pg_Isro_ExamPage';
+import { Pg_BARC_Exam_Page } from './components/PG/Pg_BARC_Exam_Page';
 
 
 
@@ -60,7 +66,12 @@ const App = () => {
    <Route path='/' element={<GateOts/>}/>
 
    <Route path='/PgHome' element={<PgHome/>}/>
+   {/* <Route path='/MbaHome' element={<MbaHome/>}/> */}
+
    <Route path='/MbaHome' element={<MbaHome/>}/>
+
+
+
    <Route path='/terms' element={<TERMsCONDITIONS/>}/>
    <Route path='/policy' element={<Privacypolicy/>}/>
    <Route path='/iitjeeExam' element={<IITJEE_EXAM/>}/>
@@ -92,7 +103,15 @@ const App = () => {
 
    <Route path='/pggateexam' element={<PGGATE_Exam/>}/>
    <Route path='/pgiitjamexam' element={<PGIITJAMExam/>}/>
+   {/* <Route path='/pgEse_exam' element={<EseExamPateern/>}/> */}
+   
+   {/* pg exam pages */}
+   <Route path='/pgEse_exam' element={<Ese_ExamPage/>}/>
+    <Route path='/Ug_Tifr_ExamPage' element={<Pg_Tifr_ExamPage/>}/>
+    <Route path='/isro_examPage' element={<Pg_Isro_ExamPage/>}/>
+    <Route path='/barc_examPage' element={<Pg_BARC_Exam_Page/>}/>
 
+    
     </Routes>
 <Footer/>
   </Router>

@@ -9,6 +9,12 @@ import tabimg5 from './Images/vittableimg4.png'
 import { Link } from 'react-router-dom'
 import logo from './logo2.jpg'
 
+// vitee expam pages
+import { Viteee_ExamPattern } from './UGExamPages/viteee/Viteee_ExamPattern'
+import { Viteee_Eligibility } from './UGExamPages/viteee/Viteee_Eligibility'
+import { Viteee_Syllabus } from './UGExamPages/viteee/Viteee_Syllabus'
+import { Viteee_impDates } from './UGExamPages/viteee/Viteee_impDates'
+
 export const ViteeeExam = () => {
     const [selected, setSelected] = useState(null)
     const toggle2 = (i1) => {
@@ -53,7 +59,7 @@ export const ViteeeExam = () => {
                                 <div className={selected === i2 ? 'content-show2' : 'content2'}>
                                     <div>
                                         <div className='imagessg'>{item.answer}  
-                                        <img src={item.ansIMG} alt="" />
+                                        {/* <img src={item.ansIMG} alt="" /> */}
                                         </div>
                                                    
                                     
@@ -81,27 +87,27 @@ const sixtoten = [
 // Exam Pattern ==========================
     {
         Qustion: "EXAM PATTERN",
-        answerB: "MAINS ",
-        ansIMG: [table1],
+        
+        answer: [<Viteee_ExamPattern/>],
      
        
     },
     // ELIGIBILITY ==========================================
     {
         Qustion: "ELIGIBILITY",
-        ansIMG: [tabimg],
+        answer: [<Viteee_Eligibility/>],
        
     },
 // syllabus ================================
     {
         Qustion: "SYLLABUS",
-        ansIMG: [tabimg1],
+        answer: [<Viteee_Syllabus/>],
         
     },
 
     {
         Qustion: "IMPORTANT DATES",
-        ansIMG: [tabimg5],
+        answer: [<Viteee_impDates/>],
     },
 ]
 

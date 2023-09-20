@@ -9,6 +9,12 @@ import tabimg2 from './Images/iitjeeimptabimg.png'
 import logo from './logo2.jpg'
 import { Link } from 'react-router-dom'
 
+// exam components
+import { Iit_jee_ExamPattren } from './UGExamPages/iitjee/Iit_jee_ExamPattren'
+import { Iitjee_Eligibility } from './UGExamPages/iitjee/Iitjee_Eligibility'
+import { Iitjee_Syllabus } from './UGExamPages/iitjee/Iitjee_Syllabus'
+import { Iitjee_Important } from './UGExamPages/iitjee/Iitjee_Important'
+
 export const IITJEE_EXAM = () => {
     const [selected, setSelected] = useState(null)
     const toggle2 = (i1) => {
@@ -82,7 +88,8 @@ const sixtoten = [
 // Exam Pattern ==========================
     {
         Qustion: "EXAM PATTERN",
-        answerB: "MAINS ",
+        // answerB: "MAINS ",
+        answer: [<Iit_jee_ExamPattren/>],
         // ansLI1: 'Mode of Exam:',
         // ansP1: 'It will be conducted via online (Computer-based) mode. However, Paper 2(Drawing test) will be held via pen-paper based mode.',
         // ansLI2:'Number of Papers:',
@@ -116,25 +123,25 @@ const sixtoten = [
         // ansLIi: 'Languages:',
         // ansPi: 'Paper will be available in both Hindi and English language.',
         // ansLIj: 'Check in the table below Paper 1 & 2 questions and marks distribution:',
-        ansIMG: [table1],
+        // ansIMG: [table1],
      
        
     },
     // ELIGIBILITY ==========================================
     {
         Qustion: "ELIGIBILITY",
-        ansIMG: [tabimg],
+        answer: [<Iitjee_Eligibility/>],
        
     },
 // syllabus ================================
     {
         Qustion: "SYLLABUS",
-        ansIMG: [tabimg1],
+        answer: [<Iitjee_Syllabus/>],
     },
 
     {
         Qustion: "IMPORTANT DATES",
-        ansIMG: [tabimg2],
+        answer: [<Iitjee_Important/>],
     },
 ]
 
