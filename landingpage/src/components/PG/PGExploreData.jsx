@@ -37,7 +37,7 @@ export const PGExploreData = [
     {
         IMGuRL:[Img3],
         Title:'ESE',
-        examPage: '/pgEse',
+        examPage: '/pgEse_exam',
         OnlineTestSeries: 'Online Test Series',
         OLVClasses: 'Online Live Video Classes',
         ONLINE: '',

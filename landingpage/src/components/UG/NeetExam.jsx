@@ -17,6 +17,7 @@ import { Link } from 'react-router-dom'
 import { Neet_examPattern } from './UGExamPages/neet/Neet_examPattern'
 import { Neet_Eligibility } from './UGExamPages/neet/Neet_Eligibility'
 import { Neet_Syllabus } from './UGExamPages/neet/Neet_Syllabus'
+import { Neet_ImportantDates } from './UGExamPages/neet/Neet_ImportantDates'
 
 export const NeetExam = () => {
     const [selected, setSelected] = useState(null)
@@ -117,7 +118,7 @@ const sixtoten = [
 
     {
         Qustion: "IMPORTANT DATES",
-        ansIMG: [tabimg5],
+        answer: [<Neet_ImportantDates/>],
     },
 ]
 

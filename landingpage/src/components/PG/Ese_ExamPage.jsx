@@ -1,7 +1,7 @@
 import React from 'react'
-import Header from './Header'
+// import Header from './Header'
 import { useState } from 'react'
-import './IITjee.css'
+// import './IITjee.css'
 import table1 from '../UG/Images/vittableimg1.png'
 import tabimg from '../UG/Images/vittableimg2.png'
 import tabimg1 from '../UG/Images/vittableimg3.png'
@@ -15,6 +15,10 @@ import logo from '../UG/logo2.jpg'
 
 //ESE Exam pages 
 import { EseExamPateern } from './ExamPageComponent/EseExamPage/EseExamPateern'
+import EseEligibility from './ExamPageComponent/EseExamPage/EseEligibility'
+import { EseSyllabus } from './ExamPageComponent/EseExamPage/EseSyllabus'
+import EseImportantDates from './ExamPageComponent/EseExamPage/EseImportantDates'
+
 
 
 
@@ -35,6 +39,7 @@ export const Ese_ExamPage = () => {
     }
   return (
     <div className='' style={{margin: '2rem'}}>
+        
        {/* import logo from './logo2.jpg' */}
     <nav>
              <div className="container nav__container">          
@@ -53,7 +58,7 @@ export const Ese_ExamPage = () => {
             <div className="wrapper-3 container">
             
             <div className='' >
-                <h1>VITEEE EXAM</h1>
+                <h1>ESE EXAM</h1>
           
             </div>
              <div className='sdfsf'>
@@ -67,7 +72,7 @@ export const Ese_ExamPage = () => {
                                 <div className={selected === i2 ? 'content-show2' : 'content2'}>
                                     <div>
                                         <div className='imagessg'>{item.answer}  
-                                        <img src={item.ansIMG} alt="" />
+                                        {/* <img src={item.ansIMG} alt="" /> */}
                                         </div>
                                                    
                                     
@@ -89,32 +94,32 @@ export const Ese_ExamPage = () => {
 const sixtoten = [
     {
         Qustion: "CONDUCTING INSTITUTE",
-        answer: "Vellore Institute of Technology University"
+        answer: "Union Public Service Commission"
     },
 // Exam Pattern ==========================
     {
         Qustion: "EXAM PATTERN",
-        answerB: [<EseExamPateern />],
-        ansIMG: [table1],
+        answer: [<EseExamPateern />],
+        // ansIMG: [table1],
      
        
     },
     // ELIGIBILITY ==========================================
     {
         Qustion: "ELIGIBILITY",
-        ansIMG: [tabimg],
+        answer: [<EseEligibility/>],
        
     },
 // syllabus ================================
     {
         Qustion: "SYLLABUS",
-        ansIMG: [tabimg1],
+        answer: [<EseSyllabus/>],
         
     },
 
     {
         Qustion: "IMPORTANT DATES",
-        ansIMG: [tabimg5],
+        answer: [<EseImportantDates/>],
     },
 ]
 

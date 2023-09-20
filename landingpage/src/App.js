@@ -33,8 +33,9 @@ import { NeetOtc } from './components/UG/NeetOtc';
 import { NeetOLVC } from './components/UG/NeetOLVC';
 import { BitsatOTC } from './components/UG/BitsatOTC';
 import { BitsatOLVC } from './components/UG/BitsatOLVC';
-import { PgEseExam } from './components/PG/PgEseExam';
-import { EseExamPateern } from './components/PG/ExamPageComponent/EseExamPage/EseExamPateern';
+// import { PgEseExam } from './components/PG/PgEseExam';
+// import { EseExamPateern } from './components/PG/ExamPageComponent/EseExamPage/EseExamPateern';
+import { Ese_ExamPage } from './components/PG/Ese_ExamPage';
 
 
 
@@ -99,8 +100,10 @@ const App = () => {
 
    <Route path='/pggateexam' element={<PGGATE_Exam/>}/>
    <Route path='/pgiitjamexam' element={<PGIITJAMExam/>}/>
-   <Route path='/pgEse' element={<EseExamPateern/>}/>
-
+   {/* <Route path='/pgEse_exam' element={<EseExamPateern/>}/> */}
+   
+   {/* pg exam pages */}
+   <Route path='/pgEse_exam' element={<Ese_ExamPage/>}/>
 
     </Routes>
 <Footer/>
