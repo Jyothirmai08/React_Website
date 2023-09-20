@@ -40,9 +40,9 @@ const GateImportantDates = () => {
                 <td>Counselling</td>
                 <td>May 2023</td>
             </tr>
-        </table>
+        </table><br />
         <ul className='ExamsUl_list'>
-            <p><b>IMPORTANT GATE CHANGES</b></p>
+            <p><b>IMPORTANT GATE CHANGES</b></p><br />
             <p><b>Important GATE exam changes:</b></p>
             <li><b>One or two subject papers allowed: </b>Two Paper combinations have to be chosen from the given list of combinations of papers. The final allotment of TWO papers will still be subject to the availability of infrastructure and dates.</li>
             <li><b>Changes in exam pattern: </b>The detailed changes in the exam pattern are mentioned below. A new pattern of questions has been added. A fully Computer Based Test (CBT) will be held for GATE.</li>
@@ -52,8 +52,7 @@ const GateImportantDates = () => {
             <li><b>Reservation Quota for EWS Candidates: </b>Previous year, the Government announced a 10% reservation quota for Economically Weaker Section (EWS or GEN-EWS) candidates who want to participate in the GATE exams.</li>
             <li><b>Thumb Impression: </b>Candidates are no more required to upload their thumb impression while submitting the GATE online application form.</li>
             <li><b>Virtual Calculator: </b>Candidates will be given the virtual calculator at the time of the GATE exam. Candidates with Scientific Calculators are not allowed to enter the exam hall.</li>
-            <li></li>
-            <li></li>
+
         </ul>
     </div>
   )
