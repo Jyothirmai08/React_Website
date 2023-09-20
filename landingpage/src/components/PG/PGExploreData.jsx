@@ -59,7 +59,7 @@ export const PGExploreData = [
     {
         IMGuRL:[Img5],
         Title:'ISRO',
-        // examPage: '/',
+        examPage: '/isro_examPage',
         OnlineTestSeries: 'Online Test Series',
         OLVClasses: 'Online Live Video Classes',
         ONLINE: '',
@@ -70,7 +70,7 @@ export const PGExploreData = [
     {
         IMGuRL:[Img6],
         Title:'BARC',
-        // examPage: '/',
+        examPage: '/barc_examPage',
         OnlineTestSeries: 'Online Test Series',
         OLVClasses: 'Online Live Video Classes',
         ONLINE: '',

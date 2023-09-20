@@ -37,6 +37,8 @@ import { BitsatOLVC } from './components/UG/BitsatOLVC';
 // import { EseExamPateern } from './components/PG/ExamPageComponent/EseExamPage/EseExamPateern';
 import { Ese_ExamPage } from './components/PG/Ese_ExamPage';
 import { Pg_Tifr_ExamPage } from './components/PG/Pg_Tifr_ExamPage';
+import { Pg_Isro_ExamPage } from './components/PG/Pg_Isro_ExamPage';
+import { Pg_BARC_Exam_Page } from './components/PG/Pg_BARC_Exam_Page';
 
 
 
@@ -106,7 +108,10 @@ const App = () => {
    {/* pg exam pages */}
    <Route path='/pgEse_exam' element={<Ese_ExamPage/>}/>
     <Route path='/Ug_Tifr_ExamPage' element={<Pg_Tifr_ExamPage/>}/>
+    <Route path='/isro_examPage' element={<Pg_Isro_ExamPage/>}/>
+    <Route path='/barc_examPage' element={<Pg_BARC_Exam_Page/>}/>
 
+    
     </Routes>
 <Footer/>
   </Router>
