@@ -1,13 +1,14 @@
 import React from 'react'
 
-const EseSyllabus = () => {
+export const EseExamPateern = () => {
   return (
     <div>
         <ul>
-            <li> Engineering Services Examination 2023 for Civil Engineering (CE), Electrical Engineering (EE), Mechanical Engineering (ME) & Electronics and Telecommunication (ET) Engineering shall comprise of three parts.</li><br />         <li><h2> Preliminary/Stage-I Examination (Objective Type Papers) :</h2></li><br />
+            <li>Engineering Services Examination 2023 for Civil Engineering (CE), Electrical Engineering (EE), Mechanical Engineering (ME) & Electronics and Telecommunication (ET) Engineering shall comprise of three parts.</li><br />
+            <li><b>Preliminary/Stage-I Examination (Objective Type Papers) :</b></li><br />
             <table>
                 <tr>
-                    <th>SAGE-I</th>
+                    <th>STAGE-I</th>
                     <th>PAPER TYPE</th>
                     <th>DURATION</th>
                     <th>MARKS</th>
@@ -19,19 +20,19 @@ const EseSyllabus = () => {
                     <td>200</td>
                 </tr>
                 <tr>
-                    <td>PAPER-II</td>
-                    <td>ENGINEERING DISCIPLINE (CE/ ME/ EE/ E&T)</td>
-                    <td>03 HOURS</td>
-                    <td>300</td>
+                    <th>PAPER-II</th>
+                    <th>ENGINEERING DISCIPLINE (CE/ ME/ EE/ E&T)</th>
+                    <th>03 HOURS</th>
+                    <th>300</th>
                 </tr>
                 <tr>
-                    <td>TOTAL MARKS</td>
-                    <td></td>
-                    <td></td>
-                    <td>500</td>
+                    <th>TOTAL MARKS</th>
+                    <th></th>
+                    <th></th>
+                    <th>500</th>
                 </tr>
             </table><br />
-            <li><h2> Mains/Stage-II Examination (Subjective Type Papers) :</h2></li><br />
+            <li><b>Mains/Stage-II Examination (Subjective Type Papers) :</b></li><br />
             <table>
                 <tr>
                     <th>STAGE-II</th>
@@ -64,7 +65,7 @@ const EseSyllabus = () => {
                     <td>1100</td>
                 </tr>
             </table><br />
-            <li><h2>Stage-III Examination: Personality Test</h2></li><br />
+            <li><b> Stage-III Examination: Personality Test</b></li><br />
             <table>
                 <tr>
                     <th>STAGE-III</th>
@@ -75,7 +76,7 @@ const EseSyllabus = () => {
                     <td>200</td>
                 </tr>
                 <tr>
-                    <td>STAGE-I+ STAGE-II+STAGE III</td>
+                    <td><b>STAGE-I+ STAGE-II+STAGE III</b></td>
                     <td>1300</td>
                 </tr>
             </table>
@@ -84,4 +85,3 @@ const EseSyllabus = () => {
   )
 }
 
-export default EseSyllabus

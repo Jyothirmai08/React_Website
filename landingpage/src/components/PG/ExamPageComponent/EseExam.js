@@ -1,6 +1,5 @@
 import React from 'react'
 // import EseSyllabus from './EseSyllabus'
-import EseSyllabus from './EseSyllabus'
 
 
 export const EseExam = [
@@ -20,7 +19,7 @@ export const EseExam = [
     },
     {
         Title: "SYLLABUS",
-        Component:[<EseSyllabus/>]
+        Component:'agsdfas'
 
     },
     {
