@@ -3,7 +3,7 @@ import React from 'react'
 export const Iitjee_Eligibility = () => {
   return (
     <div>
-      <ul>
+      <ul className='ExamsUl_list'>
 
 {/* GENERAL ELIGIBILITY:----- */}
         <b>MAINS:</b><br />

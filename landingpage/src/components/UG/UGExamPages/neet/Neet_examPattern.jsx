@@ -42,7 +42,7 @@ export const Neet_examPattern = () => {
                 <tr>
                     <td>NEET marking scheme 2023</td>
                     <td>
-                        <ul>
+                        <ul className='ExamsUl_list'>
                             <li>4 marks will be awarded for each correct answer</li>
                             <li>One mark will be deducted for each wrong attempt</li>
                             <li>No marks for unanswered question</li>

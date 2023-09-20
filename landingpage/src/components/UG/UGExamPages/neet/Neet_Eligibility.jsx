@@ -3,7 +3,7 @@ import React from 'react'
 export const Neet_Eligibility = () => {
   return (
     <div>
-        <ul>
+        <ul className='ExamsUl_list'>
             <b>NATIONALITY:</b>
             <li>Indian citizen can apply. OCI/NRI candidates may also eligible to apply.</li>
             <li>andidates belonging to J&K/AP/Telangana states are eligible to apply for All India 15% quota seats on the basis of self-declaration.</li>

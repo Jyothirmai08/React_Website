@@ -5,7 +5,7 @@ export const Iit_jee_ExamPattren = () => {
     <div>
 
       <div className='jee-EXAM_PATTERN'>
-          <ul>
+          <ul className='ExamsUl_list'>
             <li><b>MAINS:</b></li>
             <li>Candidates must go through following details regarding JEE Main 2023 Exam Pattern:</li>
             <li><b>Mode of Exam:</b>It will be conducted via online (Computer-based) mode. However, Paper 2(Drawing test) will be held via pen-paper based mode.</li>

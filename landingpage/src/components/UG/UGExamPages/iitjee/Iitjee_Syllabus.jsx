@@ -3,7 +3,7 @@ import React from 'react'
 export const Iitjee_Syllabus = () => {
   return (
     <div>
-        <ul>
+        <ul className='ExamsUl_list'>
             <b>MAINS:</b>
             <li>JEE Main syllabus will includes topics from class 11th & 12th level. Candidates are advised to go through class NCERT syllabus while preparing. The proper & complete syllabus of JEE Main 2023 can be checked online on the NTA website. We will also update the syllabus when published officially.</li>
             <li>For JEE Main (Paper I), questions will be asked from Physics, Chemistry & Mathematics topics. For Paper II A, questions will be from topics as Mathematics, Drawing & Aptitude. For Paper II B, questions will be from Aptitude Test, Mathematics & Planning Based section.</li>
