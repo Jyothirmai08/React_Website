@@ -9,6 +9,12 @@ import tabimg5 from './Images/mhcetimg4.png'
 import { Link } from 'react-router-dom'
 import logo from './logo2.jpg'
 
+// MHCET exam pages
+import { Mhcet_examPattern } from './UGExamPages/mhcet/Mhcet_examPattern'
+import { Mhcet_Eligibility } from './UGExamPages/mhcet/Mhcet_Eligibility'
+import { Mhcet_Syllabus } from './UGExamPages/mhcet/Mhcet_Syllabus'
+import { Mhcet_impDates } from './UGExamPages/mhcet/Mhcet_impDates'
+
 export const MhcetExam = () => {
     const [selected, setSelected] = useState(null)
     const toggle2 = (i1) => {
@@ -53,7 +59,7 @@ export const MhcetExam = () => {
                                 <div className={selected === i2 ? 'content-show2' : 'content2'}>
                                     <div>
                                         <div className='imagessg'>{item.answer}  
-                                        <img src={item.ansIMG} alt="" />
+                                        {/* <img src={item.ansIMG} alt="" /> */}
                                         </div>
                                                    
                                     
@@ -81,27 +87,26 @@ const sixtoten = [
 // Exam Pattern ==========================
     {
         Qustion: "EXAM PATTERN",
-        answerB: "MAINS ",
-        ansIMG: [table1],
+        answer: [<Mhcet_examPattern/>],
      
        
     },
     // ELIGIBILITY ==========================================
     {
         Qustion: "ELIGIBILITY",
-        ansIMG: [tabimg],
+        answer: [<Mhcet_Eligibility/>],
        
     },
 // syllabus ================================
     {
         Qustion: "SYLLABUS",
-        ansIMG: [tabimg1],
+        answer: [<Mhcet_Syllabus/>],
         
     },
 
     {
         Qustion: "IMPORTANT DATES",
-        ansIMG: [tabimg5],
+        answer: [<Mhcet_impDates/>],
     },
 ]
 

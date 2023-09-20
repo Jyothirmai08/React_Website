@@ -9,6 +9,11 @@ import tabimg5 from './Images/kcetimg4.png'
 import { Link } from 'react-router-dom'
 import logo from './logo2.jpg'
 
+// Kecet exam 
+import { Kcet_ExamPattern } from './UGExamPages/kcet/Kcet_ExamPattern'
+import { Kcet_Eligibility } from './UGExamPages/kcet/Kcet_Eligibility'
+import { Kcet_impDates } from './UGExamPages/kcet/Kcet_impDates'
+
 export const KcetExam = () => {
     const [selected, setSelected] = useState(null)
     const toggle2 = (i1) => {
@@ -53,7 +58,7 @@ export const KcetExam = () => {
                                 <div className={selected === i2 ? 'content-show2' : 'content2'}>
                                     <div>
                                         <div className='imagessg'>{item.answer}  
-                                        <img src={item.ansIMG} alt="" />
+                                        {/* <img src={item.ansIMG} alt="" /> */}
                                         </div>
                                                    
                                     
@@ -81,27 +86,26 @@ const sixtoten = [
 // Exam Pattern ==========================
     {
         Qustion: "EXAM PATTERN",
-        answerB: "MAINS ",
-        ansIMG: [table1],
+        answer: [<Kcet_ExamPattern/>],
      
        
     },
     // ELIGIBILITY ==========================================
     {
         Qustion: "ELIGIBILITY",
-        ansIMG: [tabimg],
+        answer: [<Kcet_Eligibility/>],
        
     },
 // syllabus ================================
     {
         Qustion: "SYLLABUS",
-        ansIMG: [tabimg1],
+        answer: " • The syllabus of the examination is based on PUC 1st and 2nd described via the Department of Pre-University Education of Karnataka State. If you are applying for Pharmacy then it consisted of three different subjects as Physics, Biology, and Chemistry. If applying for Engineering, then the candidate needs to prepare for subjects such as Chemistry, Maths, and Physics.",
         
     },
 
     {
         Qustion: "IMPORTANT DATES",
-        ansIMG: [tabimg5],
+        answer: [<Kcet_impDates/>],
     },
 ]
 

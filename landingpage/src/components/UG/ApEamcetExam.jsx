@@ -9,6 +9,13 @@ import tabimg5 from './Images/apeapcetimg4.png'
 import { Link } from 'react-router-dom'
 import logo from './logo2.jpg'
 
+// ap exapm pages
+import { Ap_examPattern } from './UGExamPages/ap_eapcet/Ap_examPattern'
+import { Ap_Eligibility } from './UGExamPages/ap_eapcet/Ap_Eligibility'
+import { Ap_Syllabus } from './UGExamPages/ap_eapcet/Ap_Syllabus'
+import { Ap_impDates } from './UGExamPages/ap_eapcet/Ap_impDates'
+
+
 export const ApEamcetExam = () => {
     const [selected, setSelected] = useState(null)
     const toggle2 = (i1) => {
@@ -53,7 +60,7 @@ export const ApEamcetExam = () => {
                                 <div className={selected === i2 ? 'content-show2' : 'content2'}>
                                     <div>
                                         <div className='imagessg'>{item.answer}  
-                                        <img src={item.ansIMG} alt="" />
+                                        {/* <img src={item.ansIMG} alt="" /> */}
                                         </div>
                                                    
                                     
@@ -80,27 +87,26 @@ const sixtoten = [
 // Exam Pattern ==========================
     {
         Qustion: "EXAM PATTERN",
-        answerB: "MAINS ",
-        ansIMG: [table1],
+        answer: [<Ap_examPattern/>],
      
        
     },
     // ELIGIBILITY ==========================================
     {
         Qustion: "ELIGIBILITY",
-        ansIMG: [tabimg],
+        answer: [<Ap_Eligibility/>],
        
     },
 // syllabus ================================
     {
         Qustion: "SYLLABUS",
-        ansIMG: [tabimg1],
+        answer: [<Ap_Syllabus/>],
         
     },
 
     {
         Qustion: "IMPORTANT DATES",
-        ansIMG: [tabimg5],
+        answer: [<Ap_impDates/>],
     },
 ]
 
