@@ -6,6 +6,10 @@ import table1 from '../PG/Images/iitjamtableimg1.png'
 import tabimg from '../PG/Images/iitjamtableimg2.png'
 import tabimg3 from '../PG/Images/iitjamtableimg3.png'
 
+// IITJAM exam pagesi
+import IITJAMExamPattern from './ExamPageComponent/IITJAMExamPage/IITJAMExamPattern'
+
+
 import './PGIITJAMExam.css'
 
 export const PGIITJAMExam = () => {
@@ -44,160 +48,13 @@ export const PGIITJAMExam = () => {
                                             <ul className={item.clName}>
                                                 <div className='exSpace'>
                                                 <li><b>{item.answer}</b></li><br />
-                                                <li> <b>{item.bold1}</b>{item.answer1}</li>
-                                                <li><b>{item.bold2}</b>{item.answer2}</li>
-                                                <li><b>{item.bold3}</b>{item.answer3}</li>
-                                                <li><b>{item.bold4}</b>{item.answer4}</li>
-                                                <li><b>{item.bold5}</b>{item.answer5}</li>
-                                                <li><b>{item.bold6}</b>{item.answer6}</li>
-                                                <li><b>{item.bold7}</b>{item.answer7}</li>
-                                                <li><b>{item.bold8}</b>{item.answer8}</li>
-                                                <li><b>{item.bold9}</b>{item.answer9}</li><br />
-                                                </div>
-                                                <div className='exSpace'>
-                                                <li><b>{item.bold10}</b></li><br />
-                                                <li><b>{item.bold11}</b>{item.answer11}</li>
-                                                <li><b>{item.bold12}</b>{item.answer12}</li>
-                                                <li><b>{item.bold13}</b>{item.answer13}</li>
-                                                <li><b>{item.bold14}</b>{item.answer14}</li>
-                                                <li><b>{item.bold15}</b>{item.answer15}</li>
-                                                <li><b>{item.bold16}</b>{item.answer16}</li>
-                                                <li><b>{item.bold17}</b>{item.answer17}</li>
-                                                <li><b>{item.bold18}</b>{item.answer18}</li>
-                                                <li><b>{item.bold19}</b>{item.answer19}</li><br />
-                                                </div>
-                                                <div className='exSpace'>
-                                                <li><b>{item.bold20}</b></li><br />
-                                                <li>{item.answer20}</li><br />
-                                                <li><b>{item.bold21}</b></li><br />
-                                                <li><b>{item.bold22}</b>{item.answer22}</li>
-                                                <li><b>{item.bold23}</b>{item.answer23}</li>
-                                                <li><b>{item.bold24}</b>{item.answer24}</li>
-                                                <li><b>{item.bold25}</b>{item.answer25}</li><br />
-                                                </div>
-                                                <div  className='exSpace'>
-                                                <li><b>{item.bold26}</b></li><br />
-                                                <li><b>{item.bold27}</b>{item.answer27}</li>
-                                                <li><b>{item.bold28}</b>{item.answer28}</li>
-                                                <li><b>{item.bold29}</b>{item.answer29}</li>
-                                                <li><b>{item.bold30}</b>{item.answer30}</li>
-                                                <li><b>{item.bold31}</b>{item.answer31}</li>
-                                                <li><b>{item.bold32}</b>{item.answer32}</li>
-                                                <li><b>{item.bold33}</b>{item.answer33}</li><br />
-                                                </div>
-                                               <div className='exSpace'>
-                                               <li><b>{item.bold34}</b></li><br />
-                                                <li><b>{item.bold35}</b>{item.answer35}</li>
-                                                <li><b>{item.bold36}</b>{item.answer36}</li>
-                                                <li><b>{item.bold37}</b>{item.answer37}</li>
-                                                <li><b>{item.bold38}</b>{item.answer38}</li>
-                                                <li><b>{item.bold39}</b>{item.answer39}</li>
-                                                <li><b>{item.bold40}</b>{item.answer40}</li>
-                                                <li><b>{item.bold41}</b>{item.answer41}</li><br />
-                                               </div>
-                                                <div className='exSpace'>
-                                                <li><b>{item.bold42}</b></li><br />
-                                                <li><b>{item.bold43}</b>{item.answer43}</li>
-                                                <li><b>{item.bold44}</b>{item.answer44}</li>
-                                                <li><b>{item.bold45}</b>{item.answer45}</li>
-                                                <li><b>{item.bold46}</b>{item.answer46}</li>
-                                                <li><b>{item.bold47}</b>{item.answer47}</li>
-                                                <li><b>{item.bold48}</b>{item.answer48}</li>
-                                                <li><b>{item.bold49}</b>{item.answer49}</li>
-                                                <li><b>{item.bold50}</b>{item.answer50}</li>
-                                                <li><b>{item.bold51}</b>{item.answer51}</li>
-                                                <li><b>{item.bold52}</b>{item.answer52}</li><br />
-                                                </div>
-                                               <div className='exSpace'>
-                                               <li><b>{item.bold53}</b></li><br />
-                                                <li><b>{item.bold54}</b>{item.answer54}</li>
-                                                <li><b>{item.bold55}</b>{item.answer55}</li>
-                                                <li><b>{item.bold56}</b>{item.answer56}</li>
-                                                <li><b>{item.bold57}</b>{item.answer57}</li>
-                                                <li><b>{item.bold58}</b>{item.answer58}</li><br />
-                                               </div>
-                                                <div className='exSpace'>
-                                                <li><b>{item.bold59}</b></li><br />
-                                                <li><b>{item.bold60}</b>{item.answer60}</li>
-                                                <li><b>{item.bold61}</b>{item.answer61}</li>
-                                                <li><b>{item.bold62}</b>{item.answer62}</li>
-                                                <li><b>{item.bold63}</b>{item.answer63}</li>
-                                                <li><b>{item.bold64}</b>{item.answer64}</li>
-                                                <li><b>{item.bold65}</b>{item.answer65}</li>
-                                                <li><b>{item.bold66}</b>{item.answer66}</li><br />
-                                                </div>
-                                                <div className='exSpace'>
-                                                <li><b>{item.bold67}</b></li><br />
-                                                <li>{item.answer67}</li>
-                                                <li>{item.answer68}</li>
-                                                <li>{item.answer69}</li>
-                                                <li>{item.answer70}</li>
-                                                <li>{item.answer71}</li>
-                                                <li>{item.answer72}</li>
-                                                <li>{item.answer73}</li><br />
-                                                </div>
-                                               <div className='exSpace'>
-                                               <li><b>{item.bold68}</b></li><br />
-                                                <li>{item.answer74}</li>
-                                                <li>{item.answer75}</li>
-                                                <li>{item.answer76}</li>
-                                                <li>{item.answer77}</li>
-                                                <li>{item.answer78}</li>
-                                                <li>{item.answer79}</li>
-                                                <li>{item.answer80}</li>
-                                                <li>{item.answer81}</li>
-                                                <li>{item.answer82}</li>
-                                                <li>{item.answer83}</li>
-                                                <li>{item.answer84}</li>
-                                                <li>{item.answer85}</li>
-                                                <li>{item.answer86}</li>
-                                                <li>{item.answer87}</li><br />
-                                               </div>
-                                               <div className='exSpace'>
-                                               <li><b>{item.bold69}</b></li><br />
-                                                <li>{item.answer88}</li>
-                                                <li>{item.answer89}</li>
-                                                <li>{item.answer90}</li>
-                                                <li>{item.answer91}</li>
-                                                <li>{item.answer92}</li><br />
-                                               </div>
-                                                <div className='exSpace'>
-                                                <li><b>{item.bold70}</b></li>
-                                                <li>{item.answer93}</li>
-                                                <li>{item.answer94}</li>
-                                                <li>{item.answer95}</li>
-                                                <li>{item.answer96}</li>
-                                                <li>{item.answer97}</li>
-                                                <li>{item.answer98}</li>
-                                                <li>{item.answer99}</li>
-                                                <li>{item.answer100}</li>
-                                                <li>{item.answer101}</li><br />
-                                                </div>
-                                               <div className='exSpace'>
-                                               <li><b>{item.bold71}</b></li><br />
-                                                <li>{item.answer102}</li>
-                                                <li>{item.answer103}</li>
-                                                <li>{item.answer104}</li>
-                                                <li>{item.answer105}</li>
-                                                <li>{item.answer106}</li>
-                                                <li>{item.answer107}</li>
-                                                <li>{item.answer108}</li><br />
-                                               </div>
-                                                <div className='exSpace'>
-                                                <li><b>{item.bold72}</b></li><br />
-                                                <li>{item.answer109}</li>
-                                                <li>{item.answer110}</li>
-                                                <li>{item.answer111}</li>
-                                                <li>{item.answer112}</li>
-                                                <li>{item.answer113}</li>
-                                                <li>{item.answer114}</li>
-                                                <li>{item.answer115}</li>
+                                               
                                                 </div>
                                             </ul>
                                             </div>
-                                            <div className='imgSection'>
+                                            {/* <div className='imgSection'>
                                             <img src={item.ansIMG} alt="" />
-                                            </div>
+                                            </div> */}
                                         
                                         </div>
                                                                         
@@ -223,16 +80,13 @@ const sixtoten = [
     {
         Qustion: "CONDUCTING INSTITUTE",
         answer: "IIT GUWAHATI",
-        clName:'GUWAHATI',
-        class: 'imagessg1'
-
+        
     },
 // Exam Pattern ==========================
     {
         Qustion: "EXAM PATTERN",
-        answerB: "MAINS ",
-        clName:'EXAMPATTERN',
-        class: 'imagessg2',
+        answer: [<IITJAMExamPattern/>],
+        
 
 
         // ansLI1: 'Mode of Exam:',
