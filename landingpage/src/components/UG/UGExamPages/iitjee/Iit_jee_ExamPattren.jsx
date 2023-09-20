@@ -6,7 +6,7 @@ export const Iit_jee_ExamPattren = () => {
 
       <div className='jee-EXAM_PATTERN'>
           <ul className='ExamsUl_list'>
-            <li><b>MAINS:</b></li>
+            <p><b>MAINS:</b></p>
             <li>Candidates must go through following details regarding JEE Main 2023 Exam Pattern:</li>
             <li><b>Mode of Exam:</b>It will be conducted via online (Computer-based) mode. However, Paper 2(Drawing test) will be held via pen-paper based mode.</li>
             <li><b> Number of Papers:</b>There will be two papers in JEE Main - Paper I for B.E/ B.Tech & Paper 2 for B.Arch/ B.Plan.</li>
@@ -18,7 +18,7 @@ export const Iit_jee_ExamPattren = () => {
             <li><b>Marking Scheme:</b>For each correct answer, 4 marks will be given. 1 mark will be deducted for every incorrect answer.</li>
             <br />
 {/* its for •ADVANCED: */}
-            <li><b>ADVANCED:</b></li>
+            <p><b>ADVANCED:</b></p>
             <li>The exam pattern of JEE Advanced 2023 includes details such as exam mode, marking scheme, the total number of questions, type of questions, etc. Check complete details:</li>
             <li><b> Mode of Exam:</b>JEE Advanced will be held in Online (Computer-based test) mode.</li>
             <li><b> Number of Papers:</b>There will be 2 Papers 1 & 2 (Both Mandatory).</li>
@@ -69,7 +69,7 @@ export const Iit_jee_ExamPattren = () => {
                       </table>
 
                       <br/>
-                      • <b>Paper II:</b><br/>
+                      <b>Paper II:</b><br/>
                   
                       <table>
                         <tr>
@@ -107,7 +107,7 @@ export const Iit_jee_ExamPattren = () => {
                       </table>
 
 <br />
-                      •  <b> For AAT:</b>                 
+                      <b> For AAT:</b>                 
                       <table >
                         <tr>
                           <th>Subjects</th>

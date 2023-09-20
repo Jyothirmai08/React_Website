@@ -56,7 +56,7 @@ export const Iitjee_Important = () => {
               
                       <br/>
               
-                     <b>•  ADVANCED:</b>
+                     <b>  ADVANCED:</b>
                         <br/>
                         <table>
                           <tr>
