@@ -1,10 +1,11 @@
 import React from 'react'
-import Header from '../UG/Header'
+
 import { useState } from 'react'
 import './GATECSS.css'
 import table1 from '../PG/Images/iitjamtableimg1.png'
 import tabimg from '../PG/Images/iitjamtableimg2.png'
 import tabimg3 from '../PG/Images/iitjamtableimg3.png'
+import logo from '../../logo2.jpeg' 
 
 import './PGIITJAMExam.css'
 
@@ -13,6 +14,7 @@ import IITJAMExamPattern from './ExamPageComponent/IITJAMExamPage/IITJAMExamPatt
 import IITJAMEligibility from './ExamPageComponent/IITJAMExamPage/IITJAMEligibility'
 import IITJAMSyllabus from './ExamPageComponent/IITJAMExamPage/IITJAMSyllabus'
 import IITJAMImportantDates from './ExamPageComponent/IITJAMExamPage/IITJAMImportantDates'
+import { Link } from 'react-router-dom'
 
 export const PGIITJAMExam = () => {
     const [selected, setSelected] = useState(null)
@@ -26,7 +28,20 @@ export const PGIITJAMExam = () => {
     }
   return (
     <div className='' style={{margin: '2rem'}}>
-        <Header/>
+       {/*import logo from '../../logo2.jpeg' */}
+       <nav>
+             <div className="container nav__container">          
+                <div className="pic">
+                    <a href="/"><img src={logo} alt=""/></a>
+                </div>    
+                <ul className="nav__menu">
+                    <li><Link to='/PgHome'>Home</Link>   </li>
+                    <li><a href="https://online-ug.egradtutor.in/" target='_blank' className="login1" >Login/User Registration </a></li>
+                </ul>           
+                 <button id="open-menu-btn"><i className="uil uil-bars"></i></button>
+                 <button id="close-menu-btn"><i className="uil uil-multiply"></i></button>
+             </div>   
+           </nav> 
         <div className='FAQCONTENT' id='faq'>
             <div className="wrapper-3 container">
             

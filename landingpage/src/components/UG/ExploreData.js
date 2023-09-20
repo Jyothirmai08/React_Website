@@ -66,7 +66,7 @@ export const ExploreData = [
         OLVClasses: 'Online Live Video Classes',
         ONLINE: '',
         cardContant: 'cardsContant',
-        explore: 'viteee'
+        // explore: 'viteee'
 
     },
     {
@@ -77,7 +77,7 @@ export const ExploreData = [
         OLVClasses: 'Online Live Video Classes',
         ONLINE: '',
         cardContant: 'cardsContant',
-        explore: 'apeapcet'
+        // explore: 'apeapcet'
 
     },
     {
@@ -88,7 +88,7 @@ export const ExploreData = [
         OLVClasses: 'Online Live Video Classes',
         ONLINE: '',
         cardContant: 'cardsContant',
-        explore: 'tseamcet'
+        // explore: 'tseamcet'
 
     },
     {
@@ -99,7 +99,7 @@ export const ExploreData = [
         OLVClasses: 'Online Live Video Classes',
         ONLINE: '',
         cardContant: 'cardsContant',
-        explore: 'mhcet'
+        // explore: 'mhcet'
 
     },
     {
@@ -110,7 +110,7 @@ export const ExploreData = [
         OLVClasses: 'Online Live Video Classes',
         ONLINE: '',
         cardContant: 'cardsContant',
-        explore: 'kect'
+        // explore: 'kect'
 
     },
     {
@@ -121,7 +121,7 @@ export const ExploreData = [
         OLVClasses: 'Online Live Video Classes',
         ONLINE: '',
         cardContant: 'cardsContant',
-        explore: 'wbjee'
+        // explore: 'wbjee'
 
     },
     {
@@ -132,7 +132,7 @@ export const ExploreData = [
         OLVClasses: 'Online Live Video Classes',
         ONLINE: '',
         cardContant: 'cardsContant',
-        explore: 'keralacee'
+        // explore: 'keralacee'
 
     },
     {
@@ -143,7 +143,7 @@ export const ExploreData = [
         OLVClasses: 'Online Live Video Classes',
         ONLINE: '',
         cardContant: 'cardsContant',
-        explore: 'srmjee'
+        // explore: 'srmjee'
 
     },
 ]

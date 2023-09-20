@@ -16,7 +16,7 @@ const IITJAMExamPattern = () => {
             <li><b>Exam Medium – </b>The question papers at all exam centres will be in English only.</li>
             <li><b>Marking Scheme – </b>1 or 2 mark questions</li>
             <li><b>Negative Marking – </b>For each wrong answer of 1 mark questions, 1/3 mark will be deducted and similarly for each wrong answer of 2 marks questions, 2/3 mark will be deducted</li>
-<br />
+             <br />
             <p><b>IIT JAM Section B Exam Pattern</b></p><br />
             <li><b>Number of Questions – </b>10 questions only.</li>
             <li><b>Nature of Questions – </b>Multiple Select Questions (MCQs). Each MSQ type question is similar to MCQ but with a difference that there may be one or more than one choice(s) that are correct out of the four given choices.</li>
@@ -32,6 +32,7 @@ const IITJAMExamPattern = () => {
             <li><b>Exam Medium – </b>The question papers at all exam centres will be in English only.</li>
             <li><b>Marking Scheme – </b>For correct answers candidates will get 2 marks.</li>
             <li><b>Negative Marking – </b>There are no negative and no partial marking provisions.</li>
+            
         </ul>
     </div>
   )
