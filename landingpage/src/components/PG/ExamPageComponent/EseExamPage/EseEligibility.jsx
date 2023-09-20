@@ -3,7 +3,7 @@ import React from 'react'
 const EseEligibility = () => {
   return (
     <div>
-        <ul>
+        <ul className='ExamsUl_list'>
             <li><b>Nationality:</b></li>
             <li>In order to satisfy the IES eligibility, the candidate must fall into any one of the following categories.</li>
             <ul>
