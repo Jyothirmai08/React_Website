@@ -47,7 +47,7 @@ export const IITJEE_EXAM = () => {
             <div className="wrapper-3 container">
             
             <div className='' >
-                <h1>IITJEE - MAINS & ADVANCED</h1>
+                <h1>IITJEE - MAINS & ADVANCED EXAM</h1>
           
             </div>
              <div className='sdfsf'>

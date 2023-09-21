@@ -50,6 +50,7 @@ footer.footer {
     flex-direction: column;
     gap: 0.8rem;
     color: rgb(253, 251, 249);
+    text-align: center;
 
 
 }

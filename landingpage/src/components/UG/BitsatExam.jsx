@@ -47,7 +47,7 @@ export const BitsatExam = () => {
             <div className="wrapper-3 container">
             
             <div className='' >
-                <h1>BITSAT</h1>
+                <h1>BITSAT EXAM</h1>
           
             </div>
              <div className='sdfsf'>

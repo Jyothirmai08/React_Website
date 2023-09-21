@@ -2,7 +2,7 @@ import React from 'react'
 
 export const FooterData =[
     {
-        fotterTitles: 'eGRADTutor.in',
+        fotterTitles: 'eGRADTutor',
         text: 'eGRADTutor (a brand of eGATETutor Academy) started with a team of graduates from IIT/IISc.We are experts in training students for UG, PG And MBA and CA entrance examinations.',
         footerCLass: 'footerContant1',
         // footerCLass: 'footerTitleColor',
