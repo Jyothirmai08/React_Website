@@ -8,6 +8,10 @@ import tabimg1 from './Images/srmjeeimg3.png'
 import tabimg5 from './Images/srmjeeimg4.png'
 import { Link } from 'react-router-dom'
 import logo from './logo2.jpg'
+import SRMJEEExamPattern from './UGExamPages/SRMJEEExamPage/SRMJEEExamPattern'
+import SRMJEEEligibility from './UGExamPages/SRMJEEExamPage/SRMJEEEligibility'
+import SRMJEESyllabus from './UGExamPages/SRMJEEExamPage/SRMJEESyllabus'
+import SRMJEEImportantsDates from './UGExamPages/SRMJEEExamPage/SRMJEEImportantsDates'
 
 export const SrmJeeExam = () => {
     const [selected, setSelected] = useState(null)
@@ -53,7 +57,7 @@ export const SrmJeeExam = () => {
                                 <div className={selected === i2 ? 'content-show2' : 'content2'}>
                                     <div>
                                         <div className='imagessg'>{item.answer}  
-                                        <img src={item.ansIMG} alt="" />
+                                        {/* <img src={item.ansIMG} alt="" /> */}
                                         </div>
                                                    
                                     
@@ -82,27 +86,26 @@ const sixtoten = [
 // Exam Pattern ==========================
     {
         Qustion: "EXAM PATTERN",
-        answerB: "MAINS ",
-        ansIMG: [table1],
+        answer: [<SRMJEEExamPattern/>],
      
        
     },
     // ELIGIBILITY ==========================================
     {
         Qustion: "ELIGIBILITY",
-        ansIMG: [tabimg],
+        ansIMG: [<SRMJEEEligibility/>],
        
     },
 // syllabus ================================
     {
         Qustion: "SYLLABUS",
-        ansIMG: [tabimg1],
+        ansIMG: [<SRMJEESyllabus/>],
         
     },
 
     {
         Qustion: "IMPORTANT DATES",
-        ansIMG: [tabimg5],
+        ansIMG: [<SRMJEEImportantsDates/>],
     },
 ]
 
