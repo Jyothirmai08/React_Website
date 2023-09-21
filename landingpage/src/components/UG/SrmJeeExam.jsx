@@ -93,19 +93,19 @@ const sixtoten = [
     // ELIGIBILITY ==========================================
     {
         Qustion: "ELIGIBILITY",
-        ansIMG: [<SRMJEEEligibility/>],
+        answer: [<SRMJEEEligibility/>],
        
     },
 // syllabus ================================
     {
         Qustion: "SYLLABUS",
-        ansIMG: [<SRMJEESyllabus/>],
+        answer: [<SRMJEESyllabus/>],
         
     },
 
     {
         Qustion: "IMPORTANT DATES",
-        ansIMG: [<SRMJEEImportantsDates/>],
+        answer: [<SRMJEEImportantsDates/>],
     },
 ]
 
