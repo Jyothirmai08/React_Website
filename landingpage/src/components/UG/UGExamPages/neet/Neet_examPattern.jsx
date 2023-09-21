@@ -1,9 +1,10 @@
 import React from 'react'
+import '../../Exams.css'
 
 export const Neet_examPattern = () => {
   return (
     <div>
-        <table>
+        <table className='examtbl'>
             <thead>
                 <tr>
                     <th>Mode of examination</th>

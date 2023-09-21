@@ -1,9 +1,10 @@
 import React from 'react'
+import '../../Exams.css'
 
 export const Kcet_impDates = () => {
   return (
     <div>
-         <table>
+         <table className='examtbl'>
         <tr>
           <th>Events  </th>
           <th>Dates  </th>

@@ -1,10 +1,11 @@
 import React from 'react'
+import '../../Exams.css'
 
 export const Iitjee_Important = () => {
   return (
     <div>
 
-         <table >
+         <table className='examtbl'>
                         <tr>
                        
                           <th>EVENTS</th>
@@ -58,7 +59,7 @@ export const Iitjee_Important = () => {
               
                      <b>  ADVANCED:</b>
                         <br/>
-                        <table>
+                        <table className='examtbl'>
                           <tr>
                             <th>EVENTS</th>
                             <th>DATES-2023 (Announced)</th>
