@@ -18,6 +18,7 @@ import { Neet_examPattern } from './UGExamPages/neet/Neet_examPattern'
 import { Neet_Eligibility } from './UGExamPages/neet/Neet_Eligibility'
 import { Neet_Syllabus } from './UGExamPages/neet/Neet_Syllabus'
 import { Neet_ImportantDates } from './UGExamPages/neet/Neet_ImportantDates'
+import Neet_banners from './Ug_Carousel/Neet_Banner/Neet_banners'
 
 export const NeetExam = () => {
     const [selected, setSelected] = useState(null)
@@ -46,6 +47,9 @@ export const NeetExam = () => {
                  <button id="close-menu-btn"><i className="uil uil-multiply"></i></button>
              </div>   
            </nav> 
+           <div className='jee_Carousal' style={{paddingBottom:'1rem'}}>
+                <Neet_banners/>
+            </div>
         <div className='FAQCONTENT' id='faq'>
             <div className="wrapper-3 container">
             

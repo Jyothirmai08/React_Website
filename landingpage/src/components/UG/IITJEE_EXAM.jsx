@@ -14,6 +14,7 @@ import { Iit_jee_ExamPattren } from './UGExamPages/iitjee/Iit_jee_ExamPattren'
 import { Iitjee_Eligibility } from './UGExamPages/iitjee/Iitjee_Eligibility'
 import { Iitjee_Syllabus } from './UGExamPages/iitjee/Iitjee_Syllabus'
 import { Iitjee_Important } from './UGExamPages/iitjee/Iitjee_Important'
+import Iitjee_banners from './Ug_Carousel/iitjee/Iitjee_banners'
 
 export const IITJEE_EXAM = () => {
     const [selected, setSelected] = useState(null)
@@ -43,6 +44,9 @@ export const IITJEE_EXAM = () => {
           </div>
        </nav> 
 
+            <div className='jee_Carousal' style={{paddingBottom:'1rem'}}>
+                <Iitjee_banners/>
+            </div>
         <div className='FAQCONTENT' id='faq'>
             <div className="wrapper-3 container">
             

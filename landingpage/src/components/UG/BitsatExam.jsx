@@ -15,6 +15,7 @@ import { Bitsat_ExamPattern } from './UGExamPages/bitsat/Bitsat_ExamPattern'
 import { Bitsat_eligibility } from './UGExamPages/bitsat/Bitsat_eligibility'
 import { Bistat_Syllabus } from './UGExamPages/bitsat/Bistat_Syllabus'
 import { Bitsat_ImpDates } from './UGExamPages/bitsat/Bitsat_ImpDates'
+import Bitsat_Banner from './Ug_Carousel/BITSAT/Bitsat_Banner'
 
 
 export const BitsatExam = () => {
@@ -43,6 +44,9 @@ export const BitsatExam = () => {
                  <button id="close-menu-btn"><i className="uil uil-multiply"></i></button>
              </div>   
            </nav>
+           <div className='jee_Carousal' style={{paddingBottom:'1rem'}}>
+                <Bitsat_Banner/>
+            </div>
         <div className='FAQCONTENT' id='faq'>
             <div className="wrapper-3 container">
             

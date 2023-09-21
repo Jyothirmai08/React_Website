@@ -16,14 +16,6 @@ import imh2 from './Banners/banner2.png'
 import imh3 from './Banners/banner3.png'
 import imh4 from './Banners/banner4.png'
 import imh5 from './Banners/banner5.png'
-import banner1 from './Ugbanners/Ugbanners/AP_EAPCET.png'
-import banner2 from './Ugbanners/Ugbanners/BITSTA.png'
-import banner3 from './Ugbanners/Ugbanners/IIT-JEE.png'
-import banner4 from './Ugbanners/Ugbanners/MHTCET.png'
-import banner5 from './Ugbanners/Ugbanners/NEET2.png'
-import banner6 from './Ugbanners/Ugbanners/TS_EMCET.png'
-import banner7 from './Ugbanners/Ugbanners/VITEEE.png'
-import banner8 from './Ugbanners/Ugbanners/WBJEE.png'
 
 const Home = () => {
   return (
@@ -80,6 +72,7 @@ const Home = () => {
     
     </Carousel>
 
+{/* <Ug_home_carousel/> */}
 
     
     </div>
