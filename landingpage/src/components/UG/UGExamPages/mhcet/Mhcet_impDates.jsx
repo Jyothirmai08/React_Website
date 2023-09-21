@@ -1,9 +1,10 @@
 import React from 'react'
+import '../../Exams.css'
 
 export const Mhcet_impDates = () => {
   return (
     <div>
-         <table>
+         <table className='examtbl'>
           <tr>
             <th>Events  </th>
             <th>Exam Dates  </th>

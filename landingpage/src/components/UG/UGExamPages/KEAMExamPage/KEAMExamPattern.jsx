@@ -1,4 +1,5 @@
 import React from 'react'
+import '../../Exams.css'
 
 const KEAMExamPattern = () => {
   return (
@@ -11,7 +12,7 @@ const KEAMExamPattern = () => {
             <li><b>Number of Questions: </b>There will be a total 120 questions in each paper.</li>
             <li><b>Marking Scheme: </b>For every correct answer 4 marks will be given and for every incorrect response, 1 mark will be deducted.</li>
 
-            <table>
+            <table className='examtbl'>
                 <tr>
                     <th>Papers</th>
                     <th>Subject</th>

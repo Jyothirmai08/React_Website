@@ -1,9 +1,10 @@
 import React from 'react'
+import  '../../Exams.css'
 
 const SRMJEEImportantsDates = () => {
   return (
     <div>
-        <table>
+        <table className='examtbl'>
             <tr>
                 <td>23-Nov-2022 <br /> 16-April-2023</td>
                 <td>SRMJEE 2023 application form for phase 1 <br /> ONGOING</td>

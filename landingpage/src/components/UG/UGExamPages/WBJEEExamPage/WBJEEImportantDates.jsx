@@ -1,9 +1,10 @@
 import React from 'react'
+import '../../Exams.css'
 
 const WBJEEImportantDates = () => {
   return (
     <div>
-        <table>
+        <table className='examtbl'>
             <tr>
                 <th>Events</th>
                 <th>Dates 2023 (Tentative)</th>
