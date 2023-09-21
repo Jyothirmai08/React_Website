@@ -39,7 +39,7 @@ export const FooterData =[
         footerCs: 'footerTitleColor',
         PrivacyPolicy: '/policy',
         TermsAndConditions: '/terms',
-        RefundPolicy: '/refund',
+        // RefundPolicy: '/refund',
         
 
 

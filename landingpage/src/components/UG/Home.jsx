@@ -16,6 +16,7 @@ import imh2 from './Banners/banner2.png'
 import imh3 from './Banners/banner3.png'
 import imh4 from './Banners/banner4.png'
 import imh5 from './Banners/banner5.png'
+import Ug_home_carousel from './Ug_Carousel/Ug_home_carousel'
 
 const Home = () => {
   return (
@@ -69,6 +70,7 @@ const Home = () => {
     
     </Carousel>
 
+{/* <Ug_home_carousel/> */}
 
     
     </div>

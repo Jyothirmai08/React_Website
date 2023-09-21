@@ -43,7 +43,7 @@ function Landingpage() {
       <div className="row">
       <div className="col1">
         {/* <img src={image} alt="" /> */}
-      <h1>Welcome to eGRADTutor</h1>
+        <h1>Welcome to eGRADTutor</h1>
         <p>eGRADTutor is an Edtech firm started with a vision to blend the boundaries in education and take best-in-class courses and teachers virtually to every corner of the country. Our courses are developed by the alumni of IIT/IISc with an intent to enhance the student's abilities to face some of the toughest exams of the country. Our offerings not just provide a deeper understanding of the subjects to the students, but they also make them exam ready.</p>
        {/* <button type="button">Login</button> */}
    </div>
