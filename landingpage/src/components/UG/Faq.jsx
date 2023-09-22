@@ -14,7 +14,7 @@ const Faq = () => {
         setSelected(i1)
     }
     return (
-        <div className='FAQCONTENT' id='faq'>
+        <div className='faqdiv' id='faq'>
             <div className="wrapper-3 container">
             
             <div className='faqheading' >
@@ -24,7 +24,7 @@ const Faq = () => {
                 <div className="accordion2">
                     {sixtoten.map((item, i2) => (
                         <div className="item2">
-                            <div className="title" onClick={() => toggle2(i2)}>
+                            <div className="faqtitle" onClick={() => toggle2(i2)}>
                                 <h2>{item.Qustion}</h2>
                                 <span>{selected === i2 ? '-' : '+'}</span>
                             </div>

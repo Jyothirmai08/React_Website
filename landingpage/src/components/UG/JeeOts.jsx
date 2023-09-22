@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from './Header'
 import logo from './logo2.jpg'
+import pdf from './Images/IITJEE.pdf'
 
 import './JeeOts.css'
 
@@ -40,7 +41,11 @@ export const JeeOts = () => {
 
 
          <div className='jeesection'>
-            <h2>IIT-JEE-(MAINS & ADVANCED) - ONLINE TEST SERIES - 2023</h2><a style={{color:'red'}} href={logo}>COURSE BROCHURE</a>
+            <div className='jeediv'>
+            <h2>IIT-JEE-(MAINS & ADVANCED) - ONLINE TEST SERIES - 2023</h2>
+            <a href={pdf}>COURSE BROUCHER</a>
+            </div>
+            
             <p>Preparing well for the exam and attempting the exam successfully is one of the greatest desires for all the students. Many students will not be able to attempt IIT-JEE on the examination day as they do not have the right resources and proper guidance for the preparation. Our online test series makes your understanding stronger and helps you to challenge yourself in an environment that resembles the final examination. Challenger test series - as the name suggest, challenges the students’ abilities to attain the best by answering the toughest questions. With our online test series, channel your skills towards the desired success.</p>
          </div>
 
