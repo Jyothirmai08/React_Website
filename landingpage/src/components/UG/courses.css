@@ -337,6 +337,7 @@ ul.coursesList {
     .OTScourses-contant, .OVLcourses-contant, .OQB-courses-contant{
         display: flex;
         flex-direction: column;
+        align-items: center;
         padding: 10px;
 
   }

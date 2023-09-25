@@ -13,6 +13,13 @@ import Img10 from '../UG/Images/img10.png'
 import Img11 from '../UG/Images/img11.png'
 import hand from "../UG/Images/hand-index-fill.svg"
 
+// ----------------- poster ---------------------------------
+import poster1 from "../UG/posters/IIT-JEE.png"
+import poster2 from "../UG/posters/BITSAT.png"
+import poster3 from "../UG/posters/NEET.png"
+
+
+
 
 // This data will used in ExploreExams.jsx component
 
@@ -20,6 +27,7 @@ import hand from "../UG/Images/hand-index-fill.svg"
 // In this having 11 arrays. Each array having there own content as Title, Exam name, Online Test Series, OLV Classes and Explore Button linked to go to Exam random pages.
 // We imported images from component/ug/images.
 export const ExploreData = [
+ 
     {
         IMGuRL:[explore],
         IMGuRL1:[hand],
@@ -31,7 +39,10 @@ export const ExploreData = [
         cardContant: 'cardsContant',
         explore: '/iitjee_otc',
         liveclasses: '/iitjee_olvc',
-      
+        IMGposter1:[poster1],
+        IMGposter2:[poster2],
+        IMGposter3:[poster3],
+        Examposter:'Examposter'         
         
     },
     {

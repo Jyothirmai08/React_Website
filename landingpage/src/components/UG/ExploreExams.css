@@ -4,6 +4,20 @@
     box-sizing: border-box;
     /* font-family: 'Libre Baskerville', serif;; */
 }
+.Exams-container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+ 
+    
+}
+.Exams-container .examsposters-container{
+margin: auto;
+    width: 75%;
+}
+.Exams-container .examsposters-container img{
+    width: 100%;
+}
 .explore-contantText h1{
     text-align: center;
     font-size: 3rem;
@@ -26,13 +40,16 @@
 .hand i{
     color: rgb(182, 14, 23);
 }
-.cards-container{
-    display: flex;
+.ugcards-container{
+    /* display: flex;
     flex-wrap: wrap;
     gap: 1rem;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
+    padding: 1rem; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
 }
 
 .cardsContant {
