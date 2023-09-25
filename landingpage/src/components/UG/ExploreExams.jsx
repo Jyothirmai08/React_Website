@@ -3,7 +3,7 @@ import { ExploreData } from './ExploreData'
 import './Main.css'
 import './ExploreExams.css'
 import { Carousel } from 'react-responsive-carousel'
-import "react-responsive-carousel/lib/styles/carousel.min.css"
+// import "react-responsive-carousel/lib/styles/carousel.min.css"
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { Link } from 'react-router-dom'
 

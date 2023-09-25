@@ -5,15 +5,20 @@
     /* font-family: 'Libre Baskerville', serif;; */
 }
 .Exams-container {
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 1rem;
+    /* display: grid;
+    grid-template-columns: 40% 50%;
+    justify-content: space-between;
+    gap: 1rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
  
     
 }
 .Exams-container .examsposters-container{
 margin: auto;
-    width: 75%;
+    width: 500px;
 }
 .Exams-container .examsposters-container img{
     width: 100%;
@@ -150,9 +155,31 @@ margin: auto;
     color: white;
     background: #00a3ff;
 }
+/* @media (max-width: 1350px) {
+    .Exams-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .ugcards-container{
+        display: grid;
+        grid-template-columns:repeat(4,1fr) ;
+    }
+} */
 
-@media (max-width: 768px) {
-
+@media (max-width: 850px) {
+    .Exams-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .ugcards-container{
+        display: grid;
+        grid-template-columns:1fr 1fr ;
+    }
+    .Exams-container .examsposters-container{
+        margin: auto;
+            width: 80%;
+        }
+    
 .explore-contantText h1{
     font-size: 2.5rem;
 }
@@ -162,5 +189,17 @@ margin: auto;
     to{
         transform: translate(8px);
     }
+    
+}
+
+@media (max-width: 600px) {
+    .ugcards-container{
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+    .Exams-container .examsposters-container{
+        margin: auto;
+            width: 80%;
+        }
     
 }
