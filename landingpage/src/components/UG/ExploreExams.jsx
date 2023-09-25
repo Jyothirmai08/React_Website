@@ -22,7 +22,7 @@ const ExploreExams = () => {
                         {ExploreData.map((item, index) => {
                             return (
                                 <div key={index} className={item.Examposter}>
-                                    <Carousel className='banner' autoPlay infiniteLoop showIndicators={false} showThumbs={false} showArrows={false} showStatus={false} interval={2000} >
+                                    <Carousel  autoPlay infiniteLoop showIndicators={false} showThumbs={false} showArrows={false} showStatus={false} interval={2000} >
                                         <div> <img src={item.IMGposter1} alt="" /></div>
                                         <div> <img src={item.IMGposter2} alt="" /></div>
                                         <div> <img src={item.IMGposter3} alt="" /></div>
