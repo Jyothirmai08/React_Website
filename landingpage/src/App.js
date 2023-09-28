@@ -40,6 +40,7 @@ import { Pg_Tifr_ExamPage } from './components/PG/Pg_Tifr_ExamPage';
 import { Pg_Isro_ExamPage } from './components/PG/Pg_Isro_ExamPage';
 import { Pg_BARC_Exam_Page } from './components/PG/Pg_BARC_Exam_Page';
 import { Landing } from './Landing';
+import { Pg_home_page } from './components/PG/PG_homePage/Pg_home_page';
 
 
 
@@ -119,7 +120,7 @@ const App = () => {
 
 {/* for example */}
 {/* <Landing/> */}
-
+{/* <Pg_home_page/> */}
 
   </Router>
   );
