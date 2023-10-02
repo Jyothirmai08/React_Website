@@ -1,6 +1,6 @@
 import React from 'react'
 //  ----------------------components-------------------
-// import Header from './components/Header/Header'
+import Header from './components/Header/Header'
 import Home from './components/Home_Section/Home'
 import About from './components/About_section/About'
 import Exam_Explore from './components/ExploreExam/Exam_Explore'
@@ -23,7 +23,7 @@ import Faq from './components/Faqs/Faq'
 const UG_HOME = () => {
   return (
     <>
-      {/* <Header /> */}
+      <Header />
       <Home />
       <About />
       <Exam_Explore />
