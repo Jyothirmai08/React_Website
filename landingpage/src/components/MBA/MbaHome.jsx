@@ -8,6 +8,8 @@ import { About } from '../UG/About'
 import Header from '../UG/Header'
 import { MBAExploreExams } from './MBAExploreExams'
 import { MBACourses } from './MBACourses'
+import '../UG/header.css'
+import '../UG/home.css'
 
 export const MbaHome = () => {
   return (
