@@ -52,6 +52,7 @@ const Contact = () => {
                     <option value="">{Contact_data.op3}</option>
                     <option value="">{Contact_data.op4}</option>
                   </select>
+                <textarea placeholder=" Message"></textarea>
                   <input type="submit" />
                 </form>
               </div>

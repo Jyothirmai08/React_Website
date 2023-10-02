@@ -64,6 +64,15 @@
     border-radius: 10px;
     outline: none;
     border: none;
+    text-transform: uppercase;
+}
+.contact_box form textarea{
+    text-transform: uppercase;
+    padding: 0.5rem;
+    width: 100%;
+    min-height: 100px;
+    border-radius: 10px;
+    height: auto;
 }
 .contact_box form input[type=submit]{
     background: #d31a1a;
