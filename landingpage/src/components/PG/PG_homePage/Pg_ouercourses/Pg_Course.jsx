@@ -9,7 +9,7 @@ export const Pg_Course = () => {
     <div>
         
         <div className='Pg_OurCourses Pg_Container' id='Pg_Container'>
-            <div className='CoursesTitle' id='course'>
+            <div className='Pg_CoursesTitle' id='course'>
                 <h1>OUR COURSES</h1>
             </div>
             <div className='Pg_Courses-list'>
