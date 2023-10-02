@@ -47,6 +47,9 @@ header {
  {
     color: #000000;
 }
+.navlist:hover{
+   border-bottom: 2px solid red;
+}
 .login .login_btn{
     color: #fff;
 }
