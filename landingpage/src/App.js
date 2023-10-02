@@ -2,7 +2,8 @@ import React from 'react';
 import {BrowserRouter as Router ,Routes,Route}from 'react-router-dom';
 import  Footer  from '../src/components/UG/Footer';
 import Landingpage from "../src/Landingpage";
-import Home from './components/UG/Home';
+// import Home from './components/UG/Home';
+import UG_HOME from './components/ug_homepage/UG_HOME';
 import OTS from './components/UG/OTS';
 import NEET from './components/UG/NEET';
 import GATE_OTS from './components/PG/GATE_OTS';
@@ -62,7 +63,7 @@ const App = () => {
  {/* <Home/> */}
     <Routes>
     <Route path='/' element={ < Landingpage/>} />
-    <Route path='/home' element={ <Home/> }/>
+    <Route path='/home' element={ <UG_HOME/> }/>
    <Route path='/iitjee' element={<OTS/>}/>
    <Route path='/iitjee_olvc' element={<OLVC/>}/>
 
