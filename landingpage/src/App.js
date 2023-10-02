@@ -41,6 +41,8 @@ import { Pg_Isro_ExamPage } from './components/PG/Pg_Isro_ExamPage';
 import { Pg_BARC_Exam_Page } from './components/PG/Pg_BARC_Exam_Page';
 import { Landing } from './Landing';
 import { Pg_home_page } from './components/PG/PG_homePage/Pg_home_page';
+import { Ug_About } from './components/UG/Ug_homePage_k/Ug_About/Ug_About';
+import { Egate } from './LandingKPAGE/Egate';
 
 
 
@@ -68,7 +70,8 @@ const App = () => {
    <Route path='/' element={<GATE_OTS/>}/>
    <Route path='/' element={<GateOts/>}/>
 
-   <Route path='/PgHome' element={<PgHome/>}/>
+   {/* <Route path='/PgHome' element={<PgHome/>}/> */}
+   <Route path='/PgHome' element={<Pg_home_page/>}/>
    {/* <Route path='/MbaHome' element={<MbaHome/>}/> */}
 
    <Route path='/MbaHome' element={<MbaHome/>}/>
@@ -121,6 +124,10 @@ const App = () => {
 {/* for example */}
 {/* <Landing/> */}
 {/* <Pg_home_page/> */}
+{/* <Egate/> */}
+
+{/* <Ug_About/> */}
+
 
   </Router>
   );

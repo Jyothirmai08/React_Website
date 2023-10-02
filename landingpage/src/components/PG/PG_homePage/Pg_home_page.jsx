@@ -19,7 +19,6 @@ import { Pg_Course } from './Pg_ouercourses/Pg_Course'
 import Pg_header from './Pg_Header/Pg_header'
 import { Pg_Countact } from './Pg_Countact_Page/Pg_Countact'
 import { Pg_Fax } from './Pg_Faq/Pg_Fax'
-import { Pg_explorSider } from './Pg_Explore_slider/Pg_explorSider'
 
 
 export const Pg_home_page = () => {
@@ -69,6 +68,7 @@ export const Pg_home_page = () => {
     {/* <About/> */}
     {/* < PGexploreExam/> */}
     <Pg_exploreExam/>
+    
 
 {/* <Pg_explorSider/> */}
   
@@ -84,7 +84,7 @@ export const Pg_home_page = () => {
 {/* <Faq/> */}
 
 <Pg_Fax/>
-<Footer/>
+{/* <Footer/> */}
 
     </>
   )
