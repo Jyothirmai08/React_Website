@@ -25,6 +25,10 @@ import { WbjeeExam } from './components/UG/WbjeeExam';
 import { KeamExam } from './components/UG/KeamExam';
 import { SrmJeeExam } from './components/UG/SrmJeeExam';
 
+
+
+
+
 // ================ IMPORTED PG FILES =======================
 
 import {PGGATE_Exam} from './components/PG/PGGATE_Exam.jsx'
@@ -125,7 +129,7 @@ const App = () => {
 {/* for example */}
 {/* <Landing/> */}
 {/* <Pg_home_page/> */}
-{/* <Egate/> */}
+<Egate/>
 
 {/* <Ug_About/> */}
 
