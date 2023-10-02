@@ -9,84 +9,77 @@
     {
         exams_buttons:'exams_buttons',
         exam_boxs:"exam_boxs",
-        exams_button:"itt-jee",
+        exams_button:"IIT-JEE",
         ots:"online test series",
         olvc:"online live video class"
     },
     {
         exams_buttons:'exams_buttons',
         exam_boxs:"exam_boxs",
-        exams_button:"neet",
+        exams_button:"NEET",
         ots:"online test series",
         olvc:"online live video class"
     },
     {
         exams_buttons:'exams_buttons',
         exam_boxs:"exam_boxs",
-        exams_button:"bitsat",
+        exams_button:"BITSAT",
         ots:"online test series",
         olvc:"online live video class"
     },
     {
         exams_buttons:'exams_buttons',
         exam_boxs:"exam_boxs",
-        exams_button:"vitee",
+        exams_button:"VITEEE",
         ots:"online test series",
         olvc:"online live video class"
     },
     {
         exams_buttons:'exams_buttons',
         exam_boxs:"exam_boxs",
-        exams_button:"vitee",
+        exams_button:"AP-EAPCET",
         ots:"online test series",
         olvc:"online live video class"
     },
     {
         exams_buttons:'exams_buttons',
         exam_boxs:"exam_boxs",
-        exams_button:"ap-eapcet",
+        exams_button:"TS-EAMCET",
         ots:"online test series",
         olvc:"online live video class"
     },
     {
         exams_buttons:'exams_buttons',
         exam_boxs:"exam_boxs",
-        exams_button:"ts-eamcet",
+        exams_button:"MHCET",
         ots:"online test series",
         olvc:"online live video class"
     },
     {
         exams_buttons:'exams_buttons',
         exam_boxs:"exam_boxs",
-        exams_button:"mhcet",
+        exams_button:"KCET",
         ots:"online test series",
         olvc:"online live video class"
     },
     {
         exams_buttons:'exams_buttons',
         exam_boxs:"exam_boxs",
-        exams_button:"kcet",
+        exams_button:"WBJEE",
         ots:"online test series",
         olvc:"online live video class"
     },
     {
         exams_buttons:'exams_buttons',
         exam_boxs:"exam_boxs",
-        exams_button:"wbjee",
+        exams_button:"KEAM",
         ots:"online test series",
         olvc:"online live video class"
     },
     {
         exams_buttons:'exams_buttons',
         exam_boxs:"exam_boxs",
-        exams_button:"keam",
-        ots:"online test series",
-        olvc:"online live video class"
-    },
-    {
-        exams_buttons:'exams_buttons',
-        exam_boxs:"exam_boxs",
-        exams_button:"srmjee",
+        exams_button:"SRMJEE",
         ots:"online test series",
         olvc:"online live video class"
     },
