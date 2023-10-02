@@ -22,7 +22,7 @@
         // -------------------------home classs ---------------------------------
         home:'home',
         banner_container:'banner_container',
-        banner:'banner',
+        banner:'banner_ug',
         hero:'hero',
         explore_btn:'explore_btn',
         downarrow:'downarrow',
