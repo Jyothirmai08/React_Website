@@ -56,19 +56,14 @@ const Home = () => {
                     </div>
                     <div>
                       <a href="#courses" className={HomeDATA.explore_btn}>
-                        online test series
-                      </a>
-                      <a href="#courses" className={HomeDATA.explore_btn}>
-                        online video lectures
-                      </a> <a href="#courses" className={HomeDATA.explore_btn}>
-                        online question bank
+                        EXPLORE NOW
                       </a>
                     </div>
 
-                    <div className={HomeDATA.downarrow_container}>
-
-                      <a href="#about" className={HomeDATA.downarrow}>
-                        scroll down
+                 <div className={HomeDATA.downarrow_container}>
+                     
+                      <a href="#about"  className={HomeDATA.downarrow}>
+                      scroll down                        
                         <AiFillDownCircle />
                       </a>
                     </div>
@@ -80,10 +75,10 @@ const Home = () => {
                       EXPLORE NOW
                     </a>
 
-                    <div className={HomeDATA.downarrow_container}>
-
-                      <a href="" className={HomeDATA.downarrow}>
-
+                 <div className={HomeDATA.downarrow_container}>
+                   
+                     <a href=""  className={HomeDATA.downarrow}>
+                        
                         <AiFillDownCircle />
                       </a>
                     </div>
@@ -94,10 +89,10 @@ const Home = () => {
                       EXPLORE NOW
                     </a>
 
-                    <div className={HomeDATA.downarrow_container}>
-
-                      <a href="" className={HomeDATA.downarrow}>
-
+                 <div className={HomeDATA.downarrow_container}>
+                   
+                     <a href=""  className={HomeDATA.downarrow}>
+                        
                         <AiFillDownCircle />
                       </a>
                     </div>
@@ -108,11 +103,11 @@ const Home = () => {
                       EXPLORE NOW
                     </a>
 
-                    <div className={HomeDATA.downarrow_container}>
+                 <div className={HomeDATA.downarrow_container}>
 
-
-                      <a href="" className={HomeDATA.downarrow}>
-                        scrolldown
+                
+                     <a href=""  className={HomeDATA.downarrow}>
+                     scrolldown
                         <AiFillDownCircle />
                       </a>
                     </div>
@@ -123,10 +118,10 @@ const Home = () => {
                       EXPLORE NOW
                     </a>
 
-                    <div className={HomeDATA.downarrow_container}>
-
-                      <a href="" className={HomeDATA.downarrow}>
-
+                 <div className={HomeDATA.downarrow_container}>
+                   
+                     <a href=""  className={HomeDATA.downarrow}>
+                        
                         <AiFillDownCircle />
                       </a>
                     </div>
@@ -137,10 +132,10 @@ const Home = () => {
                       EXPLORE NOW
                     </a>
 
-                    <div className={HomeDATA.downarrow_container}>
-
-                      <a href="" className={HomeDATA.downarrow}>
-
+                 <div className={HomeDATA.downarrow_container}>
+                   
+                     <a href=""  className={HomeDATA.downarrow}>
+                        
                         <AiFillDownCircle />
                       </a>
                     </div>
@@ -151,10 +146,10 @@ const Home = () => {
                       EXPLORE NOW
                     </a>
 
-                    <div className={HomeDATA.downarrow_container}>
-
-                      <a href="" className={HomeDATA.downarrow}>
-
+                 <div className={HomeDATA.downarrow_container}>
+                   
+                     <a href=""  className={HomeDATA.downarrow}>
+                        
                         <AiFillDownCircle />
                       </a>
                     </div>
