@@ -5,6 +5,8 @@ import React from 'react'
 
 import {Exam_Explore_data,Examsliders} from "./Exam_Explore_data"
 
+import {Link} from "react-router-dom"
+
 
 
 import { Carousel } from "react-responsive-carousel";
@@ -57,9 +59,9 @@ const Exam_Explore = () => {
             <div key={index} >
             
                 <div className={Exam_Explore_data.exam_boxs}>
-                    <a href="#" className={Exam_Explore_data.exams_buttons}>{Exam_Explore_data.exams_button}</a>
-                    <a href=""className={Exam_Explore_data.exams_buttons}>{Exam_Explore_data.ots}</a>
-                    <a href="" className={Exam_Explore_data.exams_buttons}>{Exam_Explore_data.olvc}</a>
+                    <Link to={Exam_Explore_data.examPage} className={Exam_Explore_data.exams_buttons}>{Exam_Explore_data.exams_button}</Link>
+                    <Link to={Exam_Explore_data.otslink}className={Exam_Explore_data.exams_buttons}>{Exam_Explore_data.ots}</Link>
+                    <Link to={Exam_Explore_data.olvclink} className={Exam_Explore_data.exams_buttons}>{Exam_Explore_data.olvc}</Link>
                 </div>
             </div>
             

@@ -71,88 +71,88 @@ const Home = () => {
                   <div className={HomeDATA.banner}>
                     <img src={HomeDATA.b1} alt="" />
 
-                    <a href="#" className={HomeDATA.explore_btn}>
+                    {/* <a href="#" className={HomeDATA.explore_btn}>
                       EXPLORE NOW
-                    </a>
+                    </a> */}
 
                  <div className={HomeDATA.downarrow_container}>
                    
-                     <a href=""  className={HomeDATA.downarrow}>
+                     {/* <a href=""  className={HomeDATA.downarrow}>
                         
                         <AiFillDownCircle />
-                      </a>
+                      </a> */}
                     </div>
                   </div>
                   <div className={HomeDATA.banner}>
                     <img src={HomeDATA.b2} alt="" />
-                    <a href="#" className={HomeDATA.explore_btn}>
+                    {/* <a href="#" className={HomeDATA.explore_btn}>
                       EXPLORE NOW
-                    </a>
+                    </a> */}
 
                  <div className={HomeDATA.downarrow_container}>
                    
-                     <a href=""  className={HomeDATA.downarrow}>
+                     {/* <a href=""  className={HomeDATA.downarrow}>
                         
                         <AiFillDownCircle />
-                      </a>
+                      </a> */}
                     </div>
                   </div>
                   <div className={HomeDATA.banner}>
                     <img src={HomeDATA.b3} alt="" />
-                    <a href="#" className={HomeDATA.explore_btn}>
+                    {/* <a href="#" className={HomeDATA.explore_btn}>
                       EXPLORE NOW
-                    </a>
+                    </a> */}
 
-                 <div className={HomeDATA.downarrow_container}>
+                 {/* <div className={HomeDATA.downarrow_container}>
 
                 
                      <a href=""  className={HomeDATA.downarrow}>
                      scrolldown
                         <AiFillDownCircle />
                       </a>
-                    </div>
+                    </div> */}
                   </div>
                   <div className={HomeDATA.banner}>
                     <img src={HomeDATA.b1} alt="" />
-                    <a href="#" className={HomeDATA.explore_btn}>
+                    {/* <a href="#" className={HomeDATA.explore_btn}>
                       EXPLORE NOW
-                    </a>
+                    </a> */}
 
-                 <div className={HomeDATA.downarrow_container}>
+                 {/* <div className={HomeDATA.downarrow_container}>
                    
                      <a href=""  className={HomeDATA.downarrow}>
                         
                         <AiFillDownCircle />
                       </a>
-                    </div>
+                    </div> */}
                   </div>
                   <div className={HomeDATA.banner}>
                     <img src={HomeDATA.b5} alt="" />
-                    <a href="#" className={HomeDATA.explore_btn}>
+                    {/* <a href="#" className={HomeDATA.explore_btn}>
                       EXPLORE NOW
-                    </a>
+                    </a> */}
 
-                 <div className={HomeDATA.downarrow_container}>
+                 {/* <div className={HomeDATA.downarrow_container}>
                    
                      <a href=""  className={HomeDATA.downarrow}>
                         
                         <AiFillDownCircle />
                       </a>
-                    </div>
+                    </div> */}
                   </div>
                   <div className={HomeDATA.banner}>
                     <img src={HomeDATA.b6} alt="" />
-                    <a href="#" className={HomeDATA.explore_btn}>
+                    {/* <a href="#" className={HomeDATA.explore_btn}>
                       EXPLORE NOW
-                    </a>
+                    </a> */}
 
-                 <div className={HomeDATA.downarrow_container}>
+                 {/* <div className={HomeDATA.downarrow_container}>
                    
                      <a href=""  className={HomeDATA.downarrow}>
                         
                         <AiFillDownCircle />
                       </a>
-                    </div>
+                    </div> */}
                   </div>
 
                 </Carousel>
