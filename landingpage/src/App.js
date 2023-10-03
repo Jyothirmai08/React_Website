@@ -129,7 +129,7 @@ const App = () => {
 {/* for example */}
 {/* <Landing/> */}
 {/* <Pg_home_page/> */}
-{/* <Egate/> */}
+<Egate/>
 
 {/* <Ug_About/> */}
 
