@@ -1,9 +1,10 @@
 import React from 'react'
+import '../../Exams.css'
 
 export const Viteee_impDates = () => {
   return (
     <div>
-           <table>
+           <table className='examtbl'>
           <tr>
             <th>Important Events  </th>
             <th>Dates (Tentative)   </th>

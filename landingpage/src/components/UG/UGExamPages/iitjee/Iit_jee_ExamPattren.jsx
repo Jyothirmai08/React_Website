@@ -1,4 +1,5 @@
 import React from 'react'
+import '../../Exams.css'
 
 export const Iit_jee_ExamPattren = () => {
   return (
@@ -33,7 +34,7 @@ export const Iit_jee_ExamPattren = () => {
 <br />
       <p>Check in the table below Paper 1 & 2 questions and marks distribution:</p>
 
-             <table>
+             <table className='examtbl'>
                         <tr>
                           <th>Subjects</th>
                           <th>No.of Questions</th>
@@ -71,7 +72,7 @@ export const Iit_jee_ExamPattren = () => {
                       <br/>
                       <b>Paper II:</b><br/>
                   
-                      <table>
+                      <table className='examtbl'>
                         <tr>
                           <th>Subjects</th>
                           <th>No.of Questions</th>
@@ -104,11 +105,11 @@ export const Iit_jee_ExamPattren = () => {
                          
                         </tr>
                       
-                      </table>
+                      </table >
 
 <br />
                       <b> For AAT:</b>                 
-                      <table >
+                      <table className='examtbl'>
                         <tr>
                           <th>Subjects</th>
                           <th>No.of Questions</th>

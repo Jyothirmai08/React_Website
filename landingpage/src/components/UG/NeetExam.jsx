@@ -11,6 +11,9 @@ import tabimg4 from './Images/neettableimg6.png'
 import tabimg5 from './Images/neettableimg7.png'
 import logo from './logo2.jpg'
 import { Link } from 'react-router-dom'
+import livecls from './Images/live class.png'
+import onlinets from './Images/online test seires.png'
+import recordedmc from './Images/recorded mini class.png'
 
 
 // neet exam pages ---
@@ -18,6 +21,7 @@ import { Neet_examPattern } from './UGExamPages/neet/Neet_examPattern'
 import { Neet_Eligibility } from './UGExamPages/neet/Neet_Eligibility'
 import { Neet_Syllabus } from './UGExamPages/neet/Neet_Syllabus'
 import { Neet_ImportantDates } from './UGExamPages/neet/Neet_ImportantDates'
+import Neet_banners from './Ug_Carousel/Neet_Banner/Neet_banners'
 
 export const NeetExam = () => {
     const [selected, setSelected] = useState(null)
@@ -30,7 +34,7 @@ export const NeetExam = () => {
         setSelected(i1)
     }
   return (
-    <div className='' style={{margin: '2rem'}}>
+    <div className='iitjeebody'>
 
          {/* import logo from './logo2.jpg' */}
           <nav>
@@ -46,14 +50,21 @@ export const NeetExam = () => {
                  <button id="close-menu-btn"><i className="uil uil-multiply"></i></button>
              </div>   
            </nav> 
+           <div className='jee_Carousal' style={{paddingBottom:'1rem'}}>
+                <Neet_banners/>
+            </div>
         <div className='FAQCONTENT' id='faq'>
             <div className="wrapper-3 container">
             
-            <div className='' >
+            <div className='exam_heading' >
                 <h1>NEET EXAM</h1>
           
             </div>
              <div className='sdfsf'>
+             <div className='examdiv'>
+            <button className='exambtn'><a href="">Exam Link</a></button>
+            </div>
+            
                 <div className="accordion">
                         {sixtoten.map((item, i2) => (
                             <div className="item2">
@@ -81,6 +92,64 @@ export const NeetExam = () => {
 
             </div>
         </div>
+
+
+
+
+        <div class="neetcourses">
+    <div class="courses_heading">
+      <h1>NEET COURSES</h1>
+    </div>
+
+    <div class="online_courses">
+      <div class="courses1 courses1-img">
+        <div class="test_btn ots_btn">
+          <h3>ONLINE TEST SERIES</h3>
+          <img src={onlinets} alt="" />
+          <div class="btn-neet"> 
+            <button>
+              <Link to='/neetotc'>Explore <i class="uil uil-angle-right icon"></i></Link></button>
+          </div>
+
+      </div>
+      </div>
+
+
+      <div class="courses1">
+        <div class="test_btn ots_btn">
+          <h3>RECORDED MINI COURSES</h3>
+          <img src={recordedmc} alt="" />
+          <div class="btn-neet"> 
+            <button>
+              <Link to=''>Explore <i class="uil uil-angle-right icon"></i></Link></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="courses1">
+        <div class="test_btn ots_btn">
+          <h3>LIVE CLASSES</h3>
+          <img src={livecls} alt="" />
+          <div class="btn-neet"> 
+            <button>
+              <Link to='/neet_olvc'>Explore <i class="uil uil-angle-right icon"></i></Link></button>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
         </div>
   )
 }

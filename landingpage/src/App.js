@@ -2,7 +2,8 @@ import React from 'react';
 import {BrowserRouter as Router ,Routes,Route}from 'react-router-dom';
 import  Footer  from '../src/components/UG/Footer';
 import Landingpage from "../src/Landingpage";
-import Home from './components/UG/Home';
+// import Home from './components/UG/Home';
+import UG_HOME from './components/ug_homepage/UG_HOME';
 import OTS from './components/UG/OTS';
 import NEET from './components/UG/NEET';
 import GATE_OTS from './components/PG/GATE_OTS';
@@ -24,6 +25,10 @@ import { WbjeeExam } from './components/UG/WbjeeExam';
 import { KeamExam } from './components/UG/KeamExam';
 import { SrmJeeExam } from './components/UG/SrmJeeExam';
 
+
+
+
+
 // ================ IMPORTED PG FILES =======================
 
 import {PGGATE_Exam} from './components/PG/PGGATE_Exam.jsx'
@@ -39,6 +44,11 @@ import { Ese_ExamPage } from './components/PG/Ese_ExamPage';
 import { Pg_Tifr_ExamPage } from './components/PG/Pg_Tifr_ExamPage';
 import { Pg_Isro_ExamPage } from './components/PG/Pg_Isro_ExamPage';
 import { Pg_BARC_Exam_Page } from './components/PG/Pg_BARC_Exam_Page';
+import { Landing } from './Landing';
+import { Pg_home_page } from './components/PG/PG_homePage/Pg_home_page';
+import { Ug_About } from './components/UG/Ug_homePage_k/Ug_About/Ug_About';
+import { Egate } from './LandingKPAGE/Egate';
+
 
 
 
@@ -57,7 +67,7 @@ const App = () => {
  {/* <Home/> */}
     <Routes>
     <Route path='/' element={ < Landingpage/>} />
-    <Route path='/home' element={ <Home/> }/>
+    <Route path='/home' element={ <UG_HOME/> }/>
    <Route path='/iitjee' element={<OTS/>}/>
    <Route path='/iitjee_olvc' element={<OLVC/>}/>
 
@@ -65,7 +75,8 @@ const App = () => {
    <Route path='/' element={<GATE_OTS/>}/>
    <Route path='/' element={<GateOts/>}/>
 
-   <Route path='/PgHome' element={<PgHome/>}/>
+   {/* <Route path='/PgHome' element={<PgHome/>}/> */}
+   <Route path='/PgHome' element={<Pg_home_page/>}/>
    {/* <Route path='/MbaHome' element={<MbaHome/>}/> */}
 
    <Route path='/MbaHome' element={<MbaHome/>}/>
@@ -114,6 +125,15 @@ const App = () => {
     
     </Routes>
 <Footer/>
+
+{/* for example */}
+{/* <Landing/> */}
+{/* <Pg_home_page/> */}
+{/* <Egate/> */}
+
+{/* <Ug_About/> */}
+
+
   </Router>
   );
 }

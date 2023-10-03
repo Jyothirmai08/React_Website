@@ -4,13 +4,32 @@
     box-sizing: border-box;
     /* font-family: 'Libre Baskerville', serif;; */
 }
+.Exams-container {
+    /* display: grid;
+    grid-template-columns: 40% 50%;
+    justify-content: space-between;
+    gap: 1rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+ 
+    
+}
+.Exams-container .examsposters-container{
+margin: auto;
+    width: 500px;
+}
+.Exams-container .examsposters-container img{
+    width: 100%;
+}
 .explore-contantText h1{
     text-align: center;
     font-size: 3rem;
     color: #00a3ff;
     cursor: pointer;
     margin-bottom: 1.7rem;
-    text-align: left;
+    text-align: center;
 }
 
 .hand-div{
@@ -26,13 +45,16 @@
 .hand i{
     color: rgb(182, 14, 23);
 }
-.cards-container{
-    display: flex;
+.ugcards-container{
+    /* display: flex;
     flex-wrap: wrap;
     gap: 1rem;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
+    padding: 1rem; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
 }
 
 .cardsContant {
@@ -133,9 +155,31 @@
     color: white;
     background: #00a3ff;
 }
+/* @media (max-width: 1350px) {
+    .Exams-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .ugcards-container{
+        display: grid;
+        grid-template-columns:repeat(4,1fr) ;
+    }
+} */
 
-@media (max-width: 768px) {
-
+@media (max-width: 850px) {
+    .Exams-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .ugcards-container{
+        display: grid;
+        grid-template-columns:1fr 1fr ;
+    }
+    .Exams-container .examsposters-container{
+        margin: auto;
+            width: 80%;
+        }
+    
 .explore-contantText h1{
     font-size: 2.5rem;
 }
@@ -145,5 +189,17 @@
     to{
         transform: translate(8px);
     }
+    
+}
+
+@media (max-width: 600px) {
+    .ugcards-container{
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+    .Exams-container .examsposters-container{
+        margin: auto;
+            width: 80%;
+        }
     
 }

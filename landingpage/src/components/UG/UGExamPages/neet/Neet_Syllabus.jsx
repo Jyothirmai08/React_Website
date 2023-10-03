@@ -1,11 +1,13 @@
 import React from 'react'
+import '../../Exams.css'
+
 
 export const Neet_Syllabus = () => {
   return (
     <div>
         <b>BIOLOGY SYLLABUS(Botany & Zoology)</b>
         <br />
-         <table>
+         <table className='examtbl'>
             <p ><b>BOTANY TOPICS</b></p>
             <tr>
               <th>S.NO</th>
@@ -105,7 +107,7 @@ export const Neet_Syllabus = () => {
 
 {/* ZOOLOGY TOPICS< -------------- */}
 <br />
-          <table>
+          <table className='examtbl'>
             <p ><b>ZOOLOGY TOPICS</b></p>
             <tr>
               <th>S.NO</th>
@@ -181,7 +183,7 @@ export const Neet_Syllabus = () => {
  <br />
 {/* Physics Syllabus ------------------  */}
             <b>Physics Syllabus </b>
-          <table >
+          <table className='examtbl'>
             <tr>
               <th>Class XI </th>
 
@@ -234,7 +236,7 @@ export const Neet_Syllabus = () => {
 {/* >Current Electricity </td></tr> ------------------  */}
  
 
-          <table>
+          <table className='examtbl'>
             <tr>
 
               <th>Class XII </th>
@@ -283,7 +285,7 @@ export const Neet_Syllabus = () => {
           <br />
 {/*  Chemistry Syllabus ------------------  */}
         <b>Chemistry Syllabus </b>
-        <table class="syl">
+        <table className='examtbl'>
             <tr>
               <th>Class XI </th>
 
@@ -340,7 +342,7 @@ export const Neet_Syllabus = () => {
 
           </table>
 <br />
-          <table >
+          <table className='examtbl'>
             <tr>
 
               <th>Class XII </th>

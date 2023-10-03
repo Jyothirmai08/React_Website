@@ -5,7 +5,7 @@
     color: #00a3ff;
     cursor: pointer;
     margin-bottom: 0.5rem;
-    text-align: left;
+    text-align: center;
 }
 .Courses-list {
     display: flex;
@@ -337,6 +337,7 @@ ul.coursesList {
     .OTScourses-contant, .OVLcourses-contant, .OQB-courses-contant{
         display: flex;
         flex-direction: column;
+        align-items: center;
         padding: 10px;
 
   }

@@ -1,8 +1,35 @@
 /* body{
     background-color: #c8e7f9;
 } */
-.FAQCONTENT{
+
+.iitjeebody{
     background-color: #c8e7f9;
+}
+.examdiv{
+    display: flex;
+    justify-content: flex-end;
+    width: 97%;
+}
+
+.exambtn{
+    display: flex;
+    flex-wrap: warp;
+    background: #c8e7f9;
+}
+
+.exambtn:hover{
+    background-color: #c8e7f9;
+}
+
+
+.exambtn a{
+    color: #000;
+}
+
+
+
+.FAQCONTENT{
+    background-color: #fff;
 }
 .accordion2 {
     /* display: grid;
@@ -12,7 +39,6 @@
 .wrapper-2 {
     display: flex;
     flex-direction: column;
-   
     justify-content: center;
     align-items: center;
 }
@@ -51,7 +77,7 @@
             }
 
    
-.wrapper-3 {
+/* .wrapper-3 {
     display: flex;
     flex-direction: column;
  
@@ -59,7 +85,7 @@
     align-items: center;
 
  
-}
+} */
 
         .item2 {
          
@@ -75,8 +101,8 @@
                 justify-content: space-between;
                 align-items: center;
                 color: rgb(0, 0, 0);
-                background: #fff;
-                padding: 18px;
+                background: #c8e7f9;
+                padding: 10px;
                 
             }
              .title{
@@ -105,6 +131,90 @@
                 padding: 10px 10px;
                 margin-top: 10px;
             
+            }
+
+
+
+
+
+
+            .neetcourses{
+                padding: 1rem;
+            }
+
+            .neetcourses .courses_heading h1{
+                text-align: center;
+                margin-bottom: 2rem;
+                font-size: 3rem;
+                font-weight: 900;
+                font-family: 'Roboto';
+            }
+
+            .neetcourses .courses_heading h1 small{
+                font-size: 1.5rem;
+            }
+
+            .neetcourses .online_courses {
+                width: 75%;
+                margin: 0 auto;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 3rem;
+                justify-content: flex-start;
+            }
+
+            .courses1{
+                width: 25rem;
+                margin: 0 auto;
+            }
+
+            .test_btn{
+                text-align: center;
+                background-color: #a6d2e1;
+                border-radius: 2rem;
+            }
+
+            .test_btn h3{
+                padding: 1rem;
+                font-weight: 900;
+                font-size: 1.5rem;
+                background-color: #fff;
+                border-radius: 2rem 2rem 0 0;
+            }
+
+            .courses1 img{
+                width: 270px;
+                height: 250px;
+                margin: 0 auto;
+                display: block;
+                object-fit: cover;
+            }
+
+            .btn-neet{
+                background-color: #fff;
+                border-radius: 0 0 2rem 2rem;
+            }
+
+            .test_btn button{
+                padding: 0.5rem;
+                margin: 0.5rem auto;
+                border-radius: 10px;
+            }
+
+            .btn-neet button {
+                background-color: #a6d2e1;
+                color: #211d1d;
+            }
+
+            .btn-neet button:hover i {
+                padding-left: 1rem;
+                transition: 0.5s ease;
+            }
+
+            .test_btn a{
+                font-weight: 900;
+                font-size: 1.5rem;
+                color: #000;
             }
 
        

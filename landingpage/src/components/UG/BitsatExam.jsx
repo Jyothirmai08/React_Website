@@ -8,6 +8,9 @@ import tabimg1 from './Images/bitsattableimg3.png'
 import tabimg5 from './Images/bitsattableimg4.png'
 import { Link } from 'react-router-dom'
 import logo from './logo2.jpg'
+import livecls from './Images/live class.png'
+import onlinets from './Images/online test seires.png'
+import recordedmc from './Images/recorded mini class.png'
 
 
 // bitsat exam pages
@@ -15,6 +18,7 @@ import { Bitsat_ExamPattern } from './UGExamPages/bitsat/Bitsat_ExamPattern'
 import { Bitsat_eligibility } from './UGExamPages/bitsat/Bitsat_eligibility'
 import { Bistat_Syllabus } from './UGExamPages/bitsat/Bistat_Syllabus'
 import { Bitsat_ImpDates } from './UGExamPages/bitsat/Bitsat_ImpDates'
+import Bitsat_Banner from './Ug_Carousel/BITSAT/Bitsat_Banner'
 
 
 export const BitsatExam = () => {
@@ -28,7 +32,7 @@ export const BitsatExam = () => {
         setSelected(i1)
     }
   return (
-    <div className='' style={{margin: '2rem'}}>
+    <div className='iitjeebody'>
         {/* import logo from './logo2.jpg' */}
     <nav>
              <div className="container nav__container">          
@@ -43,14 +47,21 @@ export const BitsatExam = () => {
                  <button id="close-menu-btn"><i className="uil uil-multiply"></i></button>
              </div>   
            </nav>
+           <div className='jee_Carousal' style={{paddingBottom:'1rem'}}>
+                <Bitsat_Banner/>
+            </div>
         <div className='FAQCONTENT' id='faq'>
             <div className="wrapper-3 container">
             
-            <div className='' >
-                <h1>BITSAT</h1>
+            <div className='exam_heading' >
+                <h1>BITSAT EXAM</h1>
           
             </div>
              <div className='sdfsf'>
+             <div className='examdiv'>
+            <button className='exambtn'><a href="">Exam Link</a></button>
+            </div>
+            
                 <div className="accordion">
                         {sixtoten.map((item, i2) => (
                             <div className="item2">
@@ -75,6 +86,68 @@ export const BitsatExam = () => {
 
             </div>
         </div>
+
+
+
+
+
+
+
+
+        <div class="neetcourses">
+    <div class="courses_heading">
+      <h1>BITSAT COURSES</h1>
+    </div>
+
+    <div class="online_courses">
+      <div class="courses1 courses1-img">
+        <div class="test_btn ots_btn">
+          <h3>ONLINE TEST SERIES</h3>
+          <img src={onlinets} alt="" />
+          <div class="btn-neet"> 
+            <button>
+              <Link to='/bitsatots'>Explore <i class="uil uil-angle-right icon"></i></Link></button>
+          </div>
+
+      </div>
+      </div>
+
+
+      <div class="courses1">
+        <div class="test_btn ots_btn">
+          <h3>RECORDED MINI COURSES</h3>
+          <img src={recordedmc} alt="" />
+          <div class="btn-neet"> 
+            <button>
+              <Link to=''>Explore <i class="uil uil-angle-right icon"></i></Link></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="courses1">
+        <div class="test_btn ots_btn">
+          <h3>LIVE CLASSES</h3>
+          <img src={livecls} alt="" />
+          <div class="btn-neet"> 
+            <button>
+              <Link to='/bitsat_olvc'>Explore <i class="uil uil-angle-right icon"></i></Link></button>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
         </div>
   )
 }

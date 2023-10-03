@@ -8,12 +8,17 @@ import tabimg1 from './Images/iitjeesyllabustabimg.png'
 import tabimg2 from './Images/iitjeeimptabimg.png'
 import logo from './logo2.jpg'
 import { Link } from 'react-router-dom'
+import livecls from './Images/live class.png'
+import onlinets from './Images/online test seires.png'
+import recordedmc from './Images/recorded mini class.png'
 
 // exam components
 import { Iit_jee_ExamPattren } from './UGExamPages/iitjee/Iit_jee_ExamPattren'
 import { Iitjee_Eligibility } from './UGExamPages/iitjee/Iitjee_Eligibility'
 import { Iitjee_Syllabus } from './UGExamPages/iitjee/Iitjee_Syllabus'
 import { Iitjee_Important } from './UGExamPages/iitjee/Iitjee_Important'
+import Iitjee_banners from './Ug_Carousel/iitjee/Iitjee_banners'
+
 
 export const IITJEE_EXAM = () => {
     const [selected, setSelected] = useState(null)
@@ -26,7 +31,7 @@ export const IITJEE_EXAM = () => {
         setSelected(i1)
     }
   return (
-    <div className='' >
+    <div className='iitjeebody' >
         {/* import logo from './logo2.jpg' */}
        <nav>
         <div className="container nav__container">
@@ -43,14 +48,23 @@ export const IITJEE_EXAM = () => {
           </div>
        </nav> 
 
+            <div className='jee_Carousal' style={{paddingBottom:'1rem'}}>
+                <Iitjee_banners/>
+            </div>
         <div className='FAQCONTENT' id='faq'>
             <div className="wrapper-3 container">
             
-            <div className='' >
-                <h1>IITJEE - MAINS & ADVANCED</h1>
+            <div className='exam_heading' >
+                <h1>IIT-JEE(MAINS & ADVANCED) EXAM</h1>
+                
           
             </div>
+            
              <div className='sdfsf'>
+             <div className='examdiv'>
+            <button className='exambtn'><a href="">Exam Link</a></button>
+            </div>
+                
                 <div className="accordion">
                         {sixtoten.map((item, i2) => (
                             <div className="item2">
@@ -75,6 +89,62 @@ export const IITJEE_EXAM = () => {
 
             </div>
         </div>
+
+
+
+
+
+        <div class="neetcourses">
+    <div class="courses_heading">
+      <h1>IIT-JEE(MAINS & ADVANCED) COURSES</h1>
+    </div>
+
+    <div class="online_courses">
+      <div class="courses1 courses1-img">
+        <div class="test_btn ots_btn">
+          <h3>ONLINE TEST SERIES</h3>
+          <img src={onlinets} alt="" />
+          <div class="btn-neet"> 
+            <button>
+              <Link to='/iitjee_otc'>Explore <i class="uil uil-angle-right icon"></i></Link></button>
+          </div>
+
+      </div>
+      </div>
+
+
+      <div class="courses1">
+        <div class="test_btn ots_btn">
+          <h3>RECORDED MINI COURSES</h3>
+          <img src={recordedmc} alt="" />
+          <div class="btn-neet"> 
+            <button>
+              <Link to=''>Explore <i class="uil uil-angle-right icon"></i></Link></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="courses1">
+        <div class="test_btn ots_btn">
+          <h3>LIVE CLASSES</h3>
+          <img src={livecls} alt="" />
+          <div class="btn-neet"> 
+            <button>
+              <Link to='/iitjee_olvc'>Explore <i class="uil uil-angle-right icon"></i></Link></button>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
         </div>
     )
 }

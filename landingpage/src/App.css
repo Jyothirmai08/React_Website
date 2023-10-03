@@ -248,7 +248,7 @@ transform: scale(0.98);
 }
 .ugCard{
     color: #fff;
-    width: 15vw;
+    /* width: 15vw; */
     height: 0 auto;
     background-color: #ffffff;
     /* background: linear-gradient(45deg, rgb(17, 120, 255), rgba(9, 255, 132, 0.5)); */
@@ -443,7 +443,7 @@ transform: scale(0.98);
     }
     .ugCard {
         height: auto;
-        width: 21rem;
+        /* width: 21rem; */
         padding: 1rem;
     }
     .ugCard h3 {

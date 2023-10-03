@@ -2,26 +2,14 @@ import React from 'react'
 import { Carousel } from "react-responsive-carousel"
 import "react-responsive-carousel/lib/styles/carousel.min.css"
 import {Link} from "react-router-dom"
-
 import Faq from '../UG/Faq'
 import Contactus from '../UG/Contactus'
-// import Course from '../UG/Course'
 import { About } from '../UG/About'
 import Header from '../UG/Header'
-// import { MbaAbout } from './About/MbaAbout'
-// import { Acordion } from './Acourdion/Acordion'
-
-import { MbaAbout } from './About/MbaAbout'
-
 import { MBAExploreExams } from './MBAExploreExams'
 import { MBACourses } from './MBACourses'
-
-
-
-
-// import { MBAExploreExams } from './MBAExploreExams'
-// import { MBACourses } from './MBACourses'
-
+import '../UG/header.css'
+import '../UG/home.css'
 
 export const MbaHome = () => {
   return (
@@ -64,31 +52,13 @@ export const MbaHome = () => {
     
     </Carousel>
 
-    {/* <MbaAbout/> 
-
-    <Acordion/> */}
 
 
     <About/>
     <MBAExploreExams />
-
-    {/* <Course/> */}
     <MBACourses/>
-    {/* <ExploreExams/> */}
-    
-
-
-
-    {/* <MBACourses/> */}
-    {/* <ExploreExams/> */}
-    
-
-
     <Contactus/>
-
-   <Faq/>
-
-
+    <Faq/>
     </>
     </div>
   )

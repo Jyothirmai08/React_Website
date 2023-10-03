@@ -1,10 +1,12 @@
 import React from 'react'
+import '../../Exams.css'
+
 
 export const Neet_ImportantDates = () => {
   return (
     <div>
    
-         <table>
+         <table className='examtbl'>
             <tr>
               <th>NEET 2023 Events </th>
               <th>Dates (Announced) </th>
