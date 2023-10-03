@@ -47,13 +47,13 @@ h1{
 .bg-color{
     background: #d1f1fd;
 }
- h3 {
+ /* h3 {
     font-family: 'Roboto', sans-serif;
     color: #6fb5ff;
     font-size: 2rem;
     font-weight: 700;
     padding-bottom: 1rem;
-}
+} */
 
 table{
     border-collapse: collapse;
