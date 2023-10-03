@@ -4,6 +4,8 @@ import React from "react";
 import { Course_data1, Course_data2,Course_data3 } from "./Course_data";
 import "./course.css";
 
+import { Link } from "react-router-dom";
+
 const Course = () => {
   return (
     <div id="courses">
@@ -24,17 +26,17 @@ const Course = () => {
                 <li>{Course_data1.course_pont4_1}</li>
               </ul>
               <div className={Course_data1.course_bttons_list1}>
-                <a href="#">{Course_data1.c_btn1}</a>
-                <a href="#">{Course_data1.c_btn2}</a>
-                <a href="#">{Course_data1.c_btn3}</a>
-                <a href="#">{Course_data1.c_btn4}</a>
-                <a href="#">{Course_data1.c_btn5}</a>
-                <a href="#">{Course_data1.c_btn6}</a>
-                <a href="#">{Course_data1.c_btn7}</a>
-                <a href="#">{Course_data1.c_btn8}</a>
-                <a href="#">{Course_data1.c_btn9}</a>
-                <a href="#">{Course_data1.c_btn10}</a>
-                <a href="#">{Course_data1.c_btn11}</a>
+                <Link to={Course_data1.otsiitlink}>{Course_data1.c_btn1}</Link>
+                <Link to={Course_data1.otslinkneet}>{Course_data1.c_btn2}</Link>
+                <Link to={Course_data1.otslinkbitsat}>{Course_data1.c_btn3}</Link>
+                <Link to={""}>{Course_data1.c_btn4}</Link>
+                <Link to={""}>{Course_data1.c_btn5}</Link>
+                <Link to={""}>{Course_data1.c_btn6}</Link>
+                <Link to={""}>{Course_data1.c_btn7}</Link>
+                <Link to={""}>{Course_data1.c_btn8}</Link>
+                <Link to={""}>{Course_data1.c_btn9}</Link>
+                <Link to={""}>{Course_data1.c_btn10}</Link>
+                <Link to={""}>{Course_data1.c_btn11}</Link>
               </div>
             </div>
           );
@@ -55,8 +57,8 @@ const Course = () => {
                 <li>{Course_data2.course_pont4_2}</li>
               </ul>
               <div className={Course_data2.course_bttons_list2}>
-                <a href="#">{Course_data2.c_btn2_1}</a>
-                <a href="#">{Course_data2.c_btn2_2}</a>
+              <Link to={Course_data2.olvclinkiit}>{Course_data2.c_btn2_1}</Link>
+                <Link to={Course_data2.olvclinkneet}>{Course_data2.c_btn2_2}</Link>
 
               </div>
             </div>
@@ -80,8 +82,8 @@ const Course = () => {
 
                 </ul>
                 <div className={Course_data3.course_bttons_list3}>
-                  <a href="#">{Course_data3.c_btn3_1}</a>
-                  <a href="#">{Course_data3.c_btn3_2}</a>
+                <Link to={''}>{Course_data3.c_btn3_1}</Link>
+                <Link to={''}>{Course_data3.c_btn3_2}</Link>
 
                 </div>
               </div>
