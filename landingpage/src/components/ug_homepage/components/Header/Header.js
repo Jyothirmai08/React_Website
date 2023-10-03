@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom"
 import  {AiFillHome,AiOutlineUser,AiFillBook,AiFillPhone,  AiOutlinePercentage, AiFillQuestionCircle} from "react-icons/ai"
 // ----------------header css------------------------
 import "./header.css"
@@ -19,7 +20,7 @@ const Header = () => {
           return (
             <div className="header" key={index}>
               <div className={NavData.logo_img_container}>
-                <img src={NavData.logo} alt="" />
+               <Link to={"/"}> <img src={NavData.logo} alt="" /></Link>
               </div>
               <div className="nav" >
                 <ul className={NavData.navbar}>
