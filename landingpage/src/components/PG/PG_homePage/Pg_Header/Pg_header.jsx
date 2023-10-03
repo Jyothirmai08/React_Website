@@ -14,7 +14,6 @@ const Pg_header = () => {
 
   return (
     <div>
-
     <div style={{paddingBottom:'20px'}}>
     <marquee  direction="left" scrollamount="5" onmouseover="this.stop()" onmouseleave="this.start()">
         <div>All tests will be LIVE according to the detailed schedule given. Do not confuse to the Total No. of tests in the test cards while buying as they show the number of tests LIVE at the moment..</div></marquee>
@@ -23,29 +22,11 @@ const Pg_header = () => {
 
     <Carousel className='' autoPlay  infiniteLoop showIndicators={false} showThumbs={false} showArrows={false} showStatus={false} interval={2000} >
        <div className="boxShadow_pg ">
-       {/* <div className='Pg_header_bg '> 
-         <div className="Pg_header_content ">
-          <div className="Pg_welcomePage">
-           <img src={welcom} width={9} alt="" />  
-           <h1 style={{color:'rgb(1 44 89)',paddingTop:'35px'}}> to eGRADTutor</h1> 
-          </div>
-            <p>eGRADTutor is an Edtech firm started with a vision to blend the boundaries in education and take best-in-class courses and teachers virtually to every corner of the country. Our courses are developed by the alumni of IIT/IISc with an intent to enhance the student's abilities to face some of the toughest exams of the country. Our offerings not just provide a deeper understanding of the subjects to the students, but they also make them exam ready.</p>
-         
-         </div>
-
-        <div className='Pg_nextImg'> <img src={bg} alt="" />  </div>
-
-        </div> */}
         <img src={silde1} alt="" />
        </div>
-    
-    
-        <div className=''><img src={tifr} alt="" /></div>
-        {/* <div className=''></div>
-        <div className=''></div>
-        <div className=''></div>
-        <div className=''></div>
-        <div className=''></div> */}
+        <div className=''>
+          <img src={tifr} alt="" />
+          </div>
     
     </Carousel>
     </div>

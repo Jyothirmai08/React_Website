@@ -2,6 +2,7 @@ import React from 'react'
 
 
 
+
 import {Exam_Explore_data,Examsliders} from "./Exam_Explore_data"
 
 
@@ -13,6 +14,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 
 import "./exam.css"
+import { Link } from 'react-router-dom';
 
 
 const Exam_Explore = () => {
