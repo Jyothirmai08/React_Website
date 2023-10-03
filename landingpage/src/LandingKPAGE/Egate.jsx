@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import logo from '../logo2.jpeg'
-import logoo from '../logo image.jpg'
+import logoo from './browser-removebg-preview.png'
 
 import './EgateL.css'
 

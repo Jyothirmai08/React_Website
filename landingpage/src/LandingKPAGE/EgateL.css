@@ -39,8 +39,10 @@
   align-items: center;
 }
 
-.Egate_loge_landing img{
+.Egate_loge_landing img {
   max-width: 300px;
+  background: #fff;
+  box-shadow: -1px 1px 20px 6px #ffffff;
 }
 
 .Egate_landiing_ojnkl h2{
@@ -77,6 +79,7 @@
   background: rgb(0 61 78);
   text-align: center;
   color: rgb(255, 255, 255);
+  padding-bottom: 0;
 }
 .EGATE_elandUl{
   display: flex;
