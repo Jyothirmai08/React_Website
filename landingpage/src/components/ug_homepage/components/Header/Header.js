@@ -14,7 +14,7 @@ import { NavData } from "./NavData";
 const Header = () => {
   return (
     <>
-      <header>
+      <div className="ug_header">
         {NavData.map((NavData, index) => {
           return (
             <div className="header" key={index}>
@@ -49,7 +49,7 @@ const Header = () => {
           );
         })}     
      
-      </header>
+      </div>
 
       <div className="mobile_nav">
         
