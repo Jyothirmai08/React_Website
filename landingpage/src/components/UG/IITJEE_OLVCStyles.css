@@ -58,11 +58,11 @@ nav {
     width:150px;
     height:fit-content;
     border:50px;
-    border: 2px solid  #01c3ff;
     cursor: pointer;
 }
 
 .pic a img{
+    border: 2px solid  #01c3ff;
     width: 100%;
 }
 
