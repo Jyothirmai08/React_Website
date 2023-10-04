@@ -1,14 +1,10 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: 'Libre Baskerville', serif;; */
+    
 }
 .Exams-container {
-    /* display: grid;
-    grid-template-columns: 40% 50%;
-    justify-content: space-between;
-    gap: 1rem; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,13 +12,19 @@
  
     
 }
+
+
 .Exams-container .examsposters-container{
 margin: auto;
     width: 500px;
 }
+
+
 .Exams-container .examsposters-container img{
     width: 100%;
 }
+
+
 .explore-contantText h1{
     text-align: center;
     font-size: 3rem;
@@ -32,12 +34,7 @@ margin: auto;
     text-align: center;
 }
 
-.hand-div{
-    display: flex;
-    justify-content: space-between;
-    gap: 10px;
-    
-}
+
 .hand{
     display: none;
     animation: hand infinite 0.5s linear alternate;
@@ -46,51 +43,25 @@ margin: auto;
     color: rgb(182, 14, 23);
 }
 .ugcards-container{
-    /* display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem; */
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 2rem;
 }
 
 .cardsContant {
-    /* background: rgb(188 222 219); */
-    width: 15rem;
-    height: 10rem;
     border-radius: 1rem;
     margin: 0 auto;
-    box-shadow:  0px 0px 11px -4px;
-
-    
+    box-shadow: 2px 2px 5px 1px;
 }
 
 .cardsContant:hover .hand{
     display: flex;
 }
 
-.cardImg {
-    margin: 0px auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.cardFlex {
-    margin: 0px auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 
 
-/* hover */
+
 .cardsContant {
-    /* background: linear-gradient(179deg, #c0c0c0c0, #d1f1fd); */
     display: flex;
 }
 
@@ -149,22 +120,33 @@ margin: auto;
    
     color: #000000;
     padding: 6px;
-
     border-radius: 50%;
     font-size: 13px;
     color: white;
     background: #00a3ff;
 }
-/* @media (max-width: 1350px) {
-    .Exams-container {
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-    .ugcards-container{
-        display: grid;
-        grid-template-columns:repeat(4,1fr) ;
-    }
-} */
+
+.mbaexampage{
+    display: flex;
+    gap: 2rem;
+}
+
+.mbaexampage .exmapageimg{
+    width: 50%;
+}
+
+.mbaexampage .exmapageimg img{
+    width: 100%;
+}
+
+.cards-container{
+    width: 100%;
+}
+
+
+
+
+
 
 @media (max-width: 850px) {
     .Exams-container {
@@ -202,4 +184,95 @@ margin: auto;
             width: 80%;
         }
     
+} */
+
+
+
+
+.explore-container{
+    background-color: #e9e9e9;
 }
+
+
+.explore-container h1{
+    text-align: center;
+}
+
+
+.mbaexampage{
+    display: flex;
+    gap: 2rem;
+}
+
+.exmapageimg img{
+    width: 100%;
+}
+
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.cardFlex{
+    box-shadow: 2px 2px 5px 1px #000;
+    background-color: #fff;
+    padding: 1rem;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.cardFlex h4{
+    color: #00a3ff;
+    box-shadow: 2px 2px 5px 1px #000;
+    padding: 0.5rem;
+
+}
+
+.hand-div{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardFlex .hand{
+    color: red;
+    display: none;
+}
+
+.cardFlex:hover .hand{
+    display: flex;
+}
+
+.CoursesTextIcons p{
+    color: #000;
+    font-size: 1.5rem;
+}
+
+.CoursesTextIcons p:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
