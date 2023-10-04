@@ -1,8 +1,7 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: 'Libre Baskerville', serif;; */
 }
 .explore-contantText h1{
     text-align: center;
@@ -35,7 +34,7 @@
 }
 
 .cardsContant {
-    /* background: rgb(188 222 219); */
+    
     width: 15rem;
     height: 10rem;
     border-radius: 1rem;
@@ -62,9 +61,9 @@
 }
 
 
-/* hover */
+
 .cardsContant {
-    /* background: linear-gradient(179deg, #c0c0c0c0, #d1f1fd); */
+   
     display: flex;
 }
 
@@ -142,4 +141,4 @@
         transform: translate(8px);
     }
     
-}
+} */
